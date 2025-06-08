@@ -274,7 +274,7 @@
 		betrayal_guff			=	"哥夫" 
 		betrayal_haku			=	"哈庫" 
 		betrayal_hillock		=	"西拉克" 
-		betrayal_it			=	"它" 
+		betrayal_it			=	"竄逃之彼" 
 		betrayal_janus			=	"傑納斯" 
 		betrayal_jorgin			=	"喬恩" 
 		betrayal_korell			=	"庫歐" 
