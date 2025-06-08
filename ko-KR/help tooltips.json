@@ -1,1475 +1,1477 @@
 {
   "settings": {
     "multi-threading 0": [
-      "the tool is running on a single cpu thread",
-      "certain advanced features and performance options are not available"
+      "此工具正在單一CPU執行緒上運行",
+      "某些進階功能和效能選項將不可用"
     ],
     "multi-threading 1": [
-      "the tool is running on multiple cpu threads",
-      "this enables certain advanced features and performance options"
+      "此工具正在多個CPU執行緒上運行",
+      "這將啟用某些進階功能和效能選項"
     ],
     "kill timer": [
-      "automatically closes the script if the game client is not running",
-      "specify how long it may run without the game"
+      "如果遊戲客戶端未運行，會自動關閉腳本",
+      "指定在沒有遊戲的情況下可以運行多長時間"
     ],
     "browser features": [
-      "enables additional features when accessing 3rd-party websites via the script",
-      "examples:\n-> chrome calculator: auto-paste stats\n-> poe.db cluster jewels: auto-highlight type\n-> poelab.com: import layout"
+      "透過腳本存取第三方網站時啟用附加功能",
+      "範例：\n-> Chrome計算機：自動貼上數據\n-> poe.db 星團珠寶：自動高亮類型\n-> poelab.com：匯入佈局"
     ],
     "capslock toggling": [
-      "only uncheck this box if something outside of this script is bound to capslock",
-      "whenever ahk sends inputs, it toggles capslock back and forth, which triggers whatever is bound to it (e.g. voice chat mute)",
-      "toggling this option will restart the script"
+      "只有當此腳本之外的某些東西綁定到Caps Lock時才需要取消選取此框",
+      "每當AHK發送輸入時，它會來回切換Caps Lock，這會觸發綁定到它的任何東西（例如語音聊天靜音）",
+      "切換此選項將重新啟動腳本"
     ],
     "lang language": [
-      "select the script's display language",
-      "the script will restart upon selection"
+      "選擇腳本的顯示語言",
+      "選擇後腳本將重新啟動"
     ],
     "lang unknown": [
-      "the client's language couldn't be detected from reading its config-file"
+      "無法從config-file中讀取其偵測到客戶端的語言"
     ],
     "toolbar hide": [
-      "permanently hides the toolbar until you hold <tab> or hover the cursor over its previous position"
+      "永久隱藏工具列，直到您按住<tab>鍵或將游標懸停在其先前位置"
     ],
     "font-size": [
-      "– and + can be held down, the middle button resets the size"
+      "– 和 + 可以按住，中間按鈕將重置大小"
     ],
     "generic color": [
-      "click to open the color-palette, right click to reset"
+      "點擊開啟調色盤，右鍵重置"
     ],
     "generic color double": [
-      "text color: click to open the color-palette, right click to reset"
+      "文字顏色：點擊開啟調色盤，右鍵重置"
     ],
     "generic color double1": [
-      "background color: click to open the color-palette, right click to reset"
+      "背景顏色：點擊開啟調色盤，右鍵重置"
     ],
     "active character": [
-      "type in your character name and press <enter>",
-      "used for optional features such as level tracking, e-exp calculations, and map-tracker logging"
+      "輸入您的角色名稱並按下<enter>鍵",
+      "用於可選功能，例如章節追蹤、經驗計算和地圖追蹤等"
     ],
     "active character status": [
-      "red: no name specified",
-      "yellow: char not found / waiting for level-up",
-      "green: char found, tracking active"
+      "紅色：未指定名稱",
+      "黃色：未找到角色 / 等待升級",
+      "綠色：找到角色，追蹤已啟用"
     ],
     "active character whois": [
-      "click this button to use the \"/whois\" in-game command to force-refresh character info"
+      "點擊此按鈕可使用遊戲內「/whois」指令強制刷新角色資訊"
     ],
     "ascendancy": [
-      "the game only logs ascendancies when a character levels up",
-      "this label will be out of sync if you have recently (re)specced but not leveled up yet: in that case, click the refresh button on the left"
+      "遊戲只會在角色升級時記錄昇華",
+      "如果您最近（重新）專精但尚未升級，此標籤將不同步：在此情況下，請點擊左側的刷新按鈕"
     ],
     "active build": [
-      "optional: type in a name/description of your build and press <enter>",
-      "used in the map-tracker feature to log which build was played"
+      "可選：輸入您的BD名稱/描述並按下<enter>鍵",
+      "用於地圖追蹤功能，記錄使用了哪個BD"
     ],
     "logfile": [
-      "the size and load-time of the game's client.txt log-file: excessively large log-files may negatively impact the game's and tool's performance",
-      "if you have issues with the game or log-related features, long-click this label to clean the log-file by moving its contents into a separate, cumulative backup-file"
+      "遊戲的client.txt日誌檔案的大小和載入時間：過大的日誌檔案可能會對遊戲和工具的效能產生負面影響",
+      "如果您遇到遊戲或日誌相關功能的問題，長按此標籤可透過將其內容移動到單獨的累積備份檔案來清理日誌檔案"
     ],
     "logfolder": [
-      "open the game's log folder",
-      "the client.txt log-file can only be modified after closing the game"
+      "開啟遊戲的日誌資料夾",
+      "client.txt日誌檔案只能在關閉遊戲後修改"
     ],
     "force resolution": [
-      "you can force the client to run with a custom resolution not available by default",
-      "it will be applied on every script start, or when starting the client while the script is running",
-      "vertical resolutions (second value) are limited to specific ones for compatibility reasons"
+      "您可以強制客戶端以預設不提供的自訂解析度運行",
+      "它將在每次腳本啟動時應用，或在腳本運行時啟動客戶端時應用",
+      "出於兼容性原因，垂直解析度（第二個值）限制為特定值"
     ],
     "client filler": [
-      "blacks out the empty screen area around the client window and makes it unclickable",
-      "this black area can be used to place overlays outside the client area, and it also prevents misclicks on background windows"
+      "將客戶端視窗周圍的空白螢幕區域變黑並使其無法點擊",
+      "此黑色區域可用於在客戶端區域外放置疊圖，它還可以防止錯誤點擊背景視窗"
     ],
     "window position": [
-      "the client has to be docked to a specific spot to ensure that overlays are positioned correctly",
-      "pick a preferred position, and the client will be placed there automatically every time"
+      "客戶端必須停靠在特定位置，以確保疊圖正確定位",
+      "選擇一個首選位置，客戶端將每次自動放置在那裡"
     ],
     "black bars": [
-      "the client's aspect ratio is limited to 24:10 and there will be black bars if it's wider",
-      "this option repositions the script's overlays and screen-checks to compensate for that"
+      "客戶端的縱橫比限制為24:10，如果更寬將會有黑條",
+      "此選項重新定位腳本的疊圖和螢幕檢查以補償這一點"
     ],
     "window borders": [
-      "removes borders around the client window"
+      "移除客戶端視窗周圍的邊框"
     ],
     "write permissions": [
-      "use this to troubleshoot write-permission issues on your system if the script can't create/edit files",
-      "when these issues are detected, an error message will appear and ask you to run this test",
-      "if the test results show errors, move the script-folder to a different location or restart the script as admin, then re-run the test"
+      "如果腳本無法創建/編輯文件，請使用此項來解決系統上的寫入權限問題",
+      "當檢測到這些問題時，會出現錯誤訊息並要求您運行此測試",
+      "如果測試結果顯示錯誤，請將腳本資料夾移動到不同的位置，或以管理員身份重新啟動腳本，然後重新運行測試"
     ],
     "actdecoder enable": [
-      "provides an interactive zone-layout overlay for campaign areas",
-      "hold <tab> while in a supported campaign area to activate the overlay",
-      "note: accuracy can vary from patch to patch, so use them as rough guides instead of mini-map replacement(/underline)"
+      "為章節區域提供地圖佈局疊加",
+      "在支援的章節區域中按住<tab>鍵以啟用疊加",
+      "注意：準確性可能因版本而異，因此請將它們用作大致指南，而非小地圖替代品(/underline)"
     ],
     "actdecoder generic": [
-      "disables sub-layout selections and only shows very basic layouts"
+      "禁用子佈局選擇，僅顯示非常基本的佈局"
     ],
     "actdecoder layouts opacity": [
-      "the opacity (1 to 10) of the zone-layouts overlay in locked mode"
+      "鎖定模式下區域佈局疊圖的不透明度（1到10）"
     ],
     "actdecoder layouts locked zoom": [
-      "custom zoom setting for when the overlay is locked (0 = disabled)",
-      "this means you can have separate settings while (not) holding <tab>"
+      "疊圖鎖定時的自訂縮放設定（0 = 禁用）",
+      "這表示您在按住<tab>鍵（或不按住）時可以有單獨的設定"
     ],
     "anoints enable": [
-      "provides a quick-access interface to find and filter which anoint/instill recipes are available with the materials you currently have",
-      "requires the <inventory> pixel-check to be set up correctly in the <screen-checks> section of the settings menu",
-      "hover over materials and hold <alt> to open the interface:",
-      "if you only want to access the in-game advanced tooltip, hold <ctrl> prior to holding <alt>"
+      "提供快速存取介面，以查找和篩選您目前擁有的材料可用的附魔/灌注配方",
+      "需要正確設置設定選單<畫面檢查>部分中的<物品欄>像素檢查",
+      "將游標懸停在材料上並按住<alt>鍵以打開介面：",
+      "如果您只想訪問遊戲內進階提示，請先按住<ctrl>鍵後再按住<alt>鍵"
     ],
     "anoints update": [
-      "(re)download the latest database",
-      "this is mainly for league-start so the feature can be used without having to wait for a whole new release"
+      "（重新）下載最新資料庫",
+      "這主要用於聯盟開始，以便無需等待整個新版本即可使用該功能"
     ],
     "betrayal enable": [
-      "provides an interactive cheat sheet overlay for the betrayal league mechanic",
-      "requires the <betrayal> image-check to be set up correctly in the <screen-checks> section of the settings menu",
-      "while the syndicate board is on screen, hold the omni-key to activate the overlay"
+      "為反叛聯盟機制提供互動式備忘錄疊圖",
+      "需要正確設置設定選單<螢幕檢查>部分中的<反叛>圖像檢查",
+      "當秘教調查面板在螢幕上時，按住萬用鍵以啟用疊圖"
     ],
     "betrayal ruthless": [
-      "show ruthless rewards and use separate highlighting instead"
+      "顯示殘酷獎勵並使用單獨的高亮顯示"
     ],
     "betrayal folder": [
-      "folder that contains calibration files"
+      "包含校準文件的資料夾"
     ],
     "betrayal color": [
-      "click a button to open the color-palette, right click to reset",
-      "hover over a reward and press a number key to apply the corresponding color"
+      "點擊按鈕開啟調色盤，右鍵重置",
+      "將游標懸停在獎勵上並按下數字鍵以應用相應的顏色"
     ],
     "betrayal rewards": [
-      "long-click a name below to show that member's rewards",
-      "hover over a reward and press a number key to apply a color, or space to remove it",
-      "rewards can also be tiered when using the overlay on the syndicate board"
+      "長按下方名稱以顯示該成員的獎勵",
+      "將游標懸停在獎勵上並按下數字鍵以應用顏色，或按下空白鍵以移除",
+      "在使用秘教調查面板上的疊圖時，獎勵也可以分級"
     ],
     "cheatsheets enable": [
-      "provides a toolkit to create and manage customizable cheat sheet overlays"
+      "提供工具包以創建和管理可自訂的備忘錄疊圖"
     ],
     "cheatsheets modifier-key": [
-      "cheat sheets are activated by pressing the modifier and omni-key simultaneously",
-      "if a sheet is configured as <hold>, only the omni-key has to be held down",
-      "pick a combination that is not used in game"
+      "備忘錄透過同時按下修改鍵和萬用鍵來啟用",
+      "如果備忘錄配置為<按住>，則只需按住萬用鍵",
+      "選擇遊戲中未使用的組合"
     ],
     "cheatsheets color": [
-      "click a button to open the color-palette, right click to reset",
-      "hover over a note and press a number key to apply color, or press space to remove it"
+      "點擊按鈕開啟調色盤，右鍵重置",
+      "將游標懸停在筆記上並按下數字鍵以應用顏色，或按下空白鍵以移除"
     ],
     "cheatsheets types": [
-      "images: import/capture images and display them in an overlay, switch between them, or rearrange the information on them",
-      "app: specify an app and launch or bring it to the front with a single press of a button instead of tabbing out/repeatedly",
-      "advanced: create custom tooltips that show information for specific in-game elements while hovering over them"
+      "圖片：導入/擷取圖片並在疊圖中顯示，在它們之間切換，或重新排列它們上的資訊",
+      "應用程式：指定應用程式並透過單擊按鈕啟動或帶到前景，而不是重複切換標籤頁",
+      "進階：創建自訂提示，當游標懸停在特定遊戲內元素上時顯示其資訊"
     ],
     "cheatsheets calibrate": [
-      "pressing the key combination will open the correct sheet for what is on screen in game",
-      "for the script to know which sheet is the correct one, manual calibration is required",
-      "opens the clipping tool: use it to clip a unique element from the in-game ui"
+      "按下按鍵組合將打開遊戲螢幕上正確的備忘錄",
+      "為了讓腳本知道哪個備忘錄是正確的，需要手動校準",
+      "打開剪裁工具：使用它剪裁遊戲內UI中的獨特元素"
     ],
     "cheatsheets test": [
-      "click while the specific in-game ui is on screen, the test should return positive",
-      "click while the specific ui is not on screen, the test should return negative",
-      "results have to be consistent and repeatable"
+      "當遊戲內特定UI在螢幕上時點擊，測試應返回<正面>結果",
+      "當遊戲內特定UI不在螢幕上時點擊，測試應返回<負面>結果",
+      "結果必須一致且可重複"
     ],
     "cheatsheets edit": [
-      "opens a menu to configure the cheat sheet"
+      "打開一個選單來配置備忘錄"
     ],
     "cheatsheets delete": [
-      "long-click to delete the cheat sheet"
+      "長按以刪除備忘錄"
     ],
     "cheatsheets info": [
-      "long-click to view the sheet's properties"
+      "長按以查看備忘錄的屬性"
     ],
     "cheatsheets toggle": [
-      "enables/disables the cheat sheet"
+      "啟用/禁用備忘錄"
     ],
     "cloneframes toggle-info": [
-      "clone-frames can be toggled on/off automatically to avoid blocking in-game content",
-      "global: settings will apply to every clone-frame\ncustom: each frame can have its own settings",
-      "below, you can choose how clone-frames behave when certain in-game interfaces are on screen",
-      "note: after closing this settings section, clone-frames are always hidden in towns/hideouts(/underline)"
+      "複製框架可以自動開啟/關閉，以避免阻擋遊戲內內容",
+      "全局：設定將應用於每個複製框架\n自訂：每個框架可以有自己的設定",
+      "下方，您可以選擇當某些遊戲內介面在螢幕上時，複製框架的行為方式",
+      "注意：關閉此設定部分後，複製框架在城鎮/藏身處總是隱藏的(/underline)"
     ],
     "cloneframes toggle-modes": [
-      "ignore: clone-frames will ignore what is on screen and will never toggle",
-      "hide: clone-frames will hide when the interface is on screen",
-      "show: clone-frames will show only when the specific interface is on screen"
+      "忽略：複製框架將忽略螢幕上的內容，永遠不會切換",
+      "隱藏：當介面在螢幕上時，複製框架將隱藏",
+      "顯示：只有當特定介面在螢幕上時，複製框架才會顯示"
     ],
     "cloneframes performance": [
-      "select a preferred/compatible performance profile",
-      "try to balance the number of clone-frames and the target-fps so that the measured performance stays green"
+      "選擇首選/兼容的性能配置檔",
+      "嘗試平衡複製框架的數量和目標FPS，以便測得的性能保持綠色"
     ],
     "cloneframes new": [
-      "to create a new frame, enter a name and press enter"
+      "如要創建一個新框架，輸入名稱並按下enter鍵"
     ],
     "cloneframes edit": [
-      "enters edit-mode, which activates the section below and allows you to adjust the frame's settings"
+      "進入編輯模式，這將啟用下方部分，並允許您調整框架的設定"
     ],
     "cloneframes delete": [
-      "long-click to delete this clone-frame"
+      "長按以刪除此複製框架"
     ],
     "cloneframes toggle": [
-      "enable/disable this clone-frame"
+      "啟用/禁用此複製框架"
     ],
     "cloneframes corners": [
-      "in edit-mode, source and target frames have colored corners that correspond to a mouse-button (boxes on the right)",
-      "click a button to move the corner to the cursor's current position, press <esc> or click <discard> to exit edit-mode",
-      "you can also adjust the values below for fine-tuning and more control"
+      "在編輯模式下，來源和目標框架有與滑鼠按鈕對應的彩色角落（右側的方框）",
+      "點擊按鈕將角落移動到游標的當前位置，按下<esc>或點擊<捨棄>以退出編輯模式",
+      "您也可以調整下方的值進行微調和更多控制"
     ],
     "cloneframes scroll": [
-      "for fine-tuning, scroll the mouse-wheel to adjust this value by 1"
+      "為了微調，滾動滑鼠滾輪以將此值調整1"
     ],
     "donations howto": [
-      "github thread with more info"
+      "github thread包含更多資訊"
     ],
     "hotkeys ingame-keybinds": [
-      "to avoid conflicts between custom in-game keybinds and the script's hotkeys:\n- tick anything that applies to you\n- provide alternative keys when asked to"
+      "為避免自訂遊戲內按鍵綁定與腳本熱鍵之間的衝突：\n- 勾選所有適用於您的選項\n- 在被要求時提供替代按鍵"
     ],
     "hotkeys movekey": [
-      "note: only required when using cursor-movement, not wasd(/underline)",
-      "specifying the key allows the script to adapt its behavior in certain situations",
-      "example: not activating on-hover overlays while moving the character",
-      "for special keys, check the links above to find proper names and formatting"
+      "注意：僅在使用游標移動時需要，不適用於wasd(/underline)",
+      "指定按鍵允許腳本在某些情況下調整其行為",
+      "範例：移動角色時不啟用懸停疊圖",
+      "對於特殊按鍵，請查看上方連結以找到正確的名稱和格式"
     ],
     "hotkeys omnikey-info": [
-      "context-sensitive hotkey that activates the majority of the script's features",
-      "instead of specifying hotkeys for every feature, you calibrate screen-checks to help this hotkey interpret which feature has to be activated when pressed",
-      "it does not block game actions bound to it"
+      "上下文敏感的熱鍵，可啟用腳本的大部分功能",
+      "無需為每個功能指定熱鍵，您可以校準螢幕檢查以幫助此熱鍵解釋按下時應啟用哪個功能",
+      "它不會阻擋綁定到它的遊戲操作"
     ],
     "hotkeys omnikey": [
-      "if you want to move the omni-key to a different key, specify it in the edit-field",
-      "since the hotkey is used a lot, i highly recommend avoiding key combinations",
-      "don't bind it to a key used for chatting, as features might randomly activate",
-      "for special keys, check the links above to find proper names and formatting"
+      "如果您想將萬用鍵移動到不同的按鍵，請在編輯欄位中指定",
+      "由於熱鍵經常使用，我強烈建議避免組合鍵",
+      "不要將它綁定到用於聊天的按鍵，因為功能可能會隨機啟用",
+      "對於特殊按鍵，請查看上方連結以找到正確的名稱和格式"
     ],
     "hotkeys omnikey2": [
-      "due to a game bug, having the c-key rebound in game requires a secondary omni-key for items",
-      "whenever a feature requires you to omni-click an item, you will have to use this secondary one",
-      "for special keys, check the links above to find proper names and formatting"
+      "由於遊戲錯誤，在遊戲中重新綁定C鍵需要第二個萬用鍵用於物品",
+      "每當某個功能要求您萬用點擊物品時，您都必須使用此第二個按鍵",
+      "對於特殊按鍵，請查看上方連結以找到正確的名稱和格式"
     ],
     "hotkeys omniblock": [
-      "while the game-client or script is focused, the keypress will only be registered by the script and not the rest of the system",
-      "only script features will be activated by the keypress, and special keys (e.g. windows or accent keys, capslock, etc.) can be used without their usual side effects"
+      "當遊戲客戶端或腳本處於焦點時，按鍵將只由腳本而非系統的其餘部分註冊",
+      "只有腳本功能會透過按鍵啟用，並且特殊按鍵（例如Windows或重音鍵、Caps Lock等）可以在沒有其通常副作用的情況下使用"
     ],
     "hotkeys altkey": [
-      "specify the alternative key in the edit field",
-      "for special keys, check the links above to find proper names and formatting"
+      "在編輯欄位中指定替代按鍵",
+      "對於特殊按鍵，請查看上方連結以找到正確的名稱和格式"
     ],
     "hotkeys tab": [
-      "this hotkey (re)activates certain widgets and non-permanent overlays",
-      "if something is bound to <tab> in game and requires it to be held down (e.g. skills, movement), you'll have to specify an alternative key in the edit field",
-      "tooltips will refer to it as tab, even when rebound"
+      "此熱鍵（重新）啟用某些小工具和非永久性疊圖",
+      "如果遊戲中某個東西綁定到<tab>並需要按住它（例如技能、移動），您必須在編輯欄位中指定替代按鍵",
+      "提示將始終稱其為tab，即使已重新綁定"
     ],
     "hotkeys restart": [
-      "if the script crashes and stops responding, use this combination to restart it"
+      "如果腳本崩潰並停止響應，請使用此組合重新啟動它"
     ],
     "iteminfo enable": [
-      "provides a customizable item tooltip which adds glance value to loot you pick up",
-      "hold the omni-key while hovering over items to activate it: if already active, simple omni-clicks will activate/refresh it again",
-      "click into the game or press <esc> to close it",
-      "note: requires the <inventory> screen-check to be set up correctly(/underline)"
+      "提供可自訂的物品提示，為您拾取的戰利品增加一瞥價值",
+      "將游標懸停在物品上時按住萬用鍵以啟用它：如果已啟用，再次點擊萬用鍵將啟用/刷新它",
+      "點擊遊戲或按下<esc>以關閉它",
+      "注意：需要正確設置<螢幕檢查>部分中的<物品欄>螢幕檢查(/underline)"
     ],
     "iteminfo profiles": [
-      "customized highlighting can be saved in individual profiles",
-      "if the tooltip is on screen when selecting a profile, the changes will be applied on the fly"
+      "自訂的高亮顯示可以保存在單獨的配置檔中",
+      "如果提示在螢幕上且已選擇配置檔，則更改將即時應用"
     ],
     "iteminfo reset": [
-      "long-click one of the buttons to reset specific highlighting in the currently-selected profile"
+      "長按其中一個按鈕以重置當前選定配置檔中的特定高亮顯示"
     ],
     "iteminfo omni-key": [
-      "hold the omni-key while hovering over items to activate the tooltip: if already active, simple omni-clicks will activate/refresh it again",
-      "click into the game or press <esc> to close it"
+      "將游標懸停在物品上時按住萬用鍵以啟用提示：如果已啟用，再次點擊萬用鍵將啟用/刷新它",
+      "點擊遊戲或按下<esc>以關閉它"
     ],
     "iteminfo alt-key": [
-      "hold <alt> while hovering over items to activate the tooltip: the tooltip will close automatically once you release <alt>",
-      "if you only want to access the in-game advanced tooltip, hold <ctrl> prior to holding <alt>",
-      "note: this setting might interfere with other 3rd-party tools(/underline)"
+      "將游標懸停在物品上時按住<alt>鍵以啟用提示：一旦您鬆開<alt>鍵，提示將自動關閉",
+      "如果您只想訪問遊戲內進階提示，請先按住<ctrl>鍵再按住<alt>鍵",
+      "注意：此設定可能會干擾其他第三方工具(/underline)"
     ],
     "iteminfo modrolls": [
-      "hide the min/max range on explicit mods",
-      "+89 to maximum life\nvs.\n+89(80-89) to maximum Life"
+      "隱藏詞綴上的最小/最大範圍",
+      "+89 最大生命\nvs.\n+89(80-89) 最大生命"
     ],
     "iteminfo modbars tier": [
-      "roll-ranges in mod-texts and on bars will represent the roll within the current tier, i.e. the divine orb range",
-      "example, t2 movement speed:\n30% inc. movement speed"
+      "詞綴文本和條上的詞綴範圍將代表當前層級內的詞綴，即神聖石範圍",
+      "範例，T2移動速度：\n30% 增加移動速度"
     ],
     "iteminfo modbars global": [
-      "roll-ranges in mod-texts and on bars will represent the roll on a global scale, i.e. from worst to best possible roll",
-      "example, t2 movement speed:\n30%(10-35) inc. movement speed"
+      "詞綴文本和條上的詞綴範圍將代表所有階級詞綴的範圍，即從最差到最佳可能的詞綴",
+      "範例，T2移動速度：\n30%(10-35) 增加移動速度"
     ],
     "iteminfo modbars ilevel": [
-      "roll-ranges in mod-texts and on bars will represent the roll on an ilvl scale, i.e. from worst to best possible roll within the given ilvl",
-      "example, t2 movement speed on ilvl 74 boots:\n30%(10-30) inc. movement speed"
+      "詞綴文本和條上的詞綴範圍將代表物品等級範圍內的詞綴，即在給定物品等級內從最差到最佳可能的詞綴",
+      "範例，物品等級74鞋子上的T2移動速度：\n30%(10-30) 增加移動速度"
     ],
     "iteminfo quality scaling": [
-      "shows an additional line at the bottom with defense/damage values after applying quality and greater iron runes",
-      "this can be used to preview a crafted/looted item's theoretical max values"
+      "在底部顯示額外一行，包含應用品質或鍛鐵符文後的防禦/傷害",
+      "這可以用來預覽已製作/掉落物品的理論最大值"
     ],
     "iteminfo shift-click": [
-      "automatically refreshes/activates the tooltip when applying currency to items via shift-click",
-      "you have to hold <shift> first, right click currency, and then click items"
+      "透過shift+點擊對物品使用通貨時，自動刷新/啟用提示",
+      "您必須先按住<shift>，右鍵點擊通貨，然後點擊物品"
     ],
     "iteminfo league-start": [
-      "adds a section where the item's stats are compared to your current gear",
-      "this section replaces the base-stats section and requires the <inventory> pixel-check to be set up correctly in the <screen-checks> menu"
+      "添加一個部分，將物品的屬性與您當前裝備進行比較",
+      "此部分替換基礎屬性部分，並要求在<螢幕檢查>選單中正確設置<物品欄>像素檢查"
     ],
     "iteminfo affix-info icon": [
-      "the last column will show an icon for the mod-group of an affix (if available)"
+      "最後一欄將顯示詞綴組的圖示（如果可用）"
     ],
     "iteminfo affix-info ilvl": [
-      "the last column will show the ilvl requirement for each affix, which exposes high-tier but low-lvl mods",
-      "this option caters more to advanced users because it adds even more information"
+      "最後一欄將顯示每個詞綴的物品等級要求，這會揭示高階但低等級的詞綴",
+      "此選項更適合進階使用者，因為它會添加更多資訊"
     ],
     "iteminfo affix-info max tier": [
-      "the last column will show the maximum tier possible at the item's current ilvl",
-      "this can be used to check how close affixes are to the ilvl-restricted maximum tier"
+      "最後一欄將顯示物品當前物品等級可能的最大層級",
+      "這可以用來檢查詞綴與物品等級限制的最大層級有多接近"
     ],
     "iteminfo affix-info off": [
-      "don't show any information about affixes in the last column"
+      "最後一欄不顯示任何關於詞綴的資訊"
     ],
     "iteminfo base-info": [
-      "adds a section that shows how the item's stats compare to the best-in-class stats",
-      "it also shows the base-percentile roll and ilvl, highlighting good values"
+      "添加一個部分，顯示物品的屬性與同類最佳屬性相比如何",
+      "它還顯示基礎百分位數詞綴和物品等級，高亮顯示良好值"
     ],
     "iteminfo base-info 2": [
-      "adds a section that shows how the item's stats compare to the best-in-class stats"
+      "添加一個部分，顯示物品的屬性與同類最佳屬性相比如何"
     ],
     "iteminfo marking global": [
-      "colors used to highlight globally (un)desired mods",
-      "click a box to open the color-palette, right click to reset"
+      "用於高亮顯示全局（不）所需詞綴的顏色",
+      "點擊方框開啟調色盤，右鍵重置"
     ],
     "iteminfo marking class": [
-      "colors used to highlight class-specifically (un)desired mods",
-      "click a box to open the color-palette, right click to reset"
+      "用於高亮顯示類別特定（不）所需詞綴的顏色",
+      "點擊方框開啟調色盤，右鍵重置"
     ],
     "iteminfo item-tier": [
-      "click a box to open the color-palette, right click to reset",
-      "<fr> refers to fractured, <#> to untiered mods"
+      "點擊方框開啟調色盤，右鍵重置",
+      "<破裂> 指的是破裂詞綴，<#> 指的是未分級詞綴"
     ],
     "iteminfo item-tier 2": [
-      "click a box to open the color-palette, right click to reset",
-      "<fr> refers to fractured, <#> to untiered mods",
-      "note: poe2 tiers will be normalized / recalculated so that the best available mod on an item is t1 again. if that fails, highlighting will not be applied and the in-game tier will be displayed"
+      "點擊方框開啟調色盤，右鍵重置",
+      "<破裂> 指的是破裂詞綴，<#> 指的是未分級詞綴",
+      "注意：PoE2層級將會標準化/重新計算，使物品上最佳可用詞綴再次成為T1。如果失敗，將不會應用高亮顯示，並會顯示遊戲內層級"
     ],
     "iteminfo item-level": [
-      "click a box to open the color-palette, right click to reset"
+      "點擊方框開啟調色盤，右鍵重置"
     ],
     "iteminfo override": [
-      "tiers/ilvl on undesired mods (except fractured) will be highlighted by the <undesired> color instead of the usual color",
-      "this will also hide the last column on undesired mods to improve visual clarity"
+      "不需要的詞綴（破裂詞綴除外）的層級/物品等級將由<不想要>顏色高亮顯示，而不是常用顏色",
+      "這也會隱藏不需要的詞綴的最後一欄，以提高視覺清晰度"
     ],
     "iteminfo rules": [
-      "single-click solution to mark larger mod groups as (un)desired",
-      "the name specifies which mods are affected, the color whether they'll be set to (un)desired"
+      "單擊解決方案，將較大的詞綴組標記為（不）需要",
+      "名稱指定受影響的詞綴，顏色指定它們是否會被設定為（不）需要"
     ],
     "lang unavailable": [
-      "this feature is currently not available on non-english clients"
+      "此功能目前在非英文客戶端上不可用"
     ],
     "lang incompatible": [
-      "this feature is not available on clients with an unsupported language",
-      "it will be available once a language-pack for the current language has been installed"
+      "此功能在不支援語言的客戶端上不可用",
+      "一旦安裝了當前語言的語言包，它將可用"
     ],
     "leveltracker enable": [
-      "provides an automated campaign guide-overlay and several qol features"
+      "提供自動化的章節指南疊圖和多項QoL功能"
     ],
     "leveltracker timer": [
-      "adds a timer between guide text and navigation buttons that records your act times and stores them in csv-files",
-      "timer structure:\ntotal time | act # | current act time",
-      "click <act #> to pause/resume the timer, long-right-click it to reset for a new run",
-      "how to reset: create a new character, enter the first zone, long-right-click on <act #>, then click it to start the new run"
+      "在指南文本和導航按鈕之間添加一個計時器，記錄您的章節時間並將其存儲在CSV文件中",
+      "計時器結構：\n總時間 | 章節 # | 當前章節時間",
+      "點擊<章節 #>以暫停/恢復計時器，長按右鍵以重置以進行新的一輪",
+      "如何重置：創建一個新角色，進入第一個區域，長按右鍵<章節 #>，然後點擊它以開始新運行"
     ],
     "leveltracker timer-pause": [
-      "automatically pauses the timer in hideouts, and resumes it when you leave"
+      "在藏身處自動暫停計時器，並在您離開時恢復"
     ],
     "leveltracker fade-timer": [
-      "automatically hides the overlay after a delay (except when in towns)",
-      "delay: x seconds after switching guide pages",
-      "whenever it switches pages, the overlay will be shown again and the delay will be restarted",
-      "it will also be shown while holding <tab>"
+      "在延遲後自動隱藏疊圖（城鎮除外）",
+      "延遲：切換指南頁面後X秒",
+      "每當切換頁面時，疊圖將再次顯示，延遲將重新啟動",
+      "按住<tab>鍵時也會顯示"
     ],
     "leveltracker fade mouse": [
-      "overlay will be shown while hovering the cursor over its previous area",
-      "has no effect while the move key is pressed (customizable in the hotkeys section)"
+      "當游標懸停在其先前區域時，疊圖將會顯示",
+      "在按下移動鍵時無效（可在熱鍵部分自訂）"
     ],
     "leveltracker recommendation": [
-      "includes level recommendations for some areas or boss fights"
+      "包含某些區域或頭目戰的等級建議"
     ],
     "leveltracker geartracker": [
-      "notifies you when new gear can be equipped (the guide button will show a green number)",
-      "accessed by right-clicking the guide button in the toolbar",
-      "while the panel is open, omni-click items to add them to the list",
-      "you have to specify your character-name in the <general> section of the settings first"
+      "當可以裝備新裝備時通知您（指南按鈕將顯示綠色數字）",
+      "透過右鍵點擊工具列中的指南按鈕訪問",
+      "當面板打開時，萬用點擊物品以將其添加到列表中",
+      "您必須先在設定的<一般>部分中指定您的角色名稱"
     ],
     "leveltracker expbar": [
-      "slightly moves the guide-overlay up so it doesn't cover the exp-bar"
+      "輕微向上移動指南疊圖，使其不遮蓋經驗條"
     ],
     "leveltracker skilltree-info": [
-      "while hovering over a gem, hold the omni-key to show an overlay with gem setups/links",
-      "requires the <inventory> pixel-check to be set up correctly in the <screen-checks> menu",
+      "將游標懸停在寶石上時，按住萬用鍵以顯示寶石設置/連結的疊圖",
+      "需要正確設置設定選單<螢幕檢查>部分中的<物品欄>像素檢查",
       "",
-      "while the skill-tree is on screen, press <tab> to show overlays with skill-tree schematics",
-      "requires the <skilltree> image-check to be set up correctly in the <screen-checks> menu"
+      "當天賦樹在螢幕上時，按下<tab>鍵以顯示天賦樹示意圖的疊圖",
+      "需要正確設置設定選單<螢幕檢查>部分中的<天賦樹>圖像檢查"
     ],
     "leveltracker skilltree clear": [
-      "long-click to delete the skill-tree files used to render schematics: they will be re-downloaded the next time they are needed",
-      "deleting them is only required if the schematics are outdated or otherwise incorrect"
+      "長按以刪除用於渲染示意圖的天賦樹文件：下次需要時將重新下載它們",
+      "僅當示意圖過時或不正確時才需要刪除它們"
     ],
     "leveltracker pob gems": [
-      "the gem-overlay will stay on screen after releasing the omni-key, until you press <esc>",
-      "this option also allows the overlay to be moved around by long-clicking a gem-name in the list(s)",
-      "clicking a gem-name in the list(s) will start an in-game search for that gem"
+      "寶石疊圖在鬆開萬用鍵後會保留在螢幕上，直到您按下<esc>鍵",
+      "此選項還允許透過長按列表中寶石名稱來移動疊圖",
+      "點擊列表中寶石名稱將在遊戲中搜尋該寶石"
     ],
     "leveltracker pob manual": [
-      "the tree-overlay will use manual screen-caps instead of schematics rendered from pob's data",
-      "this option also changes how the overlay is accessed: hold the omni-key while the skill-tree is on screen"
+      "天賦樹疊圖將使用手動螢幕擷取，而不是從PoB數據渲染的示意圖",
+      "此選項還改變了疊圖的訪問方式：當天賦樹在螢幕上時按住萬用鍵"
     ],
     "leveltracker pob": [
-      "m-mouse in pob will open the screen-cap menu",
-      "use this menu to manage overlay images"
+      "PoB中的M鍵將打開螢幕擷取選單",
+      "使用此選單管理疊圖圖像"
     ],
     "leveltracker screen-cap menu": [
-      "opens the screen-cap menu",
-      "use this menu to manage overlay images"
+      "打開螢幕擷取選單",
+      "使用此選單管理疊圖圖像"
     ],
     "leveltracker folder": [
-      "opens the folder with overlay images",
-      "if you want to edit the images yourself, you can move them to this folder manually"
+      "打開包含疊圖圖像的資料夾",
+      "如果您想自行編輯圖像，可以手動將它們移動到此資料夾"
     ],
     "leveltracker profile select": [
-      "click to activate this guide slot",
-      "hold right-click to delete the guide in this slot"
+      "點擊以啟用此指南欄位",
+      "按住右鍵以刪除此欄位中的指南"
     ],
     "leveltracker import": [
-      "imports pob data or custom guides from clipboard into this guide slot",
-      "importing will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync the guide to the zone you're currently in"
+      "從剪貼簿導入PoB數據或自訂指南到此指南欄位",
+      "導入將重置您的進度：\n您可以長按指南疊圖中的>按鈕以將指南重新同步到您當前所在的區域"
     ],
     "leveltracker default": [
-      "click to load the default guide and enable this slot"
+      "點擊以載入預設指南並啟用此欄位"
     ],
     "leveltracker editor": [
-      "open the editor to edit the guide in this slot"
+      "打開編輯器以編輯此欄位中的指南"
     ],
     "leveltracker guide info": [
-      "there are up to three individual guide slots you can use and switch between",
-      "each slot has its own data for: guide & progress, gear, skill-tree, timer",
-      "credits: default guide originally derived from exile-leveling by heartofphos"
+      "最多有三個獨立的指南欄位可供您使用和切換",
+      "每個欄位都有自己的數據：指南和進度、裝備、天賦樹、計時器",
+      "致謝：預設指南最初來自Heartofphos的exile-leveling"
     ],
     "leveltracker guide info 2": [
-      "there are up to three individual guide slots you can use and switch between",
-      "each slot has its own data for: guide & progress, gear, skill-tree, timer",
-      "credits: default guide originally derived from u/xebtria's walkthrough"
+      "最多有三個獨立的指南欄位可供您使用和切換",
+      "每個欄位都有自己的數據：指南和進度、裝備、天賦樹、計時器",
+      "致謝：預設指南最初來自u/xebtria的攻略"
     ],
     "leveltracker guide format": [
-      "long-click to view an explanation of the guide format"
+      "長按以查看指南格式的解釋"
     ],
     "leveltracker guide format info": [
-      "each line is a step you need to complete",
-      "(hint)____ indented lines provide more info for the step above",
-      "(hint)____",
-      "(color:FF00FF)x_tasks: some steps have x sub-tasks to complete",
-      "(hint)____ sub-tasks can be completed in random order or",
-      "(hint)____ at the same time, depending on the zone",
-      "(hint)____",
-      "if text is (color:00FFFF)highlighted_like_this, hold <tab> to see an image",
-      "(hint)____",
-      "\" (img:in-out) (color:FEC076)zone-name for x \" means \"enter zone to get x, then leave again\"",
-      "(hint)____",
-      "(img:0), (img:2): these show cardinal directions, i.e. north, east, etc.",
-      "(hint)____ direct pathing might sometimes be blocked, so you'll have to",
-      "(hint)____ walk around obstacles and find another way into that direction",
-      "(hint)____",
-      "\"xyz (mini-map)\" means a point of interest is marked on the mini-map"
+      "每行是您需要完成的一個步驟",
+      "(提示)____ 縮排的行提供更多關於上述步驟的資訊",
+      "(提示)____",
+      "(顏色:FF00FF)x_任務: 有些步驟有x個子任務需要完成",
+      "(提示)____ 子任務可以隨機完成，或",
+      "(提示)____ 同時完成，取決於區域",
+      "(提示)____",
+      "如果文本是 (顏色:00FFFF)像這樣高亮顯示的，按住<tab>鍵查看圖片",
+      "(提示)____",
+      "\" (圖片:in-out) (顏色:FEC076)X區域名稱 \" 表示 \"進入區域獲得X，然後再次離開\"",
+      "(提示)____",
+      "(圖片:0), (圖片:2): 這些顯示方位，即北、東等",
+      "(提示)____ 直接路徑有時可能會被阻擋，所以您必須",
+      "(提示)____ 繞過障礙物並找到進入該方向的另一條路徑",
+      "(提示)____",
+      "\"XYZ (小地圖)\" 表示小地圖上標記了一個興趣點"
     ],
     "leveltracker leaguestart": [
-      "choose whether quests/objectives that only need to be done once per league should be shown or not",
-      "if a pob import with gems is present and league-start is disabled, some gem quests may be replaced with hideout lilly instead",
-      "toggling this setting will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync the guide to the zone you're currently in"
+      "選擇是否顯示每個聯盟只需完成一次的任務/目標",
+      "如果存在帶有寶石的PoB導入且聯盟啟動已禁用，某些寶石任務可能會被藏身處的莉莉羅斯取代",
+      "切換此設定將重置您的進度：\n您可以長按指南疊圖中的>按鈕以將指南重新同步到您當前所在的區域"
     ],
     "leveltracker bandit": [
-      "choose which bandit you want to help in act 2",
-      "toggling this setting will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync the guide to the zone you're currently in"
+      "選擇在第二章中要幫助哪個強盜",
+      "切換此設定將重置您的進度：\n您可以長按指南疊圖中的>按鈕以將指南重新同步到您當前所在的區域"
     ],
     "leveltracker leaguestart 2": [
-      "choose whether quests/objectives that only need to be done once per league should be shown or not",
-      "toggling this setting will reset your progress:\nyou can long-click the > button in the guide-overlay to re-sync the guide to the zone you're currently in"
+      "選擇是否顯示每個聯盟只需完成一次的任務/目標",
+      "切換此設定將重置您的進度：\n您可以長按指南疊圖中的>按鈕以將指南重新同步到您當前所在的區域"
     ],
     "leveltracker optionals": [
-      "choose whether optional loot/quests should be shown or not",
-      "examples:\n- boss quests (e.g. devourer, mektul)\n- artificer's orbs & gems\n- jewelry & flasks"
+      "選擇是否顯示可選的戰利品/任務",
+      "範例：\n- 頭目任務（例如吞噬者、Mektul）\n- 巧匠石和寶石\n- 珠寶和藥劑"
     ],
     "leveltracker reset": [
-      "long-click to reset the progress in this guide slot and start over"
+      "長按以重置此指南欄位中的進度並重新開始"
     ],
     "leveltracker profile name": [
-      "optional: type in a description/name for the guide in this slot and press <enter>"
+      "可選：在此欄位中輸入指南的描述/名稱並按下<enter>鍵"
     ],
     "leveltracker pob preview": [
-      "long-click to check available pob data, long-right-click to delete pob data"
+      "長按以檢查可用的PoB數據，長按右鍵以刪除PoB數據"
     ],
     "leveltracker hotkeys enable": [
-      "allows you to switch guide-pages via customizable hotkeys"
+      "允許您透過可自訂的熱鍵切換指南頁面"
     ],
     "leveltracker hotkeys": [
-      "type in a key-name and press <enter>",
-      "don't bind it to keys used for chatting"
+      "輸入鍵名並按下<enter>鍵",
+      "不要將其綁定到用於聊天的按鍵"
     ],
     "lootfilter enable": [
-      "provides an interface to modify your lootfilter and apply changes on the fly",
-      "shift-omni-click items to access it"
+      "提供一個介面來修改您的戰利品過濾器並即時應用更改",
+      "shift + 萬用鍵點擊物品以訪問它"
     ],
     "maptracker enable": [
-      "provides automated tracking of your map runs, and a log viewer with export tools",
-      "tracks map-times, deaths, portals, loot, kills, and certain types of side-content"
+      "提供地圖運行的自動追蹤，以及帶有匯出工具的日誌檢視器",
+      "追蹤地圖時間、死亡次數、傳送門、戰利品、擊殺數和某些類型的支線內容"
     ],
     "maptracker rename": [
-      "tags and renames boss maps for easier searching",
-      "example:\n<boss: elder> instead of <absence of value and meaning>"
+      "標記並重命名頭目地圖以便更容易搜尋",
+      "範例：\n<頭目：尊師> 而不是 <飄渺虛境>"
     ],
     "maptracker rename 2": [
-      "tags and renames boss maps for easier searching",
-      "example:\n<boss: xesht> instead of <twisted domain (boss)>"
+      "標記並重命名頭目地圖以便更容易搜尋",
+      "範例：\n<頭目：烈許> 而不是 <扭曲領域（頭目）>"
     ],
     "maptracker character": [
-      "your character's name, class, and level will be logged",
-      "optional: name/description of the build can also be logged",
-      "you have to specify this info in the <general> section of the settings"
+      "您的角色名稱、職業和等級將被記錄",
+      "可選：BD的名稱/描述也可以被記錄",
+      "您必須在設定的<一般>部分中指定此資訊"
     ],
     "maptracker side-content": [
-      "side-areas you enter and the time spent inside will be logged",
-      "examples: abyssal depths, lab trials, vaal areas"
+      "您進入的支線區域和在其中花費的時間將被記錄",
+      "範例：絕望深淵、迷宮試煉、瓦爾區域"
     ],
     "maptracker hide": [
-      "hides the panel instead of just graying it out whenever tracking is paused (by right-clicking the button in the toolbar)",
-      "check the toolbar-button to see the state of the tracker (it's also grayed out when paused)"
+      "當追蹤暫停時（透過右鍵點擊工具列中的按鈕），隱藏面板而不是僅將其變灰",
+      "檢查工具列按鈕以查看追蹤器的狀態（暫停時也會變灰）"
     ],
     "maptracker mechanics": [
-      "logs certain mechanics you encounter while mapping"
+      "記錄您在地圖中遇到的某些機制"
     ],
     "maptracker dialogue tracking": [
-      "these mechanics can be tracked automatically via in-game dialogue",
-      "requires enabling <output dialogue to chat> at the bottom of the game's <ui> settings"
+      "這些機制可以透過遊戲內對話自動追蹤",
+      "需要啟用遊戲<UI>設定底部中的<將對話輸出到聊天>"
     ],
     "maptracker screen tracking": [
-      "these mechanics will be tracked by searching the screen for specific ui elements",
-      "the screen will be checked whenever you hold <tab>",
-      "requires manual calibration"
+      "這些機制將透過搜尋螢幕上的特定UI元素來追蹤",
+      "當您按住<tab>鍵時將檢查螢幕",
+      "需要手動校準"
     ],
     "maptracker dialoguemechanic": [
-      "mechanics can be toggled individually"
+      "機制可以單獨切換"
     ],
     "maptracker screenmechanic": [
-      "mechanics can be toggled individually",
-      "red highlighting indicates missing calibration",
-      "right-click to open the snipping tool and screen-cap a unique ui element of the mechanic"
+      "機制可以單獨切換",
+      "紅色高亮表示缺少校準",
+      "右鍵點擊以打開剪裁工具並擷取機制中獨特的UI元素"
     ],
     "maptracker portal reminder": [
-      "when using a portal scroll, a tooltip will remind you to double-check if map content has been completed",
-      "requires you to specify the correct in-game hotkey below"
+      "使用傳送門捲軸時，提示將提醒您再次檢查地圖內容是否已完成",
+      "需要您在下方指定正確的遊戲內熱鍵"
     ],
     "maptracker portal hotkey": [
-      "type in the in-game hotkey for <use portal scroll>",
-      "check the links above if it uses special keys/combinations"
+      "輸入遊戲內<使用傳送門捲軸>的熱鍵",
+      "如果使用特殊按鍵/組合，請查看上方連結"
     ],
     "maptracker loot-tracker": [
-      "items you ctrl-click into the stash will be logged",
-      "ctrl-right-click will remove previously added items one by one (similar to ctrl-z in text editing)",
-      "requires the <stash> image-check to be set up correctly in the <screen-checks> menu"
+      "您ctrl+點擊到倉庫中的物品將被記錄",
+      "ctrl+右鍵將逐個移除先前添加的物品（類似於文本編輯中的ctrl+Z）",
+      "需要正確設置設定選單<螢幕檢查>部分中的<倉庫>圖像檢查"
     ],
     "maptracker kill-tracker": [
-      "monster kills in completed maps will be logged",
-      "leaving a map causes the tracker panel to flash until you click the timer to refresh kills",
-      "refreshing kills only has to be done if you have finished the map and won't go back in"
+      "完成地圖中的怪物擊殺將被記錄",
+      "離開地圖會導致追蹤器面板閃爍，直到您點擊計時器刷新擊殺數",
+      "只有在您完成地圖且不會再進入時才需要刷新擊殺數"
     ],
     "maptracker mapinfo": [
-      "map-mods in the map-info panel will be logged",
-      "this also includes information such as:\nelder guardians, conquerors, type of maven invitation, blight(-ravaged), contract/blueprint",
-      "the map-info panel is a separate feature and has to be enabled"
+      "地圖資訊面板中的地圖詞綴將被記錄",
+      "這也包括以下資訊：\n尊師守衛、征服者、Maven邀請類型、凋落（蔓延）、契約/藍圖",
+      "地圖資訊面板是一個獨立的功能，必須啟用"
     ],
     "maptracker notes": [
-      "adds an icon to the tracker panel to log custom notes for individual map runs",
-      "also enables you easily log items with a single click, e.g. map-device items used, special drops found in a run, etc."
+      "在追蹤器面板中添加一個圖示，用於記錄個別地圖運行的自訂筆記",
+      "還使您能夠輕鬆地單擊記錄物品，例如使用的地圖裝置物品、在運行中找到的特殊掉落物等"
     ],
     "maptracker color unselected": [
-      "used for highlighted cells in the log-viewer, and for non-league dates in the date selection",
-      "click to open the color-palette, right-click to reset to default"
+      "用於日誌檢視器中高亮顯示的儲存格，以及日期選擇中非聯盟日期",
+      "點擊開啟調色盤，右鍵重置為預設"
     ],
     "maptracker color selected": [
-      "used for the currently-selected year and its months in the date selection",
-      "click to open the color-palette, right-click to reset to default"
+      "用於日期選擇中當前選定的年份及其月份",
+      "點擊開啟調色盤，右鍵重置為預設"
     ],
     "maptracker color leagues": [
-      "used to highlight dates within a certain league",
-      "click to open the color-palette, right-click to reset to default"
+      "用於高亮顯示特定聯盟內的日期",
+      "點擊開啟調色盤，右鍵重置為預設"
     ],
     "mapinfo enable": [
-      "provides a compact and customizable info-panel for map mods",
-      "omni-clicking a map opens the panel, and pressing 1-4 while hovering over mods applies highlight colors",
-      "to ignore mods, press space while hovering over them"
+      "為地圖詞綴提供一個緊湊且可自訂的資訊面板",
+      "萬用點擊地圖會打開面板，將游標懸停在詞綴上時按下1-4會應用高亮顏色",
+      "要忽略詞綴，請在將游標懸停在詞綴上時按下空白鍵"
     ],
     "mapinfo omni-key": [
-      "press the omni-key while hovering over maps/waystones to activate the panel",
-      "click into the game or press <esc> to close it"
+      "將游標懸停在地圖/地圖儀上時按下萬用鍵以啟用面板",
+      "點擊遊戲或按下<esc>以關閉它"
     ],
     "mapinfo alt-key": [
-      "hold <alt> while hovering over maps/waystones to activate the panel: the panel will close automatically once you release <alt>",
-      "if you only want to access the in-game advanced tooltip, hold <ctrl> prior to holding <alt>",
-      "note: this setting might interfere with other 3rd-party tools(/underline)"
+      "將游標懸停在地圖/地圖儀上時按住<alt>鍵以啟用面板：一旦您鬆開<alt>鍵，面板將自動關閉",
+      "如果您只想訪問遊戲內進階提示，請按住<ctrl>鍵再按住<alt>鍵",
+      "注意：此設定可能會干擾其他第三方工具(/underline)"
     ],
     "mapinfo shift-click": [
-      "refreshes the tooltip whenever you apply currency to maps via shift-click",
-      "you have to hold <shift> first, right click currency, and then click a map",
-      "requires the <inventory> pixel-check to be set up correctly in the <screen-checks> menu"
+      "每當您透過shift+點擊對地圖使用通貨時，刷新提示",
+      "您必須先按住<shift>，右鍵點擊通貨，然後點擊地圖",
+      "需要正確設置設定選單<螢幕檢查>部分中的<物品欄>像素檢查"
     ],
     "mapinfo tab": [
-      "hold <tab> to view a compact version of the panel on the right of the screen",
-      "only works in hideouts and the map that was loaded into the panel"
+      "按住<tab>鍵以在螢幕右側查看面板的緊湊版本",
+      "僅在藏身處和已載入到面板中的地圖中有效"
     ],
     "mapinfo colors": [
-      "click a button to open the color-palette, right click to reset"
+      "點擊按鈕開啟調色盤，右鍵重置"
     ],
     "mapinfo logbooks": [
-      "logbook mods use positive rankings, with 4 being the best value"
+      "探險日誌詞綴使用正排名，4是最佳值"
     ],
     "mapinfo modsearch": [
-      "type in map-mods (in-game wording) and press <enter> to list them below"
+      "輸入地圖詞綴（遊戲內措辭）並按下<enter>鍵以在下方列出它們"
     ],
     "mapinfo roll highlight": [
-      "map rolls (quant, rarity, etc.) will be highlighted if they meet certain requirements"
+      "地圖詞綴（數量、稀有度等）如果符合某些要求將會高亮顯示"
     ],
     "mapinfo roll colors": [
-      "this is a preview of the current highlighting settings",
-      "click the colored buttons on the right to open the palette, right-click to reset the color to default",
-      "first button: text color\nsecond button: background color"
+      "這是當前高亮設定的預覽",
+      "點擊右側的彩色按鈕以開啟調色盤，右鍵重置顏色為預設",
+      "第一個按鈕：文字顏色\n第二個按鈕：背景顏色"
     ],
     "mapinfo requirements": [
-      "specify required/desired minimum values for each roll",
-      "quantity, rarity, pack size, maps, scarabs, currency"
+      "為每個詞綴指定所需/期望的最小值",
+      "數量、稀有度、怪物數量、地圖、聖甲蟲、通貨"
     ],
     "mapinfo mod settings": [
-      "below, you can customize the tiering of specific map mods",
-      "hover over mods and press number keys 1-4 to apply highlighting, space to strike them out, or right-click to reset them to un-tiered (white)",
-      "use the mod search to find mods, click the – and + buttons to (un)pin mods for quick access"
+      "下方，您可以自訂特定地圖詞綴的分級",
+      "將游標懸停在詞綴上並按下數字鍵1-4以應用高亮顯示，空白鍵以劃掉它們，或右鍵以將它們重置為未分級（白色）",
+      "使用詞綴搜尋查找詞綴，點擊–和+按鈕以（取消）釘選詞綴以快速存取"
     ],
     "mapinfo reset tiers": [
-      "long-click to reset every map mod tier to default (white, not crossed out)",
-      "(/underline)note: this affects every single mod, not just the pinned ones below"
+      "長按以將每個地圖詞綴層級重置為預設（白色，未劃掉）",
+      "(/underline)注意：這會影響每個詞綴，而不僅僅是下方釘選的詞綴"
     ],
     "alarm enable": [
-      "timer-widget with alarm/countdown and stopwatch functionality",
-      "hidden by default, hold <tab> to display it",
-      "+ adds a new timer: type in a time (top), a name (bot), and press <enter>",
-      "click an existing timer to start it, right-click to stop it",
-      "leave time blank to start stopwatch: click xx:xx to loop",
-      "leave name blank for single-use timer",
-      "hold <right-click> on a name to remove a timer"
+      "帶有警報/倒計時和碼表功能的計時器小工具",
+      "預設隱藏，按住<tab>鍵以顯示它",
+      "+ 添加新計時器：輸入時間（上方），名稱（下方），然後按下<enter>鍵",
+      "點擊現有計時器以啟動它，右鍵點擊以停止它",
+      "將時間留空以啟動碼表：點擊xx:xx以循環",
+      "將名稱留空以進行單次使用計時器",
+      "長按現有計時器名稱以移除它"
     ],
     "notepad enable": [
-      "notepad tool with individual tabs, and floating widgets that can be used as sticky-notes"
+      "帶有獨立分頁和可作為便利貼使用的浮動小工具的記事本工具"
     ],
     "notepad default color": [
-      "specify the colors for new tabs",
-      "tabs can also be individually customized afterwards"
+      "指定新分頁的顏色",
+      "分頁之後也可以單獨自訂"
     ],
     "notepad opacity": [
-      "the opacity of inactive widgets (when <tab> is not held down)",
-      "0 = inactive widgets are hidden"
+      "非活動小工具的不透明度（當未按住<tab>鍵時）",
+      "0 = 非活動小工具隱藏"
     ],
     "lab enable": [
-      "simple lab layout overlay and tracker for casual runs",
-      "activated by holding <tab> in lab or the aspirants' plaza"
+      "簡單的迷宮佈局疊圖和追蹤器，適用於休閒運行",
+      "在迷宮或昇華者廣場按住<tab>鍵啟用"
     ],
     "ocr enable": [
-      "screen-reading feature that scans the screen and displays certain information/text in customizable & compact tooltips",
-      "currently supported: eldritch altars, vaal side areas"
+      "螢幕讀取功能，掃描螢幕並在可自訂和緊湊的提示中顯示某些資訊/文本",
+      "目前支援：異界祭壇、瓦爾支線區域"
     ],
     "ocr compatibility": [
-      "screen-reading feature that scans the screen and displays certain information/text in customizable & compact tooltips",
-      "a compatibility test has to be done before this feature can be enabled",
-      "open the character-stats screen, then click this checkbox to open the windows snipping tool",
-      "use it to snip 4 to 5 lines of text from the character-stats"
+      "螢幕讀取功能，掃描螢幕並在可自訂和緊湊的提示中顯示某些資訊/文本",
+      "此功能啟用前必須進行兼容性測試",
+      "打開角色屬性螢幕，然後點擊此複選框以打開Windows剪裁工具",
+      "使用它剪裁角色屬性中4到5行文本"
     ],
     "ocr colors": [
-      "customize the color patterns used to highlight specific mods/rewards"
+      "自訂用於高亮顯示特定詞綴/獎勵的顏色模式"
     ],
     "ocr debug": [
-      "holding the right crtl-key while scanning the screen will open a window that displays the screen-cap as well as the text the script was able to read from it"
+      "在掃描螢幕時按住右ctrl鍵將打開一個視窗，顯示螢幕擷取以及腳本能夠從中讀取的文本"
     ],
     "ocr z hotkey": [
-      "type in the in-game hotkey for <toggle highlighting>",
-      "check the links above if it uses special keys/combinations"
+      "輸入遊戲內<切換高亮顯示>的熱鍵",
+      "如果使用特殊按鍵/組合，請查看上方連結"
     ],
     "ocr hotkey": [
-      "type in the hotkey you want to use to activate this feature",
-      "do not choose keys used for chatting in order to prevent accidentally activating the feature",
-      "check the links above if you want to use special keys/combinations"
+      "輸入您想要用來啟用此功能的熱鍵",
+      "不要選擇用於聊天的按鍵，以防止意外啟用該功能",
+      "如果您想使用特殊按鍵/組合，請查看上方連結"
     ],
     "sanctum enable": [
-      "analyzes rooms and connections on the map and provides tools for highlighting and planning",
-      "hold <tab> during a run to show the overlay, it will hide upon release",
-      "press <space> while holding <tab> to lock the overlay so it doesn't automatically hide"
+      "分析地圖上的房間和連接，並提供高亮顯示和規劃工具",
+      "運行期間按住<tab>鍵以顯示疊圖，鬆開後將隱藏",
+      "在按住<tab>鍵時按下<空白鍵>以鎖定疊圖，使其不會自動隱藏"
     ],
     "sanctum cheatsheet": [
-      "shows an additional panel that lists the different room types and their objectives, as well as special fountain characteristics"
+      "顯示一個附加面板，列出不同的房間類型及其目標，以及特殊噴泉特徵"
     ],
     "screenchecks pixel-about": [
-      "the script continually checks the screen for certain ui elements",
-      "this enables context sensitivity and automatic overlay toggling",
-      "these checks will never result in any interaction with the client"
+      "腳本持續檢查螢幕上的某些UI元素",
+      "這將啟用上下文敏感性和自動疊圖切換",
+      "這些檢查絕不會導致與客戶端的任何互動"
     ],
     "screenchecks pixel-calibration": [
-      "follow the instructions from <info> before clicking this",
-      "captures certain pixel-values and stores them for future checks"
+      "在點擊此處之前，請遵循<資訊>中的指示",
+      "擷取某些像素值並將其存儲以供將來檢查"
     ],
     "screenchecks pixel-test": [
-      "click this button while the ui element shown in <info> is visible, the test should return positive",
-      "click it again while the ui element shown in <info> is not visible, the test should return negative",
-      "geforce now: move your character around a bit, then redo steps 1 & 2"
+      "當<資訊>中顯示的UI元素可見時點擊此按鈕，測試應返回<正面>結果",
+      "當<資訊>中顯示的UI元素不可見時再次點擊它，測試應返回<負面>結果",
+      "GeForce Now：稍微移動角色，然後重複步驟1和2"
     ],
     "screenchecks pixel-info": [
-      "long-click to see instructions"
+      "長按以查看說明"
     ],
     "screenchecks pixel-background": [
-      "important background process that enables context-sensitivity",
-      "in case of performance issues, disable temporarily to check if it's the cause"
+      "重要的背景進程，啟用上下文敏感性",
+      "如果出現性能問題，請暫時禁用以檢查是否為原因"
     ],
     "screenchecks image-about": [
-      "same principle as pixel-checks (see above) but more precise",
-      "these help the omni-key interpret which feature to activate when pressed"
+      "與像素檢查原理相同（見上文），但更精確",
+      "這些有助於萬用鍵解釋按下時應啟用哪個功能"
     ],
     "screenchecks image-info": [
-      "long-click to see instructions"
+      "長按以查看說明"
     ],
     "screenchecks image-calibration": [
-      "follow the instructions from <info> before clicking this",
-      "left-click: automatic calibration",
-      "right-click: manually screen-cap the ui element shown in <info>"
+      "在點擊此處之前，請遵循<資訊>中的指示",
+      "左鍵點擊：自動校準",
+      "右鍵點擊：手動擷取<資訊>中顯示的UI元素"
     ],
     "screenchecks image-test": [
-      "click this button while the ui element shown in <info> is visible, the test should return positive",
-      "click it again while the ui element shown in <info> is not visible, the test should return negative",
-      "if tests keep returning negative after automatic calibration, right-click the <cal> button and snip the marked area shown in <info>"
+      "當<資訊>中顯示的UI元素可見時點擊此按鈕，測試應返回<正面>結果",
+      "當<資訊>中顯示的UI元素不可見時再次點擊它，測試應返回<負面>結果",
+      "如果自動校準後測試持續返回<負面>結果，請右鍵點擊<校準>按鈕並剪裁<資訊>中顯示的標記區域"
     ],
     "screenchecks folder": [
-      "opens the folder with calibration files",
-      "if tests keep failing, open the img-files to check if they represent the correct image-clip"
+      "打開包含校準文件的資料夾",
+      "如果測試持續失敗，打開圖像文件以檢查它們是否代表正確的圖像剪輯"
     ],
     "screenchecks variance": [
-      "since streaming-clients have variable image quality, the tool may not be able to accurately check the screen for certain ui elements",
-      "if clicking <test> doesn't return consistent, repeatable results, you may have to increase the allowed variance of screen-checks",
-      "increase the value in increments of 10 and retest the checks until the results are consistent"
+      "由於串流客戶端圖像質量不穩定，工具可能無法準確檢查螢幕上的某些UI元素",
+      "如果點擊<測試>無法返回一致、可重複的結果，您可能需要增加螢幕檢查的允許方差",
+      "以10為增量增加值並重新測試檢查，直到結果一致"
     ],
     "searchstrings poe-regex": [
-      "3rd-party website for regex-strings"
+      "用於正則表達式字串的第三方網站"
     ],
     "searchstrings about": [
-      "search-strings are grouped into use-cases, e.g. gwennen, harvest, vendor",
-      "when pressing the omni-key, the script detects the right use-case and displays a list with entries to choose from",
-      "this detection requires manual image calibration for each use-case",
-      "some use-cases (e.g. bestiary index) don't automatically hide the league-info panel in the top-right corner, so you have to open the inventory before pressing the omni-key"
+      "搜尋字串按使用案例分組，例如關南、關南、Vendor",
+      "按下萬用鍵時，腳本會檢測正確的使用案例並顯示一個可供選擇的條目列表",
+      "此檢測需要對每個使用案例進行手動圖像校準",
+      "某些使用案例（例如獸獵寓言索引）不會自動隱藏右上角的聯盟資訊面板"
     ],
     "searchstrings about 2": [
-      "search-strings are grouped into use-cases, e.g. gem cutting, stash, vendor",
-      "when pressing the omni-key, the script detects the right use-case and displays a list with entries to choose from",
-      "this detection requires manual image calibration for each use-case"
+      "當按下萬用鍵時，腳本會根據螢幕上顯示的遊戲內UI自動識別上下文，並顯示相關的搜尋字串列表",
+      "例如，當您在螢幕上擁有關南的介面時，它會顯示為關南創建的搜尋字串"
     ],
     "searchstrings calibrate": [
-      "opens the clipping tool: use it to clip a ui element that is unique to the search"
+      "打開剪裁工具：使用它剪裁遊戲內UI中的獨特元素"
     ],
     "searchstrings test": [
-      "click this button while the ui element is on screen, the test should return positive",
-      "click it again while the ui element is not on screen, the test should return negative",
-      "results have to be consistent and repeatable"
+      "點擊此按鈕，當遊戲內UI在螢幕上時，測試應該返回<正面>結果",
+      "再次點擊它，當遊戲內UI不在螢幕上時，測試應該返回<負面>結果",
+      "結果必須一致且可重複"
     ],
     "searchstrings edit": [
-      "opens a menu where strings for this use-case can be added or edited"
+      "打開一個菜單來配置搜尋字串"
     ],
     "searchstrings delete": [
-      "long-click to delete this use-case and its strings"
+      "長按以刪除搜尋字串"
     ],
     "searchstrings copy": [
-      "enter a name below, then click this button to create a copy of this use-case with a new name"
+      "在下方輸入名稱，然後按一下此按鈕以新名稱建立此使用案例的副本"
     ],
     "searchstrings enable": [
-      "enable/disable the specific use-case"
+      "啟用/禁用搜尋字串"
     ],
     "searchstrings enable-beastcrafting": [
-      "enable/disable the specific use-case",
-      "this is included by default and contains strings for flask crafting"
+      "啟用野獸工藝的搜尋字串"
     ],
     "searchstrings enable-lilly": [
-      "enable/disable the specific use-case",
-      "this is part of the imported leveling guide and contains strings for every gem"
+      "啟用莉莉羅斯的搜尋字串",
+      "這是導入的升級指南的一部分，包含每個寶石的字符串"
     ],
     "searchstrings add": [
-      "type in a name and press <enter>"
+      "輸入名稱並按<enter>"
     ],
     "stash color tag1": [
-      "this is what price tags with poe.ninja-prices look like"
+      "這就是 poe.ninja-prices 的價格標籤的樣子"
     ],
     "stash color tag2": [
-      "this is what price tags with exchange-prices look like"
+      "這就是 exchange-prices 的樣子"
     ],
     "stash color tag3": [
-      "this is what bookmarked price tags look like"
+      "這就是 bookmarked price tags 的樣子"
     ],
     "stash enable": [
-      "stash feature that highlights items in specific stash tabs according to rough market prices",
-      "long-press the omni-key (default: middle mouse-button) while hovering over an item in a tab to activate the feature",
-      "there needs to be at least one tab-folder somewhere in your stash (the overlay will be slightly offset otherwise)"
+      "倉庫功能，根據大致市場價格高亮顯示特定倉庫頁中的物品",
+      "當滑鼠懸停在倉庫頁中的物品上時，長按萬用鍵（預設：滑鼠中鍵）以啟用此功能",
+      "您的倉庫中至少需要有一個倉庫頁資料夾（否則疊層會略微偏移）"
     ],
     "stash hotkey": [
-      "this hotkey is exclusive to streaming clients, and pressing it will open an exclusive selection menu that lists the available tabs",
-      "bind this feature to a key not used for chatting: type in a key-name and press <enter>"
+      "按下熱鍵可在儲物箱分頁之間切換（就像遊戲內一樣）",
+      "這允許您在不打開小地圖疊圖的情況下更改活動分頁"
     ],
     "stash history": [
-      "shows an additional bar-chart with an item's price history for this week",
-      "this will be shown next to conversion rates when hovering over a highlighted item-slot",
-      "it's a timeline with bars that each represent a day and display the change in price compared to the first day"
+      "顯示一個額外的長條圖，其中包含此物品本週的價格歷史記錄",
+      "當滑鼠懸停在一個高亮顯示的物品格上時，這將顯示在轉換率旁邊",
+      "它是一個時間軸，每個長條代表一天，並顯示相對於第一天的價格變化"
     ],
     "stash exalt": [
-      "also shows exalt-equivalent prices when hovering over highlighted items or pricing items"
+      "當滑鼠懸停在已高亮物品或為物品定價時，也會顯示崇高石等值的價格"
     ],
     "stash bulk": [
-      "right-clicking an item in a tab will open an additional panel for (bulk-)sale management",
-      "it will only show poe.ninja prices initially:\nclick a currency icon to view open listings on the bulk exchange, or right-click it to refresh the data",
-      "pick a price from the list, and the panel will offer applicable bulk configurations to scroll through and pick from"
+      "右鍵點擊倉庫頁中的物品將會開啟一個額外面板，用於（批量）銷售管理",
+      "它最初只會顯示 poe.ninja 的價格：點擊一個通貨圖示可查看批量交易網站上的開放列表，或右鍵點擊它以重新整理資料",
+      "從列表中選擇一個價格，面板將提供適用的批量配置供您滾動選擇"
     ],
     "stash mintrade": [
-      "you can specify an \"i don't want to trade below x chaos\" value here:\ntype in a number and press <enter>",
-      "bulk-sale configurations in chaos will auto-adjust to start at this value"
+      "您可以在這裡指定一個「我不希望交易價格低於 x 混沌石」的值：輸入一個數字並按下 <enter>",
+      "混沌石的批量銷售配置將自動調整為從此值開始"
     ],
     "stash autoprofiles": [
-      "this setting is meant to help you find (stacks of) items that are worth trading",
-      "profiles 1-4 will be set up automatically according to your preferred trade value",
-      ">> rule of thumb <<\nhighlighted items are worth trading if:\nstack-size >= profile-number",
-      "profile 5 will be left untouched in order to allow creating a trash/vendor tier"
+      "此設定旨在幫助您找到值得交易的物品（堆疊）",
+      "個人資料 1-4 將根據您偏好的交易價值自動設定",
+      ">> 經驗法則 <<",
+      "如果堆疊大小 >= 個人資料編號，則高亮物品值得交易",
+      "個人資料 5 將保持不變，以便建立垃圾/商人層級"
     ],
     "stash config": [
-      "to configure individual tabs, open them in game and long-press the omni-key over an item in the tab",
-      "once the stash-ninja overlay is active, settings for the active tab will appear below"
+      "要設定個別倉庫頁，請在遊戲中開啟它們，並在倉庫頁中的物品上長按萬用鍵",
+      "一旦倉庫忍者疊層啟用，活動倉庫頁的設定將顯示在下方"
     ],
     "stash gap": [
-      "refers to the horizontal gap between item boxes/slots in the stash tab",
-      "fine-tune this value to align the overlay and in-game stash"
+      "指倉庫頁中物品框/格之間的水平間距",
+      "微調此值以對齊疊層和遊戲內倉庫"
     ],
     "stash in folder": [
-      "the overlay's position has to be offset if this specific tab is in a stash folder",
-      "check this box if this tab is in a folder"
+      "如果此特定倉庫頁位於倉庫資料夾中，則疊層的位置必須偏移",
+      "如果此倉庫頁位於資料夾中，請勾選此方框"
     ],
     "stash bookmarking": [
-      "adds a bookmark-list next to the price-profile panel",
-      "press space while hovering over an item to add 1x to the current list, or press alt to remove 1x",
-      "bookmarked items will always be highlighted on the grid, regardless of active price-profile",
-      "each tab has 5 separate lists: hold <control> or <shift>, and press number-keys to switch"
+      "在價格設定檔面板旁邊添加一個書籤列表",
+      "當滑鼠懸停在物品上時按下空白鍵可向當前列表添加 1 個，或按下 Alt 鍵可移除 1 個",
+      "無論活動價格設定檔如何，已書籤的物品將始終在高亮顯示在網格上",
+      "每個倉庫頁有 5 個獨立列表：按住 <ctrl> 或 <shift>，然後按下數字鍵進行切換"
     ],
     "stash limits": [
-      "you can configure up to 5 price-range profiles for each individual tab",
-      "input-box structure:\nprofile # | max value\nunit: c, e, d, % | min value        ",
-      "leaving min/max price blank will treat them as unlimited, leaving the unit blank will disable the profile entirely",
-      "while the overlay is on screen, press number-keys 1 to 5 to switch between profiles"
+      "您可以為每個個別倉庫頁設定最多 5 個價格範圍設定檔",
+      "輸入框結構：",
+      "設定檔編號 | 最大值",
+      "單位：c, e, d, % | 最小值",
+      "將最小/最大價格留空將視為無限，將單位留空將完全禁用該設定檔",
+      "當疊層在螢幕上時，按下數字鍵 1 到 5 可在設定檔之間切換"
     ],
     "statlas enable": [
-      "atlas feature that displays various information about maps on the atlas",
-      "hold <tab> while hovering over maps on the atlas to activate the overlay",
-      "scroll to adjust the image size",
-      "requires the <atlas> screen-check to be set up correctly in the <screen-checks> section of the settings menu"
+      "地圖集功能，在地圖集上顯示各地圖的各種資訊",
+      "當滑鼠懸停在地圖集上的地圖時，按住 <tab> 鍵可啟用疊層",
+      "滾動以調整圖片大小",
+      "要求在設定選單的 <螢幕檢查> 部分正確設定 <輿圖> 螢幕檢查"
     ],
     "statlas maptracker": [
-      "the overlay will show stats collected via the map-tracker feature"
+      "疊層將顯示透過地圖追蹤器功能收集的統計資料"
     ],
     "statlas notable": [
-      "the atlas notable <local knowledge> provides loot-drop bonuses for different biomes",
-      "if enabled, the overlay will show the bonuses for the map you're hovering over"
+      "輿圖天賦 <當地知識> 為不同的生物群落提供掉落物品獎勵",
+      "如果啟用，疊層將顯示您滑鼠懸停的地圖的獎勵"
     ],
     "update check": [
-      "checks for updates on script launch and in the background while running",
-      "if there is an update available, the main toolbar will turn green"
+      "在腳本啟動時和運行時在背景中檢查更新",
+      "如果有可用更新，主工具列將變為綠色"
     ],
     "update hotfix": [
-      "a hotfix release is available, you can download it below",
-      "the versions listed below always include the newest hotfixes, even if the number is not specifically marked"
+      "有熱修復版本可用，您可以在下方下載",
+      "下方列出的版本始終包含最新的熱修復，即使數字未特別標記"
     ],
     "update versions": [
-      "the list below shows the available versions to switch between or reinstall",
-      "each line represents a major version and has buttons to select the minor version",
-      "versions with important changes are highlighted in orange",
-      "hover over a button to see a summarized changelog, click it to prepare the download"
+      "下方列表顯示了可在其間切換或重新安裝的可用版本",
+      "每行代表一個主要版本，並有按鈕選擇次要版本",
+      "有重要變更的版本會以橘色高亮顯示",
+      "將滑鼠懸停在按鈕上可查看摘要變更日誌，點擊它可準備下載"
     ],
     "update full changelog": [
-      "opens the github page with the detailed changelog of the selected version"
+      "打開 GitHub 頁面，查看所選版本的詳細更新日誌"
     ],
     "update restart": [
-      "click to update and restart\nNOTE: active overlays and unsaved data will be lost"
+      "重新啟動工具以應用更新",
+      "注意：疊層與未儲存的資料將會移失(/underline)"
     ],
     "update manual": [
-      "downloads a zip-file with the complete release, then opens it and the script-folder",
-      "the zip contains one folder: do not extract it! open it instead",
-      "extract what's inside into the script-folder that will open in a separate window"
+      "下載包含完整發布內容的 zip 檔案，然後開啟它和腳本資料夾",
+      "該 zip 檔案包含一個資料夾：請勿解壓縮它！請改為開啟它",
+      "將裡面的內容解壓縮到將在獨立視窗中開啟的腳本資料夾中"
     ],
     "update github": [
-      "opens your browser and downloads the newest version",
-      "also opens the script folder in a separate window"
+      "開啟您的瀏覽器並下載最新版本",
+      "也會在獨立視窗中開啟腳本資料夾"
     ],
     "update skip": [
-      "long-click to skip this version and no longer receive notifications",
-      "notifications will start showing again with the next version"
+      "長按可跳過此版本，並不再接收通知",
+      "通知將在下一個版本開始再次顯示"
     ]
   },
   "anoints": {
     "materials": [
-      "hover over materials in your stash/inventory and hold <alt> to load the available amounts",
-      "alternatively, hover over the icons below and scroll the mouse-wheel to manually adjust the amounts"
+      "將滑鼠懸停在您的倉庫/物品欄中的材料上，並按住 <alt> 鍵以載入可用數量",
+      "或者，將滑鼠懸停在下方的圖示上並滾動滑鼠滾輪以手動調整數量"
     ],
     "keywords": [
-      "this optional search method uses groups (similar to the trade site) and keywords",
-      "keywords are sorted by occurrence (high to low):\nleft-click keywords to add them to the <and> group\nlong-click keywords to add them to the <count> group\nright-click keywords to add them to the <not> group",
-      "type strings into the search-bar and press <enter> to highlight keywords"
+      "這種可選的搜尋方法使用群組（類似於交易網站）和關鍵字",
+      "關鍵字依出現次數排序（高到低）：\n左鍵點擊關鍵字可將其添加到 <and> 群組\n長按關鍵字可將其添加到 <count> 群組\n右鍵點擊關鍵字可將其添加到 <not> 群組",
+      "在搜尋欄中輸入字串並按下 <enter> 鍵以高亮關鍵字"
     ],
     "matches": [
-      "left-click a box below to highlight the node on the in-game passive tree (make sure it's open)",
-      "right-click boxes to hide unwanted nodes until only useful ones are left",
-      "numbers after node names = required # of upgrades/reforges",
-      "type a string into the search-bar and press <enter> to filter the results (supports regex)"
+      "左鍵點擊下方方框以在遊戲內的被動天賦樹上高亮節點（請確保天賦樹已開啟）",
+      "右鍵點擊方框以隱藏不需要的節點，直到只剩下有用的節點",
+      "節點名稱後的數字 = 所需的升級/重鑄次數",
+      "在搜尋欄中輸入字串並按下 <enter> 鍵以篩選結果（支援正規表達式）"
     ],
     "reforging": [
-      "whether reforging/upgrading materials should be included to make more recipes available: only 2 tiers above the highest available material are taken into account"
+      "是否應包含重鑄/升級材料以提供更多配方：只考慮最高可用材料上方的 2 個等級"
     ],
     "rings": [
-      "toggles between amulet & ring recipes"
+      "在項鍊與戒指配方之間切換"
     ]
   },
   "cheatsheets": {
     "menu screencheck": [
-      "refers to the position of the ui element that activates this sheet",
-      "static: always stays in the same position, e.g. stash/inventory plaque",
-      "dynamic: can move around slightly, e.g. parts of the syndicate board"
+      "指啟用此速查表的 UI 元素位置",
+      "靜態：始終保持相同位置，例如倉庫/物品欄銘牌",
+      "動態：可以輕微移動，例如秘教調查面板的部分區塊"
     ],
     "menu activation": [
-      "how long the sheet stays on screen after activation",
-      "hold: until omni-key is released",
-      "toggle: until esc is pressed",
-      "activating a sheet by pressing two modifier keys will always <toggle>"
+      "啟用後速查表在螢幕上停留的時間",
+      "按住：直到放開萬用鍵",
+      "切換：直到按下 esc 鍵",
+      "同時按下兩個修改鍵啟用速查表將始終 <切換>"
     ],
     "menu image-files": [
-      "image files are loaded into numbered slots within each sheet",
-      "while the sheet is active, press number keys to access these files",
-      "slot 00 is reserved for segmented sheets (hover <00> for more info)"
+      "圖片檔案載入到每個速查表中的編號插槽",
+      "當速查表啟用時，按下數字鍵以存取這些檔案",
+      "00 號插槽保留給分段速查表（將滑鼠懸停在 <00> 上可獲取更多資訊）"
     ],
     "menu 00": [
-      "loading an image into 00 turns the sheet into a segmented one",
-      "only works if the information on it is presented in a table or diagram",
-      "image 00 is the header of the sheet, the rest are individual segments (e.g. columns or rows)"
+      "將圖片載入到 00 號插槽會將速查表變成一個分段速查表",
+      "僅適用於其上的資訊以表格或圖表形式呈現",
+      "圖片 00 是速查表的標頭，其餘為個別分段（例如欄或列）"
     ],
     "menu header": [
-      "positioning of the header relative to the rest of the segments"
+      "標頭相對於其餘分段的位置"
     ],
     "menu paste": [
-      "paste image(s) into this slot: supports files and raw data",
-      "pasting multiple files at once overwrites x slots, starting with this one"
+      "將圖片貼入此插槽：支援檔案和原始資料",
+      "一次貼上多個檔案會覆蓋從此插槽開始的 x 個插槽"
     ],
     "menu snip0": [
-      "opens the snipping widget to snip images into slots"
+      "開啟截圖小工具以截圖到插槽中"
     ],
     "menu snip": [
-      "opens the clipping tool to clip images into slots"
+      "開啟剪裁工具以剪裁圖片到插槽中"
     ],
     "menu show": [
-      "long-click to see a preview of the image"
+      "長按以預覽圖片"
     ],
     "menu delete": [
-      "long-click to delete the image in this slot"
+      "長按以刪除此插槽中的圖片"
     ],
     "menu hotkey": [
-      "type in a letter to tag the image",
-      "that letter can be used like a hotkey to activate this slot",
-      "useful if data in the sheet is alphabetical and not numerical"
+      "輸入一個字母以標記圖片",
+      "該字母可用作熱鍵以啟用此插槽",
+      "如果速查表中的資料是按字母順序而非數字順序，則很有用"
     ],
     "menu preview": [
-      "long-click to see a preview of the sheet"
+      "長按以預覽速查表"
     ],
     "menu entry-about": [
-      "every cheat sheet has multiple entries, and each entry up to 4 notes",
-      "an entry is simply something in the game you want to save notes for",
-      "syndicate: each member is an entry\nsanctum: each room is an entry"
+      "每個速查表有多個條目，每個條目最多有 4 個筆記",
+      "條目只是您想要儲存筆記的遊戲中的某個東西",
+      "反叛：每個成員都是一個條目\n聖所：每個房間都是一個條目"
     ],
     "menu entry-image": [
-      "long-click to view the calibration image"
+      "長按以查看校準圖片"
     ],
     "menu entry-delete": [
-      "long-click to delete this entry"
+      "長按以刪除此條目"
     ],
     "menu entry-select": [
-      "click this entry to access its notes"
+      "點擊此條目以存取其筆記"
     ],
     "menu entry-preview": [
-      "long-click to see a preview of this entry's notes"
+      "長按以預覽此條目的筆記"
     ],
     "menu windowtitle": [
-      "title of the window you want to use as a cheat sheet",
-      "it is case-sensitive but doesn't require the whole title"
+      "您要用作速查表的視窗標題",
+      "區分大小寫但不需要完整的標題"
     ],
     "menu exe-delete": [
-      "long-click to remove the app from the launcher"
+      "長按以從啟動器中移除應用程式"
     ],
     "menu exe-test": [
-      "click to check if the app launches correctly"
+      "點擊以檢查應用程式是否正確啟動"
     ]
   },
   "geartracker": {
     "about": [
-      "click items on the list to highlight them in in-game searches",
-      "long-right-click an item to remove it from the list",
-      "long-click the <clear> button to remove every highlighted item"
+      "點擊列表中的物品以在遊戲內搜尋中高亮它們",
+      "長按右鍵點擊物品以將其從列表中移除",
+      "長按 <clear> 按鈕以移除所有高亮物品"
     ]
   },
   "lab": {
     "button": [
-      "red = layout unavailable/outdated, yellow = layout only, green = layout + tracking",
-      "click to open poelab.com: select difficulty, right-click layout image, click <copy image>",
-      "optional: right-click <lab compass file>, click <copy link address>"
+      "紅色 = 佈局不可用/過時，黃色 = 僅佈局，綠色 = 佈局 + 追蹤",
+      "點擊以開啟 poelab.com：選擇難度，右鍵點擊佈局圖片，點擊 <複製圖片>",
+      "可選：右鍵點擊 <lab compass file>，點擊 <複製連結位址>"
     ]
   },
   "leveltracker": {
     "skilltree-cap about": [
-      "load images into slots via pasting or snipping"
+      "透過貼上或截圖將圖片載入到插槽中"
     ],
     "skilltree-cap ascend": [
-      "load images into slots via pasting or snipping",
-      "slot 05 is reserved for a potential endgame respec"
+      "透過貼上或截圖將圖片載入到插槽中",
+      "05 號插槽保留給潛在的endgame重置"
     ],
     "skilltree-cap index": [
-      "click to add a caption to this slot"
+      "點擊以在此插槽中添加標題"
     ],
     "skilltree-cap paste": [
-      "paste image file or data into this slot"
+      "將圖片檔案或資料貼入此插槽"
     ],
     "skilltree-cap snip": [
-      "opens the snipping widget, or triggers a screen-cap"
+      "開啟截圖小工具，或觸發螢幕截圖"
     ],
     "skilltree-cap show": [
-      "long-click to view the image"
+      "長按以查看圖片"
     ],
     "skilltree-cap delete": [
-      "long-click to delete the image"
+      "長按以刪除圖片"
     ],
     "skilltree-cap delete-all": [
-      "long-click to delete all images"
+      "長按以刪除所有圖片"
     ],
     "skilltree-cap caption": [
-      "type in a caption and press <enter>"
+      "輸入標題並按下 <enter>"
     ]
   },
   "leveltrackereditor": {
     "conditions": [
-      "you can choose to only show/include certain guide-pages under specific conditions"
+      "您可以選擇僅在特定條件下顯示/包含某些引導頁面"
     ],
     "discard": [
-      "long-click to discard unsaved changes"
+      "長按以捨棄未儲存的變更"
     ],
     "export": [
-      "copy the guide data into the clipboard"
+      "將引導資料複製到剪貼簿"
     ],
     "guide reset": [
-      "long-click to load the default guide",
-      "(/underline)note: your progress and custom edits will be deleted"
+      "長按以載入預設引導",
+      "(/underline)注意：您的進度與自訂編輯將會被刪除"
     ],
     "preview": [
-      "long-click to see a preview of this guide page"
+      "長按以預覽此引導頁面"
     ],
     "remove panel": [
-      "long-click to remove this page from the guide"
+      "長按以將此頁面從引導中移除"
     ],
     "save": [
-      "long-click to save the changes to this guide slot",
-      "note: your current guide progress will be reset(/underline)"
+      "長按以將變更儲存到此引導插槽",
+      "注意：您目前的引導進度將會重置(/underline)"
     ]
   },
   "leveltrackerschematics": {
     "how-to": [
-      "press <q> or <e> to switch between individual skill-trees",
-      "hold <w> to show an overview of the whole tree",
-      "hold number-keys <1> through <4> to show the individual ascendancy-trees",
-      "press <space> to move the tree's starting point (white circle) to the cursor's position"
+      "按下 <q> 或 <e> 以在個別天賦樹之間切換",
+      "按住 <w> 以顯示整個天賦樹的概覽",
+      "按住數字鍵 <1> 到 <4> 以顯示個別昇華天賦樹",
+      "按下 <space> 以將天賦樹的起點（白色圓圈）移動到游標位置"
     ]
   },
   "actdecoder": {
     "alignment": [
-      "toggles alignment of images between horizontal and vertical"
+      "在圖片的水平和垂直對齊之間切換"
     ],
     "drag": [
-      "- drag to move the overlay\n- right-click to reset to default position of current alignment"
+      "- 拖曳以移動疊層\n- 右鍵點擊以重置為目前對齊的預設位置"
     ],
     "help panel": [
-      "general:\n- scroll to zoom, hold m-mouse for info\n- press space to (un)lock the overlay",
-      "zone-layout images:\n- if border is white, click to pick sub-layout\n- r-click to discard/hide images",
-      "flip/rotate buttons:\n- click: 90°, r-click: -90°\n- click: horizontal, r-click: vertical"
+      "一般：\n- 滾動以縮放，按住中鍵以顯示資訊\n- 按下 space 鍵以鎖定/解鎖疊層",
+      "區域佈局圖片：\n- 如果邊框是白色，點擊以選擇子佈局\n- 右鍵點擊以捨棄/隱藏圖片",
+      "翻轉/旋轉按鈕：\n- 點擊：90°，右鍵點擊：-90°\n- 點擊：水平，右鍵點擊：垂直"
     ],
     "reset": [
-      "click to reset image modifications/picks for this zone"
+      "點擊以重置此區域的圖片修改/選擇"
     ]
   },
   "lootfilter": {
     "add stack": [
-      "enter a stack size, then click this label to add a custom stack rule for this base type"
+      "輸入堆疊大小，然後點擊此標籤以添加此基本類型自訂堆疊規則"
     ],
     "apply mods": [
-      "long-click to create and apply the new file",
-      "(/underline)note: the /itemfilter in-game command will be used, so make sure the chat box is closed and accessible"
+      "長按以建立並應用新檔案",
+      "(/underline)注意：遊戲內將使用 /itemfilter 指令，因此請確保聊天框已關閉且可存取"
     ],
     "backgroundcolor": [
-      "click to select the background color, right-click to reset to the previous color"
+      "點擊以選擇背景顏色，右鍵點擊以重置為前一個顏色"
     ],
     "bordercolor": [
-      "click to select the border color, right-click to reset to the previous color"
+      "點擊以選擇邊框顏色，右鍵點擊以重置為前一個顏色"
     ],
     "textcolor": [
-      "click to select the text color, right-click to reset to the previous color"
+      "點擊以選擇文字顏色，右鍵點擊以重置為前一個顏色"
     ],
     "basefilter": [
-      "select the filter you want to use as the base",
-      "a separate file with your customizations will be created and then applied in game, leaving the base filter unchanged"
+      "選擇您要使用的基礎篩選器",
+      "將會創建一個包含您自訂設定的獨立檔案，然後在遊戲中應用，而基礎篩選器保持不變"
     ],
     "global item-classes": [
-      "enabling this option will reveal additional checkboxes underneath",
-      "you have to tick at least one item-class to enable this override",
-      "this will also hide high-tier items:\nunidentified (tier x)"
+      "啟用此選項將顯示額外的核取方塊",
+      "您必須至少勾選一個物品類別才能啟用此覆寫",
+      "這也將隱藏高階物品：\n未鑑定（等級 x）"
     ],
     "global overrides": [
-      "the options below can be used to quickly modify filtering for larger item-groups",
-      "changes made here will always take precedence over individual customizations, even if the search-results list may not reflect it"
+      "以下選項可用於快速修改大型物品群組的篩選",
+      "此處所做的變更將始終優先於個別自訂設定，即使搜尋結果列表可能不會反映出來"
     ],
     "gui color": [
-      "click to select the background color underneath item labels, or right-click to reset to default"
+      "點擊以選擇物品標籤下方的背景顏色，或右鍵點擊以重置為預設值"
     ],
     "hide": [
-      "hide the entire item-group in game"
+      "在遊戲中隱藏整個物品群組"
     ],
     "highlight color": [
-      "click to select the color used to highlight rule modifications, or right-click to reset to default"
+      "點擊以選擇用於高亮規則修改的顏色，或右鍵點擊以重置為預設值"
     ],
     "incompatible": [
-      "some modifications no longer apply to the new base filter and will be discarded after applying the updates",
-      "this usually means that the new base filter no longer has a specific rule you toggled previously"
+      "某些修改不再適用於新的基礎篩選器，並在應用更新後將被捨棄",
+      "這通常意味著新的基礎篩選器不再包含您之前切換的特定規則"
     ],
     "modifications": [
-      "list of modifications currently applied/pending: long-click this header panel to clear the whole list",
-      "(shift-)click an item name to search for the base type(s), right-click to remove it"
+      "目前應用/待處理的修改列表：長按此標頭面板以清除整個列表",
+      "(shift-)點擊物品名稱以搜尋基本類型，右鍵點擊以移除"
     ],
     "refresh": [
-      "reload the folder's contents, the selected base filter, and the modded filter",
-      "(/underline)note: unsaved changes will be lost"
+      "重新載入資料夾內容、選定的基礎篩選器和修改後的篩選器",
+      "(/underline)注意：未儲存的變更將會遺失"
     ],
     "revert": [
-      "revert every modification in this group"
+      "還原此群組中的所有修改"
     ],
     "search": [
-      "type in item base types and press <enter> to search for existing rules: supports regex, and comma-separation for multi-searches",
-      "you can also (shift-)omni-click items in game to search for the base type(s)"
+      "輸入物品基本類型並按下 <enter> 以搜尋現有規則：支援正規表達式，並用逗號分隔以進行多次搜尋",
+      "您也可以在遊戲中 (shift-)萬用點擊物品以搜尋基本類型"
     ],
     "search reset": [
-      "clear the current search, and show global override options"
+      "清除當前搜尋，並顯示全局覆寫選項"
     ],
     "style color": [
-      "click to select the color used to highlight style modifications, or right-click to reset to default"
+      "點擊以選擇用於高亮樣式修改的顏色，或右鍵點擊以重置為預設值"
     ]
   },
   "maptracker": {
     "logviewer day-select": [
-      "open the date selection: shows a breakdown of logged map runs",
-      "the current search-filter will affect the available dates"
+      "開啟日期選擇：顯示已記錄地圖運行分解",
+      "目前的搜尋篩選器將影響可用日期"
     ],
     "logviewer date help": [
-      "general: click a button to show runs within that period, hold <DEL> while hovering to delete those runs",
-      "years: click a year to show its breakdown below, double-click to load the whole year"
+      "一般：點擊按鈕以顯示該期間內的運行，將滑鼠懸停時按住 <DEL> 以刪除那些運行",
+      "年份：點擊年份以顯示其下方分解，雙擊以載入整個年份"
     ],
     "logviewer export": [
-      "long-click to export the list of runs below as a CSV-file, overwriting any existing file with the same date",
-      "right-click to open the export folder"
+      "長按以將下方運行列表匯出為 CSV 檔案，覆寫任何具有相同日期的現有檔案",
+      "右鍵點擊以開啟匯出資料夾"
     ],
     "logviewer page-entries": [
-      "how many entries to show on each page (auto = log-viewer will adjust to available screen space)"
+      "每頁顯示的條目數量（自動 = 日誌檢視器將根據可用螢幕空間調整）"
     ],
     "logviewer search": [
-      "each column has a search bar that supports regex and custom patterns (hover over them for more info):\npress <enter> to start a search with every input at once, or click the red x to restore the unfiltered log-viewer"
+      "每列都有一個搜尋欄，支援正規表達式和自訂模式（將滑鼠懸停以獲取更多資訊）：\n按下 <enter> 以一次開始所有輸入的搜尋，或點擊紅色 x 以還原未篩選的日誌檢視器"
     ],
     "logviewer sum avg": [
-      "click highlighted cells in this row to display the data within a column as totals / percentages / averages"
+      "點擊此行中高亮的儲存格以將列中的資料顯示為總計/百分比/平均值"
     ],
     "logviewer search map": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)"
     ],
     "logviewer header map": [
-      "long-click a map name to edit it, hold right-click to delete the run",
-      "map names are clickable for searching:\nclick to paste \"<name>\" into the search, r-click to paste \"!<name>\", double-(r-)click to search immediately"
+      "長按地圖名稱以編輯它，按住右鍵以刪除運行",
+      "地圖名稱可點擊以進行搜尋：\n點擊以貼上 \"<名稱>\" 到搜尋中，右鍵點擊以貼上 \"!<名稱>\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search tier": [
-      "supported inputs:\n\"x\" (exact tier), \"!x\" (exclude), \"x-y\" (between x and y), \"x+\" (x or higher)"
+      "支援的輸入：\n\"x\" (精確等級)，\"!x\" (排除)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更高)"
     ],
     "logviewer header tier": [
-      "the tier (map) or level (e.g. contract) of the run",
-      "numbers are clickable for searching:\nclick to paste \"<tier>\" into the search, r-click to paste \"!<tier>\", double-(r-)click to search immediately"
+      "運行的等級（地圖）或級別（例如契約）",
+      "數字可點擊以進行搜尋：\n點擊以貼上 \"<等級>\" 到搜尋中，右鍵點擊以貼上 \"!<等級>\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search run": [
-      "supported inputs:\n\"x\" (exact time), \"x-y\" (between x and y), \"x+\" (x or longer)",
-      "if x/y don't include any colons, they will be treated as seconds, otherwise as (hh:)mm:ss"
+      "支援的輸入：\n\"x\" (精確時間)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更長)",
+      "如果 x/y 不包含任何冒號，它們將被視為秒，否則視為 (hh:)mm:ss"
     ],
     "logviewer header run": [
-      "the time it took to complete the run"
+      "完成運行所需的時間"
     ],
     "logviewer header e-exp": [
-      "effective exp gained in a map (i.e. after penalties), based on your level and the monsters'",
-      "you have to specify your character's name in the <general> section of the settings first"
+      "在地圖中獲得的有效經驗（即懲罰後），根據您的等級和怪物的等級",
+      "您必須先在設定的 <一般> 部分指定您的角色名稱"
     ],
     "logviewer search deaths": [
-      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+      "支援的輸入：\n\"x\" (精確值)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更高)"
     ],
     "logviewer header deaths": [
-      "number of deaths in a run",
-      "header is clickable for searching:\nclick to paste \"1+\" into the search, r-click to paste \"0\", double-(r-)click to search immediately"
+      "運行中的死亡次數",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"1+\" 到搜尋中，右鍵點擊以貼上 \"0\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search portals": [
-      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+      "支援的輸入：\n\"x\" (精確值)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更高)"
     ],
     "logviewer header portals": [
-      "number of portals used in a run"
+      "運行中使用的傳送門數量"
     ],
     "logviewer search kills": [
-      "supported inputs:\n\"x\" (exact value), \"x-y\" (between x and y), \"x+\" (x or higher)"
+      "支援的輸入：\n\"x\" (精確值)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更高)"
     ],
     "logviewer header kills": [
-      "monsters killed in a run (optional, has to be enabled first): uses the in-game /kills command",
-      "header is clickable for searching:\nclick to paste \"1+\" into the search, r-click to paste \"0\", double-(r-)click to search immediately"
+      "運行中擊殺的怪物（可選，必須先啟用）：使用遊戲內的 /kills 指令",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"1+\" 到搜尋中，右鍵點擊以貼上 \"0\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search loot": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)"
     ],
     "logviewer header loot": [
-      "loot found in a map (optional, has to be enabled first):\nclick highlighted cells in this column to view a list with logged loot",
-      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+      "地圖中找到的戰利品（可選，必須先啟用）：\n點擊此欄中高亮的儲存格以查看已記錄戰利品的列表",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"yes\" 到搜尋中，右鍵點擊以貼上 \"no\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search mapinfo": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)",
-      "you can search for mods and also general rolls, e.g. \"100q\" for 100% quantity\n(for general rolls, it will always search for \"x and above\")"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)",
+      "您可以搜尋詞綴和一般屬性，例如 \"100q\" 代表 100% 物品數量\n（對於一般屬性，它將始終搜尋 \"x 及以上\"）"
     ],
     "logviewer search mapinfo 2": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)"
     ],
     "logviewer header mapinfo": [
-      "mods rolled on a map (optional, has to be enabled first):\nclick highlighted cells in this column to view a list of logged mods",
-      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+      "地圖上擲出的詞綴（可選，必須先啟用）：\n點擊此欄中高亮的儲存格以查看已記錄詞綴的列表",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"yes\" 到搜尋中，右鍵點擊以貼上 \"no\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search notes": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)"
     ],
     "logviewer header notes": [
-      "custom notes for runs (adding notes during/before the run is optional and has to be enabled first):\nright-click cells in this column to add/edit notes after the run, click highlighted cells to view them",
-      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+      "運行自訂筆記（在運行期間/之前添加筆記是可選的，必須先啟用）：\n右鍵點擊此欄中的儲存格以在運行後添加/編輯筆記，點擊高亮儲存格以查看它們",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"yes\" 到搜尋中，右鍵點擊以貼上 \"no\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search character": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)\n\"x\" (exact level), \"x-y\" (between x and y), \"x+\" (x or higher)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)\n\"x\" (精確等級)，\"x-y\" (x 和 y 之間)，\"x+\" (x 或更高)"
     ],
     "logviewer header character": [
-      "information about the character (and build) played in the run:\nclick highlighted cells in this column to view this information",
-      "header is clickable for searching:\nclick to paste \"yes\" into the search, r-click to paste \"no\", double-(r-)click to search immediately"
+      "關於運行中使用的角色（和流派）的資訊：\n點擊此欄中高亮的儲存格以查看此資訊",
+      "標頭可點擊以進行搜尋：\n點擊以貼上 \"yes\" 到搜尋中，右鍵點擊以貼上 \"no\"，雙擊(右鍵)以立即搜尋"
     ],
     "logviewer search content": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)",
-      "available short-hand inputs: \"elder\" for elder guardians, \"sirus\" for conquerors"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)",
+      "可用的簡寫輸入：\"elder\" 代表尊師守護者，\"sirus\" 代表征服者"
     ],
     "logviewer search content 2": [
-      "supported inputs:\n\"xyz\" (search), \"!abc\" (exclude), \"xyz !abc\" (search xyz, exclude abc), \"abc, xyz, ...\" (search abc, and xyz, ...)"
+      "支援的輸入：\n\"xyz\" (搜尋)，\"!abc\" (排除)，\"xyz !abc\" (搜尋 xyz，排除 abc)，\"abc, xyz, ...\" (搜尋 abc，和 xyz，...)"
     ],
     "logviewer header content": [
-      "side-content you encountered in a map (optional, has to be enabled first)",
-      "header & icons are clickable for searching:\nclick to paste \"<content>\" into the search, r-click to paste \"!<content>\", double-(r-)click to search immediately"
+      "您在地圖中遇到的邊際內容（可選，必須先啟用）",
+      "標頭和圖示可點擊以進行搜尋：\n點擊以貼上 \"<內容>\" 到搜尋中，右鍵點擊以貼上 \"!<內容>\"，雙擊(右鍵)以立即搜尋"
     ]
   },
   "maptrackernotes": {
     "help": [
-      "type in custom notes and press <enter>: include \"X#\" before the note to limit it to X runs",
-      "omni-click items to add them to the notes:\nmap-device items are highlighted yellow and limited to 4",
-      "long-click a note to remove it, or the header to clear everything"
+      "輸入自訂筆記並按下 <enter>：在筆記前包含 \"X#\" 以將其限制為 X 次運行",
+      "萬用點擊物品以將它們添加到筆記中：\n地圖裝置物品以黃色高亮顯示並限制為 4 個",
+      "長按筆記以將其移除，或長按標頭以清除所有內容"
     ]
   },
   "notepad": {
     "colors": [
-      "text color: click to open the color-palette, right-click to reset"
+      "文字顏色：點擊以開啟調色盤，右鍵點擊以重置"
     ],
     "colors1": [
-      "background color: click to open the color-palette, right-click to reset"
+      "背景顏色：點擊以開啟調色盤，右鍵點擊以重置"
     ],
     "widget": [
-      "click to select tab, drag to create a widget, hold right-click to delete"
+      "點擊以選擇分頁，拖曳以建立小工具，按住右鍵以刪除"
     ],
     "widget help": [
-      "widgets are inactive (unclickable) unless <tab> is held down",
-      "left-click to drag widgets, right-click to destroy widgets",
-      "you can create scrollable widgets with individual pages by separating the text with lines that only contain a single hash-sign (#)"
+      "小工具除非按住 <tab> 鍵，否則為非活動狀態（不可點擊）",
+      "左鍵點擊以拖曳小工具，右鍵點擊以銷毀小工具",
+      "您可以透過用僅包含單個井字號 (#) 的行分隔文本來創建帶有單獨頁面的可滾動小工具"
     ],
     "widget grouped": [
-      "drag to combine every note into a single, scrollable widget"
+      "拖曳以將每個筆記組合成一個可滾動的小工具"
     ]
   },
   "sanctum": {
     "calibrate paths": [
-      "click to open the snipping tool and calibrate the scanner for pathing: use right-click and wasd for more precise snipping",
-      "long-right-click to delete previous calibration data and start over"
+      "點擊以開啟截圖工具並校準掃描器以進行路徑規劃：使用右鍵和 WASD 進行更精確的截圖",
+      "長按右鍵以刪除先前的校準資料並重新開始"
     ],
     "calibrate rooms": [
-      "click to open the snipping tool and calibrate the scanner for room count and positions",
-      "long-right-click to delete previous calibration data and start over"
+      "點擊以開啟截圖工具並校準掃描器以進行房間計數和位置",
+      "長按右鍵以刪除先前的校準資料並重新開始"
     ],
     "general": [
-      "press <space> to lock the overlay so it doesn't automatically hide\npress <esc> to close it",
-      "click a room to mark it as a target room:\ngreen highlighting will show the available pathing",
-      "right-click one or more rooms you want to avoid:\npurple highlighting will show the pathing you need to avoid, and black highlighting will show which rooms will become completely blocked",
-      "middle-click a room to treat it as the current room:\nevery room that is no longer relevant will be blacked out. you can also hold middle-click and hover back and forth between rooms."
+      "按下 <space> 以鎖定疊層，使其不會自動隱藏\n按下 <esc> 以關閉它",
+      "點擊房間以將其標記為目標房間：\n綠色高亮將顯示可用路徑",
+      "右鍵點擊一個或多個您想避開的房間：\n紫色高亮將顯示您需要避開的路徑，黑色高亮將顯示哪些房間將被完全阻擋",
+      "中鍵點擊房間以將其視為當前房間：\n所有不再相關的房間都將被塗黑。您也可以按住中鍵並在房間之間來回懸停。"
     ],
     "scan": [
-      "click to scan the map, long-right-click to view the scan result"
+      "點擊以掃描地圖，長按右鍵以查看掃描結果"
     ]
   },
   "sanctumrelics": {
     "general": [
-      "right-click relics to load them into the grid",
-      "note: always move the cursor to the top-left corner of the relic(/underline)",
-      "hold <alt> to temporarily hide boxes\npress <esc> to close the overlay: it will also close when clicking <confirm> in game"
+      "右鍵點擊聖物以將其載入到網格中",
+      "注意：始終將游標移動到聖物的左上角(/underline)",
+      "按住 <alt> 暫時隱藏方框\n按下 <esc> 以關閉疊層：在遊戲中點擊 <確認> 也會關閉它"
     ],
     "mods": [
-      "click up to 2 mods to highlight corresponding relics",
-      "right-click mods to highlight corresponding relics in the in-game stash"
+      "點擊最多 2 個詞綴以高亮對應的聖物",
+      "右鍵點擊詞綴以高亮遊戲內倉庫中對應的聖物"
     ],
     "clear": [
-      "long-click to clear the grid and mod-list"
+      "長按以清除網格和詞綴列表"
     ]
   },
   "screenchecks": {
     "atlas": [
-      "(/bold)(/underline)instructions:",
-      "-> open the atlas",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)指示：",
+      "-> 開啟輿圖",
+      "-> 點擊 <校準> 讓工具校準，或者右鍵點擊手動校準",
+      "-> 按照 <測試> 中的指示操作"
     ],
     "gamescreen": [
-      "(/bold)(/underline)explanation:",
-      "-> this check is used to determine whether you are controlling your character or accessing a menu",
-      "(/bold)(/underline)instructions:",
-      "-> close every in-game menu: atlas, inventory, etc.",
-      "-> the minimap has to be in the center",
-      "-> the info-panel (img) has to be fully visible",
-      "-> click <cal>",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)解釋：",
+      "-> 此檢查用於判斷您是在控制角色還是正在存取選單",
+      "(/bold)(/underline)指示：",
+      "-> 關閉所有遊戲內選單：輿圖、物品欄等",
+      "-> 小地圖必須位於中心",
+      "-> 資訊面板（圖片）必須完全可見",
+      "-> 點擊 <校準>",
+      "-> 按照 <測試> 中的指示操作"
     ],
     "inventory": [
-      "(/bold)(/underline)instructions:",
-      "-> open the inventory",
-      "-> the top-right corner (img: yellow) has to be fully visible",
-      "-> click <cal>",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)指示：",
+      "-> 開啟物品欄",
+      "-> 右上角（圖片：黃色）必須完全可見",
+      "-> 點擊 <校準>",
+      "-> 按照 <測試> 中的指示操作"
     ],
     "betrayal": [
-      "(/bold)(/underline)instructions:",
-      "-> open the syndicate board and make sure the x-button is fully visible",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)指示：",
+      "-> 開啟秘教調查面板並確保 X 按鈕完全可見",
+      "-> 點擊 <校準> 讓工具校準，或者右鍵點擊手動校準",
+      "-> 按照 <測試> 中的指示操作"
     ],
     "skilltree": [
-      "(/bold)(/underline)instructions:",
-      "-> open the skilltree",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)指示：",
+      "-> 開啟天賦樹",
+      "-> 點擊 <校準> 讓工具校準，或者右鍵點擊手動校準",
+      "-> 按照 <測試> 中的指示操作"
     ],
     "stash": [
-      "(/bold)(/underline)instructions:",
-      "-> open the stash",
-      "-> click <cal> to let the tool calibrate, OR right-click to manually calibrate",
-      "-> follow the instructions in <test>"
+      "(/bold)(/underline)指示：",
+      "-> 開啟倉庫",
+      "-> 點擊 <校準> 讓工具校準，或者右鍵點擊手動校準",
+      "-> 按照 <測試> 中的指示操作"
     ]
   },
   "statlas": {
     "tier": [
-      "scroll the mouse-wheel to adjust this filter"
+      "滾動滑鼠滾輪以調整此篩選器"
     ]
   },
   "recombination": {
     "color 1": [
-      "click: customize   |   r-click: reset to default",
-      "used to highlight characteristics that match"
+      "點擊：自訂 | 右鍵點擊：重置為預設",
+      "用於高亮匹配的特性"
     ],
     "color 2": [
-      "click: customize   |   r-click: reset to default",
-      "used to highlight incompatibilities that prevent simulation"
+      "點擊：自訂 | 右鍵點擊：重置為預設",
+      "用於高亮阻止模擬的不兼容性"
     ],
     "color 3": [
-      "click: customize   |   r-click: reset to default",
-      "used to highlight things that require attention because they influence the outcome"
+      "點擊：自訂 | 右鍵點擊：重置為預設",
+      "用於高亮需要注意因為會影響結果的事項"
     ],
     "basics": [
-      "one item will be randomly chosen as the final base and retains its influences, tags (e.g. corrupted, split), quality, implicits, enchants, anoints",
-      "you can manipulate odds by crafting/editing mods",
-      "influence-mods cannot be moved to bases that don't have the required influence,\nfractured mods cannot be moved from the original base and only add to the general affix pool there",
-      "(/underline)(/bold)note: mod-weighting hasn't been figured out yet, so results become less accurate the more non-exclusive mods are present in each affix-group (e.g. when combining random loot as opposed to target-crafting the inputs)"
+      "一個物品將被隨機選為最終基礎，並保留其影響、標籤（例如腐化、分裂）、品質、內建詞綴、附魔、塗油",
+      "您可以透過打造/編輯詞綴來操縱機率",
+      "影響詞綴不能移動到沒有所需影響的基礎上，\n破裂詞綴不能從原始基礎移動，只能添加到那裡的一般詞綴池中",
+      "(/underline)(/bold)注意：詞綴權重尚未弄清楚，因此每個詞綴組中非獨佔詞綴越多（例如，結合隨機掉落而非目標打造輸入物品），結果就越不準確"
     ],
     "exclusive": [
-      "whether or not a mod is \"exclusive\" (i.e. part of a specific group and therefore affected by restrictions)",
-      "only a single exclusive mod can be recombined onto the final item",
-      "examples: breach, incursion, essence, bestiary, betrayal & veiled, delve, named bench-crafts (tora's, chosen, of the order, etc.) & metamods, elevated mods"
+      "詞綴是否為「獨佔」（即屬於特定群組因此受限制影響）",
+      "最終物品上只能重組一個獨佔詞綴",
+      "範例：裂痕、穿越、精髓、野獸、反叛與隱匿、深淵、命名工藝台工藝（托拉的、選擇的、秩序的等）與中綴詞綴、增幅詞綴"
     ],
     "lock": [
-      "locks the item-slot so it won't be automatically overwritten or cleared when loading items or closing the panel"
+      "鎖定物品插槽，使其在載入物品或關閉面板時不會自動覆寫或清除"
     ],
     "nnn": [
-      "whether or not a mod is \"non-native, natural\" (i.e. restricted to specific bases)",
-      "these mods can only be recombined if the final base meets specific requirements",
-      "examples: influenced, attribute/defense-specific, and fractured mods",
-      "(/underline)note: loading new items into the panel will automatically reset/recheck if mods are nnn"
+      "詞綴是否為「非原生，自然」（即限制於特定基礎）",
+      "這些詞綴只有在最終基礎符合特定要求時才能重組",
+      "範例：影響、屬性/防禦特定和破裂詞綴",
+      "(/underline)注意：將新物品載入面板會自動重置/重新檢查詞綴是否為 nnn"
     ]
   },
   "searchstrings": {
     "config entry-about": [
-      "create a custom list of strings for this use-case by adding entries:\ntype in a descriptive name for the entry and press <enter>",
-      "example-list for harvest crafting:\n- sacrifice corrupted map\n- sacrifice div card\n- change resistance"
+      "透過添加條目為此用例創建自訂字串列表：\n輸入條目的描述性名稱並按下 <enter>",
+      "收穫工藝範例列表：\n- 犧牲腐化地圖\n- 犧牲命運卡\n- 改變抗性"
     ],
     "config entry-list": [
-      "click an entry to edit its string(s), long-click <del> to remove it",
-      "paste the string(s) into the edit-field on the right:\nyou can add multiple strings per entry by pasting them into separate lines",
-      "when activating an entry with multiple strings, you can scroll the mouse-wheel to paste them into the game one after the other"
+      "點擊條目以編輯其字串，長按 <del> 以將其移除",
+      "將字串貼入右側的編輯欄位：\n您可以透過將多個字串貼入單獨的行來為每個條目添加多個字串",
+      "當激活具有多個字串的條目時，您可以滾動滑鼠滾輪將它們一個接一個地貼入遊戲中"
     ]
   },
   "seed-explorer": {
     "import": [
-      "imports a jewel from clipboard (e.g. copied from trade)"
+      "從剪貼簿匯入一個珠寶（例如從交易網站複製的）"
     ],
     "trade": [
-      "opens the trade-site with a search for this seed"
+      "開啟交易網站並搜尋此種子"
     ],
     "download": [
-      "the required databases have not been downloaded yet",
-      "click this button to start the download"
+      "所需的資料庫尚未下載",
+      "點擊此按鈕開始下載"
     ],
     "legion notables": [
-      "the list below shows every legion notable of the current jewel type",
-      "hover over notables to see their effects, right-click them to mark them as desired"
+      "下方列表顯示了當前珠寶類型的所有軍團大點",
+      "將滑鼠懸停在大點上以查看其效果，右鍵點擊它們以將其標記為期望的"
     ],
     "legion notables socket": [
-      "the list below shows the resulting modifications after slotting this jewel into the selected jewel slot",
-      "hover over notables to see their effects,\nclick them to highlight their position on the in-game skilltree,\nright-click them to mark them as desired"
+      "下方列表顯示了將此珠寶插入選定珠寶插槽後的結果修改",
+      "將滑鼠懸停在大點上以查看其效果，\n點擊它們以在遊戲內天賦樹上高亮其位置，\n右鍵點擊它們以將其標記為期望的"
     ],
     "socket": [
-      "the list below shows the regular notables around the currently-selected jewel socket",
-      "click a notable to highlight it on the in-game skilltree, right-click it to mark it as allocated",
-      "allocated notables are highlighted green, or yellow if the current seed turns it into a desired legion notable"
+      "下方列表顯示了目前選定珠寶插槽周圍的常規大點",
+      "點擊一個大點以在遊戲內天賦樹上高亮它，右鍵點擊它以將其標記為已分配",
+      "已分配的大點將以綠色高亮顯示，如果當前種子將其變成期望的軍團大點，則以黃色高亮顯示"
     ],
     "tree": [
-      "click a jewel socket to load it into the explorer above, or click it again to deselect it",
-      "each socket may be labeled with numbers if the seed results in desired legion notables:\n- teal labels show the number of desired legion notables around the socket\n- yellow labels show the number of allocated notables that will turn into desired legion notables"
+      "點擊一個珠寶插槽以將其載入上方探索器中，或再次點擊以取消選擇",
+      "每個插槽可能標有數字，如果種子導致期望的軍團大點：\n- 青色標籤顯示插槽周圍期望軍團大點的數量\n- 黃色標籤顯示將轉化為期望軍團大點的已分配大點數量"
     ],
     "update": [
-      "click this button to check for database updates"
+      "點擊此按鈕以檢查資料庫更新"
     ]
   },
   "snip": {
     "about": [
-      "resize and place this widget over an area you want to screencap",
-      "use arrow keys to move/resize the widget by 1 pixel",
-      "hold <alt> to resize instead of moving,\nhold <ctrl> to move/resize by 10 pixels",
-      "click <snip> on a specific slot to save the image into it"
+      "調整此小工具大小並將其放置在您要截圖的區域上方",
+      "使用方向鍵以 1 像素移動/調整小工具大小",
+      "按住 <alt> 鍵可調整大小而非移動，\n按住 <ctrl> 鍵可移動/調整大小 10 像素",
+      "點擊特定插槽上的 <snip> 以將圖片儲存到其中"
     ]
   }
 }
