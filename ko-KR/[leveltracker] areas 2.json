@@ -2,455 +2,455 @@
   [
     {
       "id": "g1_1",
-      "name": "the riverbank"
+      "name": "河岸"
     },
     {
       "id": "g1_town",
-      "name": "clearfell encampment"
+      "name": "皆伐營地"
     },
     {
       "id": "g1_2",
-      "name": "clearfell"
+      "name": "皆伐"
     },
     {
       "id": "g1_3",
-      "name": "mud burrow"
+      "name": "泥沼陋居"
     },
     {
       "id": "g1_4",
-      "name": "the grelwood"
+      "name": "葛瑞爾林"
     },
     {
       "id": "g1_5",
-      "name": "the red vale"
+      "name": "赤谷"
     },
     {
       "id": "g1_6",
-      "name": "the grim tangle"
+      "name": "纏縛陰林"
     },
     {
       "id": "g1_7",
-      "name": "cemetery of the eternals"
+      "name": "不朽帝國之墓"
     },
     {
       "id": "g1_8",
-      "name": "mausoleum of the praetor"
+      "name": "政務官陵墓"
     },
     {
       "id": "g1_9",
-      "name": "tomb of the consort"
+      "name": "配偶的墓室"
     },
     {
       "id": "g1_10",
-      "name": "root hollow"
+      "name": "盤根魔域"
     },
     {
       "id": "g1_11",
-      "name": "hunting grounds"
+      "name": "獵場"
     },
     {
       "id": "g1_12",
-      "name": "freythorn"
+      "name": "弗雷索恩"
     },
     {
       "id": "g1_13_1",
-      "name": "ogham farmlands"
+      "name": "奧格姆農地"
     },
     {
       "id": "g1_13_2",
-      "name": "ogham village"
+      "name": "奧格姆村"
     },
     {
       "id": "g1_14",
-      "name": "the manor ramparts"
+      "name": "宅第壁壘"
     },
     {
       "id": "g1_15",
-      "name": "ogham manor"
+      "name": "奧格姆宅第"
     }
   ],
   [
     {
       "id": "g2_1",
-      "name": "vastiri outskirts"
+      "name": "瓦斯提里郊區"
     },
     {
       "id": "g2_town",
-      "name": "the ardura caravan"
+      "name": "阿杜拉車隊"
     },
     {
       "id": "g2_2",
-      "name": "traitor's passage"
+      "name": "叛徒之路"
     },
     {
       "id": "g2_3a",
-      "name": "the halani gates"
+      "name": "哈拉妮關口"
     },
     {
       "id": "g2_3",
-      "name": "the halani gates"
+      "name": "哈拉妮關口"
     },
     {
       "id": "g2_4_1",
-      "name": "keth"
+      "name": "凱斯城"
     },
     {
       "id": "g2_4_2",
-      "name": "the lost city"
+      "name": "失落之城"
     },
     {
       "id": "g2_4_3",
-      "name": "buried shrines"
+      "name": "掩埋神殿"
     },
     {
       "id": "g2_5_1",
-      "name": "mastodon badlands"
+      "name": "乳齒象惡地"
     },
     {
       "id": "g2_5_2",
-      "name": "the bone pits"
+      "name": "骨坑"
     },
     {
       "id": "g2_6",
-      "name": "valley of the titans"
+      "name": "泰坦之谷"
     },
     {
       "id": "g2_7",
-      "name": "the titan grotto"
+      "name": "泰坦石窟"
     },
     {
       "id": "g2_8",
-      "name": "deshar"
+      "name": "戴斯哈"
     },
     {
       "id": "g2_9_1",
-      "name": "path of mourning"
+      "name": "悼念之路"
     },
     {
       "id": "g2_9_2",
-      "name": "the spires of deshar"
+      "name": "戴斯哈尖塔"
     },
     {
       "id": "g2_10_1",
-      "name": "mawdun quarry"
+      "name": "莫頓挖石場"
     },
     {
       "id": "g2_10_2",
-      "name": "mawdun mine"
+      "name": "莫頓礦坑"
     },
     {
       "id": "g2_12_1",
-      "name": "the dreadnought"
+      "name": "無畏隊"
     },
     {
       "id": "g2_12_2",
-      "name": "dreadnought vanguard"
+      "name": "無畏隊先鋒"
     },
     {
       "id": "g2_13",
-      "name": "trial of the sekhemas"
+      "name": "絲克瑪試煉"
     }
   ],
   [
     {
       "id": "g3_1",
-      "name": "sandswept marsh"
+      "name": "風沙沼澤"
     },
     {
       "id": "g3_town",
-      "name": "ziggurat encampment"
+      "name": "高地神塔營地"
     },
     {
       "id": "g3_2_1",
-      "name": "infested barrens"
+      "name": "感染荒地"
     },
     {
       "id": "g3_2_2",
-      "name": "the matlan waterways"
+      "name": "瑪特蘭水道"
     },
     {
       "id": "g3_4",
-      "name": "the venom crypts"
+      "name": "劇毒墓穴"
     },
     {
       "id": "g3_3",
-      "name": "jungle ruins"
+      "name": "叢林遺跡"
     },
     {
       "id": "g3_5",
-      "name": "chimeral wetlands"
+      "name": "龍蜥濕地"
     },
     {
       "id": "g3_6_1",
-      "name": "jiquani's machinarium"
+      "name": "吉卡尼的機械迷城"
     },
     {
       "id": "g3_6_2",
-      "name": "jiquani's sanctum"
+      "name": "吉卡尼的聖域"
     },
     {
       "id": "g3_7",
-      "name": "the azak bog"
+      "name": "阿札克泥沼"
     },
     {
       "id": "g3_8",
-      "name": "the drowned city"
+      "name": "淹沒之城"
     },
     {
       "id": "g3_9",
-      "name": "the molten vault"
+      "name": "熔岩寶庫"
     },
     {
       "id": "g3_10_airlock",
-      "name": "the temple of chaos"
+      "name": "混沌神殿"
     },
     {
       "id": "g3_11",
-      "name": "apex of filth"
+      "name": "污垢頂峰"
     },
     {
       "id": "g3_12",
-      "name": "temple of kopec"
+      "name": "科佩克神殿"
     },
     {
       "id": "g3_14",
-      "name": "utzaal"
+      "name": "奧札爾"
     },
     {
       "id": "g3_16",
-      "name": "aggorat"
+      "name": "阿戈拉"
     },
     {
       "id": "g3_17",
-      "name": "the black chambers"
+      "name": "漆黑密室"
     }
   ],
   [
     {
       "id": "c_g1_1",
-      "name": "the riverbank"
+      "name": "河岸"
     },
     {
       "id": "c_g1_town",
-      "name": "clearfell encampment"
+      "name": "皆伐營地"
     },
     {
       "id": "c_g1_2",
-      "name": "clearfell"
+      "name": "皆伐"
     },
     {
       "id": "c_g1_3",
-      "name": "mud burrow"
+      "name": "泥沼陋居"
     },
     {
       "id": "c_g1_4",
-      "name": "the grelwood"
+      "name": "葛瑞爾林"
     },
     {
       "id": "c_g1_5",
-      "name": "the red vale"
+      "name": "赤谷"
     },
     {
       "id": "c_g1_6",
-      "name": "the grim tangle"
+      "name": "纏縛陰林"
     },
     {
       "id": "c_g1_7",
-      "name": "cemetery of the eternals"
+      "name": "不朽帝國之墓"
     },
     {
       "id": "c_g1_8",
-      "name": "mausoleum of the praetor"
+      "name": "政務官陵墓"
     },
     {
       "id": "c_g1_9",
-      "name": "tomb of the consort"
+      "name": "配偶的墓室"
     },
     {
       "id": "c_g1_10",
-      "name": "root hollow"
+      "name": "盤根魔域"
     },
     {
       "id": "c_g1_11",
-      "name": "hunting grounds"
+      "name": "獵場"
     },
     {
       "id": "c_g1_12",
-      "name": "freythorn"
+      "name": "弗雷索恩"
     },
     {
       "id": "c_g1_13_1",
-      "name": "ogham farmlands"
+      "name": "奧格姆農地"
     },
     {
       "id": "c_g1_13_2",
-      "name": "ogham village"
+      "name": "奧格姆村"
     },
     {
       "id": "c_g1_14",
-      "name": "the manor ramparts"
+      "name": "宅第壁壘"
     },
     {
       "id": "c_g1_15",
-      "name": "ogham manor"
+      "name": "奧格姆宅第"
     }
   ],
   [
     {
       "id": "c_g2_1",
-      "name": "vastiri outskirts"
+      "name": "瓦斯提里郊區"
     },
     {
       "id": "c_g2_town",
-      "name": "the ardura caravan"
+      "name": "阿杜拉車隊"
     },
     {
       "id": "c_g2_2",
-      "name": "traitor's passage"
+      "name": "叛徒之路"
     },
     {
       "id": "c_g2_3a",
-      "name": "the halani gates"
+      "name": "哈拉妮關口"
     },
     {
       "id": "c_g2_3",
-      "name": "the halani gates"
+      "name": "哈拉妮關口"
     },
     {
       "id": "c_g2_4_1",
-      "name": "keth"
+      "name": "凱斯城"
     },
     {
       "id": "c_g2_4_2",
-      "name": "the lost city"
+      "name": "失落之城"
     },
     {
       "id": "c_g2_4_3",
-      "name": "buried shrines"
+      "name": "掩埋神殿"
     },
     {
       "id": "c_g2_5_1",
-      "name": "mastodon badlands"
+      "name": "乳齒象惡地"
     },
     {
       "id": "c_g2_5_2",
-      "name": "the bone pits"
+      "name": "骨坑"
     },
     {
       "id": "c_g2_6",
-      "name": "valley of the titans"
+      "name": "泰坦之谷"
     },
     {
       "id": "c_g2_7",
-      "name": "the titan grotto"
+      "name": "泰坦石窟"
     },
     {
       "id": "c_g2_8",
-      "name": "deshar"
+      "name": "戴斯哈"
     },
     {
       "id": "c_g2_9_1",
-      "name": "path of mourning"
+      "name": "悼念之路"
     },
     {
       "id": "c_g2_9_2",
-      "name": "the spires of deshar"
+      "name": "戴斯哈尖塔"
     },
     {
       "id": "c_g2_10_1",
-      "name": "mawdun quarry"
+      "name": "莫頓挖石場"
     },
     {
       "id": "c_g2_10_2",
-      "name": "mawdun mine"
+      "name": "莫頓礦坑"
     },
     {
       "id": "c_g2_12_1",
-      "name": "the dreadnought"
+      "name": "無畏隊"
     },
     {
       "id": "c_g2_12_2",
-      "name": "dreadnought vanguard"
+      "name": "無畏隊先鋒"
     }
   ],
   [
     {
       "id": "c_g3_1",
-      "name": "sandswept marsh"
+      "name": "風沙沼澤"
     },
     {
       "id": "c_g3_town",
-      "name": "ziggurat encampment"
+      "name": "高地神塔營地"
     },
     {
       "id": "c_g3_2_1",
-      "name": "infested barrens"
+      "name": "感染荒地"
     },
     {
       "id": "c_g3_2_2",
-      "name": "the matlan waterways"
+      "name": "瑪特蘭水道"
     },
     {
       "id": "c_g3_4",
-      "name": "the venom crypts"
+      "name": "劇毒墓穴"
     },
     {
       "id": "c_g3_3",
-      "name": "jungle ruins"
+      "name": "叢林遺跡"
     },
     {
       "id": "c_g3_5",
-      "name": "chimeral wetlands"
+      "name": "龍蜥濕地"
     },
     {
       "id": "c_g3_6_1",
-      "name": "jiquani's machinarium"
+      "name": "吉卡尼的機械迷城"
     },
     {
       "id": "c_g3_6_2",
-      "name": "jiquani's sanctum"
+      "name": "吉卡尼的聖域"
     },
     {
       "id": "c_g3_7",
-      "name": "the azak bog"
+      "name": "阿札克泥沼"
     },
     {
       "id": "c_g3_8",
-      "name": "the drowned city"
+      "name": "淹沒之城"
     },
     {
       "id": "c_g3_9",
-      "name": "the molten vault"
+      "name": "熔岩寶庫"
     },
     {
       "id": "c_g3_10_airlock",
-      "name": "the temple of chaos"
+      "name": "混沌神殿"
     },
     {
       "id": "c_g3_11",
-      "name": "apex of filth"
+      "name": "污垢頂峰"
     },
     {
       "id": "c_g3_12",
-      "name": "temple of kopec"
+      "name": "科佩克神殿"
     },
     {
       "id": "c_g3_14",
-      "name": "utzaal"
+      "name": "奧札爾"
     },
     {
       "id": "c_g3_16",
-      "name": "aggorat"
+      "name": "阿戈拉"
     },
     {
       "id": "c_g3_17",
-      "name": "the black chambers"
+      "name": "漆黑密室"
     }
   ],
   [
     {
       "id": "g_endgame_town",
-      "name": "the ziggurat refuge"
+      "name": "高地神塔庇護所"
     }
   ]
 ]
