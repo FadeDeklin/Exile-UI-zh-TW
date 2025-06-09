@@ -8,3 +8,29 @@
 
 - 由於大部分繁體中文玩家使用的聊天室語言設定為韓文，所以 `Exile-UI` 的 語系資料夾命名為 `ko-KR`。
   - 如果你想要自訂為其他語系在 `Exile-UI` 中使用，請將 `ko-KR` 資料夾重新命名為你想要的語系名稱。
+
+## 已翻譯內容
+- [ ] areas 2.json
+- [ ] areas.json
+- [ ] default guide 2.json
+- [ ] default guide.json
+- [ ] gems 2.json
+- [ ] gems.json
+- [ ] relics 2.json
+- [ ] relics.json
+- [ ] anoints 2.json
+- [ ] anoints.jso
+- [ ] Betrayal.jso
+- [?] client.tx - 客戶端字詞翻譯 - 部分完成, 尚有部分功能無法運作
+- [ ] essences.jso
+- [x] help tooltips.json - 介面說明提示
+- [ ] map-info 2.txt
+- [ ] map-info.tx
+- [ ] maps 2.json
+- [ ] timeless jewels.json
+- [ ] TLDR-tooltips.json
+- [x] UI.txt - 使用者介面
+
+## TODO
+- [ ] 完成所有翻譯
+- [ ] 修正Exile-UI/img/GUI/item info/ 物品資訊圖示未套用問題

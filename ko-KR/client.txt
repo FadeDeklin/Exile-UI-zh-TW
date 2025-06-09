@@ -276,10 +276,10 @@
 		items_evasion			=	"閃避值:"
 		items_energy			=	"能量護盾:"
 		items_ward			=	"保護:"
-		items_aps			=	"每秒攻擊速度:"
+		items_aps			=	"每秒攻擊次數:"
 		items_quality			=	"品質:"
 		items_phys_dmg			=	"物理傷害:"
-		items_dmg			=	"# 傷害:"
+		items_dmg			=	"#傷害:"
 		items_chaos_dmg			=	"混沌傷害:"
 
 		items_ele_dmg			=	"元素傷害:"					;## PoE1 only, ele-dmg is displayed differently
@@ -336,7 +336,7 @@
 		items_implicit_tiers		=	"卓越"
 		items_implicit_tiers		=	"精緻"
 		items_implicit_tiers		=	"完美"
-		items_tier			=	"階層："					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
+		items_tier			=	"階層"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
 		items_unscalable		=	"無法使用的值"			;## this is displayed next to certain modifiers, e.g. "Hits cannot be evaded", "Socketed gems are supported by XYZ"
 
 
@@ -486,7 +486,7 @@
 		mods_armour_evasion_%		=	"% 護甲與閃避"
 		mods_armour_energy_%		=	"% 護甲與能量護盾"
 		mods_evasion_energy_%		=	"% 閃避與能量護盾"
-		mods_damage_flat		=	"附加 # 至 # 傷害"					;## e.g. "adds 7 to 17 XYZ damage..."
+		mods_damage_flat		=	"附加 # 至 #傷害"					;## e.g. "adds 7 to 17 XYZ damage..."
 		mods_phys_%			=	"% 物理傷害"				;## local mod on weapons
 
 		mods_armour_evasion_energy_%	=	"% 護甲、閃避與能量護盾"		;## PoE1 only (whole block), crafting bench
