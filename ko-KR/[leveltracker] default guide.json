@@ -1,21 +1,21 @@
 [
   [
     [
-      "find and kill hillock",
-      "enter areaid1_1_town (img:town) ;; lioneye's watch"
+      "找到並殺死西拉客",
+      "進入 areaid1_1_town (img:town) ;; 獅眼守望"
     ],
     [
-      "tarkleigh: <enemy_at_the_gate>",
-      "enter areaid1_1_2 ;; the coast"
+      "塔格拉: <大門口的敵人>",
+      "進入 areaid1_1_2 ;; 暮光海灘"
     ],
     [
-      "activate the (img:waypoint)",
-      "enter areaid1_1_3 ;; the mud flats"
+      "找到 (img:waypoint)",
+      "進入 areaid1_1_3 ;; 炙熱鹽沼"
     ],
     [
-      "find 3x (quest:glyph)",
-      "(hint)____ connected by streams, usually form a triangle or line",
-      "enter areaid1_1_4_1 ;; the submerged passage"
+      "找到 3x (quest:雕紋)",
+      "(hint)____ 由溪流連接，通常形成三角形或線狀",
+      "進入 areaid1_1_4_1 ;; 海潮地穴"
     ],
     {
       "condition": [
@@ -23,7 +23,7 @@
         "no"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+        "(img:waypoint) areaid1_1_town (img:town) ;; 獅眼守望"
       ]
     },
     {
@@ -32,7 +32,7 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_1_2 ;; the coast"
+        "(img:waypoint) areaid1_1_2 ;; 暮光海灘"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "yes"
       ],
       "lines": [
-        "enter areaid1_1_2a ;; the tidal island"
+        "進入 areaid1_1_2a ;; 海潮孤島"
       ]
     },
     {
@@ -50,10 +50,10 @@
         "yes"
       ],
       "lines": [
-        "find and kill hailrake for (quest:medicine_chest)",
-        "(hint)____ go (img:6). if there's a ledge, go (img:2) instead",
-        "(hint)____ recommended level: 4",
-        "relog to areaid1_1_town (img:town) ;; lioneye's watch"
+        "找到並殺死 酷寒之使 (quest:醫藥箱)",
+        "(hint)____ 往 (img:6). 若有邊緣，請改走 (img:2) ",
+        "(hint)____ 建議等級: 4",
+        "重新登入 areaid1_1_town (img:town) ;; 獅眼守望"
       ]
     },
     {
@@ -62,61 +62,9 @@
         "yes"
       ],
       "lines": [
-        "tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>",
-        "nessa: <mercy_mission>",
-        "(img:waypoint) to areaid1_1_4_1 ;; the submerged passage"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "no"
-      ],
-      "lines": [
-        "tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>",
-        "(img:waypoint) to (color:FEC076)your_hideout, lilly: <mercy_mission> ;; this line only shows with imported PoB",
-        "(img:waypoint) to areaid1_1_4_1 ;; the submerged passage"
-      ]
-    },
-    [
-      "find the bridge or (img:arena) areaid1_1_4_1, place (img:portal) ;; the submerged passage",
-      "cross the bridge, find and enter areaid1_1_5 ;; the ledge"
-    ],
-    [
-      "enter areaid1_1_6 ;; the climb"
-    ],
-    [
-      "enter areaid1_1_7_1 ;; the lower prison"
-    ],
-    [
-      "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
-    ],
-    [
-      "take (img:portal) to areaid1_1_4_1 ;; the submerged passage"
-    ],
-    [
-      "enter areaid1_1_4_0 ;; the flooded depths",
-      "(hint)____ usually (img:6) or (img:1) before crossing the bridge"
-    ],
-    [
-      "find and kill the_dweller_of_the_deep",
-      "(hint)____ search for a large empty room opposite the entrance",
-      "relog to areaid1_1_town (img:town) ;; lioneye's watch"
-    ],
-    [
-      "tarkleigh: <the_dweller_of_the_deep>",
-      "nessa: <the_caged_brute1>",
-      "(img:waypoint) to areaid1_1_7_1 ;; the lower prison"
-    ],
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "complete the (img:lab) trial",
-        "(hint)____ usually (img:1) in the zone",
-        "enter areaid1_1_7_2 ;; the upper prison"
+        "塔格拉: <打破鳥蛋1>, <打破鳥蛋2>",
+        "奈莎: <醫者之心>",
+        "(img:waypoint) areaid1_1_4_1 ;; 海潮地穴"
       ]
     },
     {
@@ -125,20 +73,50 @@
         "no"
       ],
       "lines": [
-        "enter areaid1_1_7_2 ;; the upper prison"
+        "塔格拉: <打破鳥蛋1>, <打破鳥蛋2>",
+        "(img:waypoint) (color:FEC076)your_hideout, lilly: <醫者之心> ;; this line only shows with imported PoB",
+        "(img:waypoint) areaid1_1_4_1 ;; 海潮地穴"
       ]
     },
+    [
+      "找到 橋 或是 (img:arena) areaid1_1_4_1, 放置 (img:portal) ;; 海潮地穴",
+      "穿過 橋, 找到並進入 areaid1_1_5 ;; 沉寂海崖"
+    ],
+    [
+      "進入 areaid1_1_6 ;; 碎岩山坡"
+    ],
+    [
+      "進入 areaid1_1_7_1 ;; 禁靈之獄下層"
+    ],
+    [
+      "(img:waypoint) areaid1_1_town (img:town) ;; 獅眼守望"
+    ],
+    [
+      "從 (img:portal) 回到 areaid1_1_4_1 ;; 海潮地穴"
+    ],
+    [
+      "進入 areaid1_1_4_0 ;; 水聲之淵",
+      "(hint)____ 通常 (img:6) 或 (img:1) 在穿過橋之前"
+    ],
+    [
+      "找到並殺死 深淵巨蟹",
+      "(hint)____ 尋找入口對面的空大房間",
+      "重新登入 areaid1_1_town (img:town) ;; 獅眼守望"
+    ],
+    [
+      "塔格拉: <黑淵危機>",
+      "奈莎: <衝出監牢1>",
+      "(img:waypoint) areaid1_1_7_1 ;; 禁靈之獄下層"
+    ],
     {
       "condition": [
         "league-start",
         "yes"
       ],
       "lines": [
-        "optional: find chemist's strongbox (flasks)",
-        "(hint)____ high chance for quicksilver flask (qsf)",
-        "(hint)____ vendor: qsf + aug + boots // qsf + aug + ms boots",
-        "kill brutus, relog to areaid1_1_town (img:town) ;; lioneye's watch",
-        "(hint)____ recommended level: 8-10"
+        "完成 (img:lab) 試煉",
+        "(hint)____ 通常 (img:1) 在區域內",
+        "進入 areaid1_1_7_2 ;; 禁靈之獄上層"
       ]
     },
     {
@@ -147,59 +125,81 @@
         "no"
       ],
       "lines": [
-        "kill brutus, relog to areaid1_1_town (img:town) ;; lioneye's watch",
-        "(hint)____ recommended level: 8-10"
+        "進入 areaid1_1_7_2 ;; 禁靈之獄上層"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "可選: 找到 藥師的保險箱 (藥劑)",
+        "(hint)____ 獲得水銀藥劑的幾率很高”，",
+        "(hint)____ 商店配方: 水銀藥劑 + 增幅石 + 鞋子 // qsf + aug + ms boots",
+        "殺死 典獄長, 重新登入 areaid1_1_town (img:town) ;; 獅眼守望",
+        "(hint)____ 建議等級: 8-10"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "殺死 典獄長, 重新登入 areaid1_1_town (img:town) ;; 獅眼守望",
+        "(hint)____ 建議等級: 8-10"
       ]
     },
     [
-      "tarkleigh: <the_caged_brute2>",
-      "(img:waypoint) to areaid1_1_8 ;; prisoner's gate"
+      "塔格拉: <衝出監牢2>",
+      "(img:waypoint) areaid1_1_8 ;; 監獄大門"
     ],
     [
-      "enter areaid1_1_9 ;; the ship graveyard",
-      "(hint)____ go down the ledge next to the road"
+      "進入 areaid1_1_9 ;; 魅影船墓",
+      "(hint)____ 沿著路邊的懸崖走"
     ],
     [
-      "find (img:arena) areaid1_1_9a, place (img:portal) ;; the ship graveyard cave",
-      "find and enter areaid1_1_11_1 ;; the cavern of wrath"
+      "找到 (img:arena) areaid1_1_9a, 放置 (img:portal) ;; 魅影船墓洞穴",
+      "找到並進入 areaid1_1_11_1 ;; 怨忿之窟"
     ],
     [
-      "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+      "(img:waypoint) areaid1_1_town (img:town) ;; 獅眼守望"
     ],
     [
-      "take (img:portal) to areaid1_1_9 ;; the ship graveyard"
+      "從 (img:portal) 回到 areaid1_1_9 ;; 魅影船墓"
     ],
     [
-      "enter areaid1_1_9a ;; the ship graveyard cave"
+      "進入 areaid1_1_9a ;; 魅影船墓洞穴"
     ],
     [
-      "find (quest:slave_girl), take (quest:allflame)",
-      "(hint)____ search opposite the entrance",
-      "enter areaid1_1_9, kill fairgraves ;; the ship graveyard",
-      "relog to areaid1_1_town (img:town) ;; lioneye's watch"
+      "找到 (quest:奴隸女孩), 拿 (quest:不滅之火)",
+      "(hint)____ 搜尋入口對面",
+      "進入 areaid1_1_9, 殺死 費爾船長 ;; 魅影船墓",
+      "重新登入 areaid1_1_town (img:town) ;; 獅眼守望"
     ],
     [
-      "bestel: <the_marooned_mariner>",
-      "nessa: <the_siren's_cadence>",
-      "(img:waypoint) to areaid1_1_11_1 ;; the cavern of wrath"
+      "畢斯特: <被放逐的水手>",
+      "奈莎: <海妖之歌>",
+      "(img:waypoint) areaid1_1_11_1 ;; 怨忿之窟"
     ],
     [
-      "enter areaid1_1_11_2 ;; the cavern of anger",
-      "(hint)____ follow the water"
+      "進入 areaid1_1_11_2 ;; 怨忿之窟深處",
+      "(hint)____ 沿著水而行"
     ],
     [
-      "enter (img:arena) merveil's_lair, kill merveil",
-      "(hint)____ follow the water",
-      "(hint)____ recommended level: 11-13",
-      "enter areaid1_2_1 ;; the southern forest"
+      "進入 (img:arena) 殺死 莫薇兒",
+      "(hint)____ 沿著水而行",
+      "(hint)____ 建議等級: 11-13",
+      "進入 areaid1_2_1 ;; 南部森林"
     ]
   ],
   [
     [
-      "enter areaid1_2_town (img:town) ;; the forest encampment"
+      "進入 areaid1_2_town (img:town) ;; 森林營地"
     ],
     [
-      "go (img:1), enter areaid1_2_2 ;; the old fields"
+      "往 (img:1), 進入 areaid1_2_2 ;; 前哨原野"
     ],
     {
       "condition": [
@@ -207,8 +207,8 @@
         "yes"
       ],
       "lines": [
-        "find (img:arena) areaid1_2_2a, place (img:portal) ;; the den",
-        "follow the road, enter areaid1_2_3 ;; the crossroads"
+        "找到 (img:arena) areaid1_2_2a, 放置 (img:portal) ;; 獸穴",
+        "沿著路走, 進入 areaid1_2_3 ;; 危機叉路"
       ]
     },
     {
@@ -217,7 +217,7 @@
         "yes"
       ],
       "lines": [
-        "follow the road, (img:waypoint) to areaid1_2_town (img:town) ;; the forest encampment"
+        "沿著路走, (img:waypoint) areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "yes"
       ],
       "lines": [
-        "take (img:portal) to areaid1_2_2 ;; the old fields"
+        "從 (img:portal) 回到 areaid1_2_2 ;; 前哨原野"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "yes"
       ],
       "lines": [
-        "enter areaid1_2_2a ;; the den"
+        "進入 areaid1_2_2a ;; 獸穴"
       ]
     },
     {
@@ -244,8 +244,8 @@
         "yes"
       ],
       "lines": [
-        "find and kill the_great_white_beast",
-        "relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "找到並殺死 白色巨獸",
+        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -254,8 +254,8 @@
         "yes"
       ],
       "lines": [
-        "yeena: <the_great_white_beast>",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "伊娜: <白色巨獸>",
+        "(img:waypoint) areaid1_2_3 ;; 危機叉路"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "yes"
       ],
       "lines": [
-        "go (img:7), enter areaid1_2_6_1 ;; the chamber of sins level 1"
+        "往 (img:7), 進入 areaid1_2_6_1 ;; 罪孽之殿：第 1 層"
       ]
     },
     {
@@ -273,7 +273,7 @@
         "no"
       ],
       "lines": [
-        "follow the road, enter areaid1_2_3 ;; the crossroads"
+        "沿著路走, 進入 areaid1_2_3 ;; 危機叉路"
       ]
     },
     {
@@ -282,13 +282,13 @@
         "no"
       ],
       "lines": [
-        "follow the road, activate the (img:waypoint)",
-        "go (img:7), enter areaid1_2_6_1 ;; the chamber of sins level 1"
+        "沿著路走, 找到 (img:waypoint)",
+        "往 (img:7), 進入 areaid1_2_6_1 ;; 罪孽之殿：第 1 層"
       ]
     },
     [
-      "enter areaid1_2_6_2 ;; the chamber of sins level 2",
-      "(hint)____ the (img:waypoint) in the central room points to the exit"
+      "進入 areaid1_2_6_2 ;; 罪孽之殿：第 2 層",
+      "(hint)____ 中央房間的 (img:waypoint) 指向出口"
     ],
     {
       "condition": [
@@ -296,11 +296,11 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial",
-        "kill fidelitas for (quest:baleful_gem)",
-        "(hint)____ look for the long hallway",
-        "(hint)____ recommended level: 14-15",
-        "relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "完成 (img:lab) 試煉",
+        "殺死 費德利塔斯 拿到 (quest:邪影寶石)",
+        "(hint)____ 尋找長走廊",
+        "(hint)____ 建議等級: 14-15",
+        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -309,21 +309,21 @@
         "no"
       ],
       "lines": [
-        "kill fidelitas for (quest:baleful_gem)",
-        "(hint)____ look for the long hallway",
-        "(hint)____ recommended level: 14-15",
-        "relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "殺死 費德利塔斯 拿 (quest:邪影寶石)",
+        "(hint)____ 尋找長走廊",
+        "(hint)____ 建議等級: 14-15",
+        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     [
-      "greust: <intruders_in_black>",
-      "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+      "古斯特: <黑色入侵者>",
+      "(img:waypoint) areaid1_2_3 ;; 危機叉路"
     ],
     [
-      "go (img:3), enter areaid1_2_15 ;; the fellshrine ruins"
+      "往 (img:3), 進入 areaid1_2_15 ;; 墮道遺跡"
     ],
     [
-      "follow the road, enter areaid1_2_5_1 ;; the crypt level 1"
+      "沿著路走, 進入 areaid1_2_5_1 ;; 靜謐陵墓 1 樓"
     ],
     {
       "condition": [
@@ -331,8 +331,8 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial",
-        "enter areaid1_2_5_2 ;; the crypt level 2"
+        "完成 (img:lab) 試煉",
+        "進入 areaid1_2_5_2 ;; 靜謐陵墓 2 樓"
       ]
     },
     {
@@ -341,31 +341,31 @@
         "no"
       ],
       "lines": [
-        "enter areaid1_2_5_2 ;; the crypt level 2"
+        "進入 areaid1_2_5_2 ;; 靜謐陵墓 2 樓"
       ]
     },
     [
-      "find (quest:altar), take (quest:golden_hand)",
-      "relog to areaid1_2_town (img:town) ;; the forest encampment"
+      "找到 (quest:黃金之手)",
+      "重新登入 areaid1_2_town (img:town) ;; 森林營地"
     ],
     [
-      "yeena: <through_sacred_ground>",
-      "go (img:5), enter areaid1_2_7 ;; the riverways"
+      "伊娜: <夢中聖地>",
+      "往 (img:5), 進入 areaid1_2_7 ;; 河道"
     ],
     [
-      "follow the road, activate the (img:waypoint)",
-      "follow the road, enter areaid1_2_9 ;; the western forest"
+      "沿著路走, 找到 (img:waypoint)",
+      "沿著路走, 進入 areaid1_2_9 ;; 西部密林"
     ],
     [
-      "follow the road, activate the (img:waypoint)",
-      "enter areaid1_2_10 ;; the weaver's chambers",
-      "(hint)____ search the side of road opposite the (img:waypoint)"
+      "沿著路走, 找到 (img:waypoint)",
+      "進入 areaid1_2_10 ;; 織網者巢穴",
+      "(hint)____ 搜尋 (img:waypoint) 對面的路邊"
     ],
     [
-      "find and kill the_weaver for (quest:maligaro's_spike)",
-      "(hint)____ go (img:6) from the entrance. if it's blocked, go (img:1)",
-      "(hint)____ recommended level: 16",
-      "relog to areaid1_2_town (img:town) ;; the forest encampment"
+      "找到並殺死 巨蛛之母 拿 (quest:馬雷葛蘿的尖刺)",
+      "(hint)____ 往 (img:6) 從入口處。如果被阻止, 往 (img:1)",
+      "(hint)____ 建議等級: 16",
+      "重新登入 areaid1_2_town (img:town) ;; 森林營地"
     ],
     {
       "condition": [
@@ -377,21 +377,8 @@
         ]
       ],
       "lines": [
-        "silk: <sharp_and_cruel>",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
-      ]
-    },
-    {
-      "condition": [
-        "bandit",
-        [
-          "none",
-          "alira",
-          "oak"
-        ]
-      ],
-      "lines": [
-        "go (img:1), enter areaid1_2_4 ;; the broken bridge"
+        "斯克: <清理蜘蛛>",
+        "(img:waypoint) areaid1_2_3 ;; 危機叉路"
       ]
     },
     {
@@ -404,8 +391,21 @@
         ]
       ],
       "lines": [
-        "follow the road, kill kraityn for (quest:kraityn's_amulet)",
-        "relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "往 (img:1), 進入 areaid1_2_4 ;; 河畔斷橋"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "沿著路走, 殺死 克雷頓 拿 (quest:克雷頓的古靈之記)",
+        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -416,8 +416,8 @@
         ]
       ],
       "lines": [
-        "silk: <sharp_and_cruel>",
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "斯克: <清理蜘蛛>",
+        "(img:waypoint) areaid1_2_7 ;; 河道"
       ]
     },
     {
@@ -428,8 +428,8 @@
         ]
       ],
       "lines": [
-        "enter areaid1_2_12 ;; the wetlands",
-        "(hint)____ a side trail forks off between 2 pillars nearby"
+        "進入 areaid1_2_12 ;; 濕地",
+        "(hint)____ 岔路在附近的兩根柱子之間"
       ]
     },
     {
@@ -441,7 +441,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "(img:waypoint) areaid1_2_7 ;; 河道"
       ]
     },
     {
@@ -453,8 +453,8 @@
         ]
       ],
       "lines": [
-        "enter areaid1_2_12 ;; the wetlands",
-        "(hint)____ a side trail forks off between 2 pillars nearby"
+        "進入 areaid1_2_12 ;; 濕地",
+        "(hint)____ 岔路在附近的兩根柱子之間"
       ]
     },
     {
@@ -467,9 +467,9 @@
         ]
       ],
       "lines": [
-        "find and kill oak for (quest:oak's_amulet)",
-        "(img:waypoint) to areaid1_2_9 ;; the western forest",
-        "(hint)____ usually (img:7) or (img:1) from oak's camp, rarely (img:5)"
+        "找到並殺死 歐克 拿 (quest:歐克的古靈之記)",
+        "(img:waypoint) areaid1_2_9 ;; 西部密林",
+        "(hint)____ 通常 (img:7) 或 (img:1) 有歐克的營地, 較少 (img:5)"
       ]
     },
     {
@@ -480,7 +480,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_9 ;; the western forest"
+        "(img:waypoint) areaid1_2_9 ;; 西部密林"
       ]
     },
     {
@@ -493,10 +493,10 @@
         ]
       ],
       "lines": [
-        "find and kill alira for (quest:alira's_amulet)",
-        "(hint)____ go (img:4), find a torch on the road. follow the path that forks off",
-        "follow the main road, kill arteri for (quest:thaumetic_emblem)",
-        "activate the (quest:seal), relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "找到並殺死 阿莉亞 拿 (quest:阿莉亞的古靈之記)",
+        "(hint)____ 往 (img:4), 找到 路上的火炬。沿著岔路走",
+        "沿著主路走, 殺死 阿特力隊長 拿 (quest:奇術徽章)",
+        "激活 (quest:托麥迪克封印), 重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -507,10 +507,10 @@
         ]
       ],
       "lines": [
-        "help (color:ff8111)alira, take (quest:the_apex)",
-        "(hint)____ go (img:4), find a torch on the road. follow the path that forks off",
-        "follow the main road, kill arteri for (quest:thaumetic_emblem)",
-        "activate the (quest:seal), relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "幫助 (color:ff8111)阿莉亞, 拿 (quest:阿莉亞的古靈之記)",
+        "(hint)____ 往 (img:4), 找到 路上的火炬。沿著岔路走",
+        "沿著主路走, 殺死 阿特力隊長 拿 (quest:奇術徽章)",
+        "激活 (quest:托麥迪克封印), 重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -521,8 +521,8 @@
         ]
       ],
       "lines": [
-        "eramir: <deal_with_the_bandits>, take (quest:the_apex)",
-        "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+        "艾米爾: <與盜賊們打交道>, 拿 (quest:巨靈之印)",
+        "(img:waypoint) areaid1_1_town (img:town) ;; 獅眼守望"
       ]
     },
     {
@@ -535,7 +535,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_1_town (img:town) ;; lioneye's watch"
+        "(img:waypoint) areaid1_1_town (img:town) ;; 獅眼守望"
       ]
     },
     {
@@ -546,8 +546,8 @@
         ]
       ],
       "lines": [
-        "bestel: <the_way_forward>",
-        "(img:waypoint) to areaid1_2_3 ;; the crossroads"
+        "畢斯特: <開路先鋒>",
+        "(img:waypoint) areaid1_2_3 ;; 危機叉路"
       ]
     },
     {
@@ -558,7 +558,7 @@
         ]
       ],
       "lines": [
-        "go (img:1), enter areaid1_2_4 ;; the broken bridge"
+        "往 (img:1), 進入 areaid1_2_4 ;; 河畔斷橋"
       ]
     },
     {
@@ -569,8 +569,8 @@
         ]
       ],
       "lines": [
-        "follow the road, help (color:ff8111)kraityn, take (quest:the_apex)",
-        "relog to areaid1_2_town (img:town) ;; the forest encampment"
+        "沿著路走, 幫助 (color:ff8111)克雷頓, 拿 (quest:巨靈之印)",
+        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
     },
     {
@@ -581,8 +581,8 @@
         ]
       ],
       "lines": [
-        "bestel: <the_way_forward>",
-        "(img:waypoint) to areaid1_2_7 ;; the riverways"
+        "畢斯特: <開路先鋒>",
+        "(img:waypoint) areaid1_2_7 ;; 河道"
       ]
     },
     {
@@ -593,8 +593,8 @@
         ]
       ],
       "lines": [
-        "enter areaid1_2_12 ;; the wetlands",
-        "(hint)____ a side trail forks off between 2 pillars nearby"
+        "進入 areaid1_2_12 ;; 濕地",
+        "(hint)____ 岔路在附近的兩根柱子之間"
       ]
     },
     {
@@ -605,9 +605,9 @@
         ]
       ],
       "lines": [
-        "find and help (color:ff8111)oak, take (quest:the_apex)",
-        "poison the (quest:tree_roots), enter areaid1_2_11 ;; the vaal ruins",
-        "(hint)____ usually (img:7) or (img:1) from oak's camp, rarely (img:5)"
+        "找到並幫助 (color:ff8111)歐克, 拿 (quest:巨靈之印)",
+        "毒死 (quest:樹根), 進入 areaid1_2_11 ;; th瓦爾廢墟",
+        "(hint)____ 通常 (img:7) 或 (img:1) 有歐克的營地, 較少 (img:5)"
       ]
     },
     {
@@ -619,8 +619,8 @@
         ]
       ],
       "lines": [
-        "bestel: <the_way_forward>",
-        "(img:waypoint) to areaid1_2_12 ;; the wetlands"
+        "畢斯特: <開路先鋒>",
+        "(img:waypoint) areaid1_2_12 ;; 濕地"
       ]
     },
     {
@@ -631,7 +631,7 @@
         ]
       ],
       "lines": [
-        "(img:waypoint) to areaid1_2_12 ;; the wetlands"
+        "(img:waypoint) areaid1_2_12 ;; 濕地"
       ]
     },
     {
@@ -644,15 +644,15 @@
         ]
       ],
       "lines": [
-        "poison the (quest:tree_roots), enter areaid1_2_11 ;; the vaal ruins"
+        "毒死 (quest:樹根), 進入 areaid1_2_11 ;; 瓦爾廢墟"
       ]
     },
     [
-      "find and enter areaid1_2_8 ;; the northern forest",
-      "(hint)____ zone is usually s- or l-shaped"
+      "找到並進入 areaid1_2_8 ;; 北部密林",
+      "(hint)____ 區域通常呈 S 形或 l 形”"
     ],
     [
-      "enter areaid1_2_14_2 ;; the caverns"
+      "進入 areaid1_2_14_2 ;; 瀑布洞穴"
     ],
     {
       "condition": [
@@ -660,8 +660,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "enter areaid1_2_14_3 ;; the ancient pyramid"
+        "激活 (img:craft)",
+        "進入 areaid1_2_14_3 ;; 古金字塔"
       ]
     },
     {
@@ -670,7 +670,7 @@
         "no"
       ],
       "lines": [
-        "enter areaid1_2_14_3 ;; the ancient pyramid"
+        "進入 areaid1_2_14_3 ;; 古金字塔"
       ]
     },
     {
@@ -679,10 +679,10 @@
         "yes"
       ],
       "lines": [
-        "find and enter (img:arena) pyramid_apex, kill vaal_oversoul",
-        "(hint)____ 1st exit in random corner, then diagonal to each other",
-        "(hint)____ recommended level: 20-22",
-        "activate the (img:craft), enter areaid1_3_1 ;; the city of sarn"
+        "找到並進入 (img:arena) 殺死 瓦爾超靈",
+        "(hint)____ 第一個出口位於任何一個角落，然後彼此對角線",
+        "(hint)____ 建議等級: 20-22",
+        "激活 (img:craft), 進入 areaid1_3_1 ;; 薩恩城廢墟"
       ]
     },
     {
@@ -691,10 +691,10 @@
         "no"
       ],
       "lines": [
-        "find and enter (img:arena) pyramid_apex, kill vaal_oversoul",
-        "(hint)____ 1st exit in random corner, then diagonal to each other",
-        "(hint)____ recommended level: 20-22",
-        "enter areaid1_3_1 ;; the city of sarn"
+        "找到並進入 (img:arena) 殺死 瓦爾超靈",
+        "(hint)____ 第一個出口位於任何一個角落，然後彼此對角線",
+        "(hint)____ 建議等級: 20-22",
+        "激活 (img:craft), 進入 areaid1_3_1 ;; 薩恩城廢墟"
       ]
     }
   ],
@@ -705,9 +705,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "help and talk to (img:quest) clarissa",
-        "enter areaid1_3_town (img:town) ;; the sarn encampment"
+        "激活 (img:craft)",
+        "幫助和交談 (img:quest) 卡爾麗莎",
+        "進入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -716,15 +716,15 @@
         "no"
       ],
       "lines": [
-        "help and talk to (img:quest) clarissa",
-        "enter areaid1_3_town (img:town) ;; the sarn encampment"
+        "幫助和交談 (img:quest) 卡爾麗莎",
+        "進入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     [
-      "enter areaid1_3_2 ;; the slums"
+      "進入 areaid1_3_2 ;; 貧民窟"
     ],
     [
-      "find and enter areaid1_3_3_1 ;; the crematorium"
+      "找到並進入 areaid1_3_3_1 ;; 火葬場"
     ],
     {
       "condition": [
@@ -732,9 +732,9 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial",
-        "find and kill piety for (quest:tolman's_bracelet)",
-        "activate the (img:craft), relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "完成 (img:lab) 試煉",
+        "找到並殺死 派蒂 拿 (quest:托爾曼的手鐲)",
+        "激活 (img:craft), 重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -743,24 +743,24 @@
         "no"
       ],
       "lines": [
-        "find and kill piety for (quest:tolman's_bracelet)",
-        "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "找到並殺死 派蒂 拿 (quest:托爾曼的手鐲)",
+        "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     [
-      "talk to (img:quest) clarissa, take (quest:sewer_keys)",
-      "maramoa: <lost_in_love>",
-      "enter areaid1_3_2 ;; the slums"
+      "跟 (img:quest) 卡爾麗莎對話, 拿 (quest:下水道鑰匙)",
+      "馬拉莫: <迷失的愛情>",
+      "進入 areaid1_3_2 ;; 貧民窟"
     ],
     [
-      "find and open (img:quest) (quest:sewer_grating)",
-      "enter areaid1_3_10_1 ;; the sewers ;; the sewers"
+      "找到並打開 (img:quest) (quest:下水道口)",
+      "進入 areaid1_3_10_1 ;; 下水道迷宮 ;; 下水道迷宮"
     ],
     [
-      "find 1x (quest:platinum_bust)",
-      "activate the (img:waypoint)",
-      "find 2x (quest:platinum_bust)",
-      "enter areaid1_3_5 ;; the marketplace"
+      "找到 1x (quest:半身像)",
+      "找到 (img:waypoint)",
+      "找到 2x (quest:半身像)",
+      "進入 areaid1_3_5 ;; 市集地帶"
     ],
     {
       "condition": [
@@ -768,8 +768,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:waypoint)",
-        "find and enter areaid1_3_6 nearby ;; the catacombs"
+        "找到 (img:waypoint)",
+        "找到並進入 areaid1_3_6 在 (img:waypoint) 附近 ;; 黑石陵墓"
       ]
     },
     {
@@ -778,8 +778,8 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial, activate the (img:craft)",
-        "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "完成 (img:lab) 試煉, 激活 (img:craft)",
+        "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -788,8 +788,8 @@
         "yes"
       ],
       "lines": [
-        "hargan: <victario's_secrets>",
-        "(img:waypoint) to areaid1_3_5 ;; the marketplace"
+        "賀根: <維多里奧的秘寶>",
+        "(img:waypoint) areaid1_3_5 ;; 市集地帶"
       ]
     },
     {
@@ -798,7 +798,7 @@
         "yes"
       ],
       "lines": [
-        "go (img:0), enter areaid1_3_7 ;; the battlefront"
+        "往 (img:0), 進入 areaid1_3_7 ;; 激戰廣場"
       ]
     },
     {
@@ -807,17 +807,17 @@
         "no"
       ],
       "lines": [
-        "activate the (img:waypoint)",
-        "go (img:0), enter areaid1_3_7 ;; the battlefront"
+        "找到 (img:waypoint)",
+        "往 (img:0), 進入 areaid1_3_7 ;; 激戰廣場"
       ]
     },
     [
-      "go (img:7), activate the (img:waypoint)",
-      "go (img:5), find and take (quest:ribbon_spool)",
-      "go (img:1), enter areaid1_3_8_1 ;; the solaris temple level 1"
+      "往 (img:7), 找到 (img:waypoint)",
+      "往 (img:5), 找到 (quest:絲帶線軸)",
+      "往 (img:1), 進入 areaid1_3_8_1 ;; 日耀神殿：第 1 層"
     ],
     [
-      "enter areaid1_3_8_2 ;; the solaris temple level 2"
+      "進入 areaid1_3_8_2 ;; 日耀神殿：第 2 層"
     ],
     {
       "condition": [
@@ -825,8 +825,8 @@
         "yes"
       ],
       "lines": [
-        "enter (img:arena) eternal_laboratory, activate the (img:craft)",
-        "(img:waypoint) to areaid1_3_7 ;; the battlefront"
+        "進入 (img:arena) 永恆實驗室, 激活 (img:craft)",
+        "(img:waypoint) areaid1_3_7 ;; 激戰廣場"
       ]
     },
     {
@@ -835,16 +835,16 @@
         "no"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_3_7 ;; the battlefront"
+        "(img:waypoint) areaid1_3_7 ;; 激戰廣場"
       ]
     },
     [
-      "go (img:7), enter areaid1_3_9 ;; the docks",
-      "(hint)____ recommended level: 24"
+      "往 (img:7), 進入 areaid1_3_9 ;; 不朽海港",
+      "(hint)____ 建議等級: 24"
     ],
     [
-      "find and take (quest:thaumetic_sulphite)",
-      "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+      "找到 (quest:托麥迪克亞硫酸)",
+      "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
     ],
     {
       "condition": [
@@ -852,7 +852,7 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_3_8_2 ;; the solaris temple level 2"
+        "(img:waypoint) areaid1_3_8_2 ;; 日耀神殿：第 2 層"
       ]
     },
     {
@@ -861,14 +861,14 @@
         "no"
       ],
       "lines": [
-        "hargan: <victario's_secrets>",
-        "(img:waypoint) to areaid1_3_8_2 ;; the solaris temple level 2"
+        "賀根: <維多里奧的秘寶>",
+        "(img:waypoint) areaid1_3_8_2 ;; 日耀神殿：第 2 層"
       ]
     },
     [
-      "dialla: <the_ribbon_spool>",
-      "dialla: <fiery_dust>, take (quest:infernal_talc)",
-      "(img:waypoint) to areaid1_3_10_1 ;; the sewers"
+      "達拉: <絲帶線軸>",
+      "達拉: <餘燼之塵>, 拿 (quest:煉獄之粉)",
+      "(img:waypoint) areaid1_3_10_1 ;; 下水道迷宮"
     ],
     {
       "condition": [
@@ -876,8 +876,8 @@
         "yes"
       ],
       "lines": [
-        "burn the (quest:undying_blockage), activate the (img:craft)",
-        "enter areaid1_3_13 ;; the ebony barracks"
+        "燒毀 (quest:不朽障礙), 激活 (img:craft)",
+        "進入 areaid1_3_13 ;; 烏旗守衛兵營"
       ]
     },
     {
@@ -886,17 +886,17 @@
         "no"
       ],
       "lines": [
-        "burn the (quest:undying_blockage)",
-        "enter areaid1_3_13 ;; the ebony barracks"
+        "燒毀 (quest:不朽障礙)",
+        "進入 areaid1_3_13 ;; 烏旗守衛兵營"
       ]
     },
     [
-      "activate the (img:waypoint)",
-      "go (img:7), kill general_gravicius",
-      "go (img:7), enter areaid1_3_14_1 ;; the lunaris temple level 1"
+      "找到 (img:waypoint)",
+      "往 (img:7), 殺死 格拉維奇將軍",
+      "往 (img:7), 進入 areaid1_3_14_1 ;; 月影神殿：第 1 層"
     ],
     [
-      "enter areaid1_3_14_2 ;; the lunaris temple level 2"
+      "進入 areaid1_3_14_2 ;; 月影神殿：第 2 層"
     ],
     {
       "condition": [
@@ -904,10 +904,10 @@
         "yes"
       ],
       "lines": [
-        "find and kill piety for (quest:tower_key)",
-        "(hint)____ follow: stairs that go up, single wagon at the fork",
-        "(hint)____ recommended level: 27",
-        "activate the (img:craft), relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "找到並殺死 派蒂 拿 (quest:神塔之鑰)",
+        "(hint)____ 往上的樓梯，岔路口有一輛馬車",
+        "(hint)____ 建議等級: 27",
+        "激活 (img:craft), 重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -916,19 +916,19 @@
         "no"
       ],
       "lines": [
-        "find and kill piety for (quest:tower_key)",
-        "(hint)____ follow: stairs that go up, single wagon at the fork",
-        "(hint)____ recommended level: 27",
-        "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "找到並殺死 派蒂 拿 (quest:神塔之鑰)",
+        "(hint)____ 往上的樓梯，岔路口有一輛馬車",
+        "(hint)____ 建議等級: 27",
+        "激活 (img:craft), 重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     [
-      "grigor: <piety's_pets>",
-      "maramoa: <sever_the_right_hand>",
-      "(img:waypoint) to areaid1_3_13 ;; the ebony barracks"
+      "葛里戈: <派蒂的寵物>",
+      "馬拉莫: <剷除左右手>",
+      "(img:waypoint) areaid1_3_13 ;; 烏旗守衛兵營"
     ],
     [
-      "go (img:1), enter areaid1_3_15 ;; the imperial gardens"
+      "往 (img:1), 進入 areaid1_3_15 ;; 皇家花園"
     ],
     {
       "condition": [
@@ -936,9 +936,9 @@
         "yes"
       ],
       "lines": [
-        "follow the road, activate the (img:waypoint)",
-        "go (img:0), complete the (img:lab) trial, activate the (img:craft)",
-        "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "沿著路走, 找到 (img:waypoint)",
+        "往 (img:0), 完成 (img:lab) 試煉, 激活 (img:craft)",
+        "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -947,8 +947,8 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_3_15 ;; the imperial gardens",
-        "go (img:7), enter areaid1_3_17_1 ;; the library"
+        "(img:waypoint) areaid1_3_15 ;; 皇家花園",
+        "往 (img:7), 進入 areaid1_3_17_1 ;; 圖書館"
       ]
     },
     {
@@ -957,8 +957,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:waypoint)",
-        "find the loose candle, enter areaid1_3_17_2 ;; the archives"
+        "找到 (img:waypoint)",
+        "找到 鬆散的蠟燭, 進入 areaid1_3_17_2 ;; 檔案室"
       ]
     },
     {
@@ -967,10 +967,10 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "(hint)____ find a candle in a narrow corridor",
-        "find 4x (quest:golden_page)",
-        "relog to areaid1_3_town (img:town) ;; the sarn encampment"
+        "激活 (img:craft)",
+        "(hint)____ 找到 狹窄走廊裡的一支蠟燭",
+        "找到 4x (quest:黃金之頁)",
+        "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -979,7 +979,7 @@
         "yes"
       ],
       "lines": [
-        "get some currency, (img:waypoint) to areaid1_3_17_1 ;; the library"
+        "拿些通貨, (img:waypoint) areaid1_3_17_1 ;; 圖書館"
       ]
     },
     {
@@ -988,8 +988,8 @@
         "yes"
       ],
       "lines": [
-        "siosa: <a_fixture_of_fate>",
-        "(img:waypoint) to areaid1_3_15 ;; the imperial gardens"
+        "薩歐賽: <命運之語>",
+        "(img:waypoint) areaid1_3_15 ;; 皇家花園"
       ]
     },
     {
@@ -998,7 +998,7 @@
         "yes"
       ],
       "lines": [
-        "find and enter areaid1_3_18_1 ;; the sceptre of god"
+        "找到並進入 areaid1_3_18_1 ;; 神之權杖"
       ]
     },
     {
@@ -1007,28 +1007,28 @@
         "no"
       ],
       "lines": [
-        "follow the road, activate the (img:waypoint)",
-        "(img:waypoint) to (color:FEC076)your_hideout, lilly: <a_fixture_of_fate>  ;; this line only shows with imported PoB",
-        "find and enter areaid1_3_18_1 ;; the sceptre of god"
+        "沿著路走, 找到 (img:waypoint)",
+        "(img:waypoint) (color:FEC076)your_hideout, lilly: <命運之語>  ;; this line only shows with imported PoB",
+        "找到並進入 areaid1_3_18_1 ;; 神之權杖"
       ]
     },
     [
-      "enter areaid1_3_18_2 ;; the upper sceptre of god",
-      "(hint)____ floors are circles, stairs can spawn every 90 degrees"
+      "進入 areaid1_3_18_2 ;; 上層神權之塔",
+      "(hint)____ 樓層是圓形的，樓梯可以每隔90度生成"
     ],
     [
-      "enter (img:arena) tower_rooftop, kill dominus",
-      "(hint)____ same floor and stair layout, go (img:1) after scion cage",
-      "(hint)____ recommended level: 28",
-      "enter areaid1_4_1 ;; the aqueduct"
+      "進入 (img:arena) tower_rooftop, 殺死 神主",
+      "(hint)____ 相同的樓層和樓梯佈局, 往 (img:1) 聖宗牢籠之後",
+      "(hint)____ 建議等級: 28",
+      "進入 areaid1_4_1 ;; 水道遺跡"
     ]
   ],
   [
     [
-      "enter areaid1_4_town (img:town) ;; highgate"
+      "進入 areaid1_4_town (img:town) ;; highgate"
     ],
     [
-      "enter areaid1_4_2 ;; the dried lake"
+      "進入 areaid1_4_2 ;; the dried lake"
     ],
     {
       "condition": [
@@ -1036,9 +1036,9 @@
         "yes"
       ],
       "lines": [
-        "find and kill voll for (quest:deshret's_banner)",
-        "(hint)____ recommended level: 30",
-        "activate the (img:craft), relog to areaid1_4_town (img:town) ;; highgate"
+        "找到並殺死 voll 拿 (quest:deshret's_banner)",
+        "(hint)____ 建議等級: 30",
+        "激活 (img:craft), 重新登入 areaid1_4_town (img:town) ;; highgate"
       ]
     },
     {
@@ -1047,13 +1047,13 @@
         "no"
       ],
       "lines": [
-        "find and kill voll for (quest:deshret's_banner)",
-        "(hint)____ recommended level: 30",
-        "relog to areaid1_4_town (img:town) ;; highgate"
+        "找到並殺死 voll 拿 (quest:deshret's_banner)",
+        "(hint)____ 建議等級: 30",
+        "重新登入 areaid1_4_town (img:town) ;; highgate"
       ]
     },
     [
-      "enter areaid1_4_3_1 ;; the mines level 1"
+      "進入 areaid1_4_3_1 ;; the mines level 1"
     ],
     {
       "condition": [
@@ -1061,8 +1061,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "enter areaid1_4_3_2 ;; the mines level 2"
+        "激活 (img:craft)",
+        "進入 areaid1_4_3_2 ;; the mines level 2"
       ]
     },
     {
@@ -1071,12 +1071,12 @@
         "no"
       ],
       "lines": [
-        "enter areaid1_4_3_2 ;; the mines level 2"
+        "進入 areaid1_4_3_2 ;; the mines level 2"
       ]
     },
     [
       "free (quest:deshret)",
-      "enter areaid1_4_3_3 ;; the crystal veins"
+      "進入 areaid1_4_3_3 ;; the crystal veins"
     ],
     {
       "condition": [
@@ -1084,8 +1084,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "(img:waypoint) to areaid1_4_town (img:town) ;; highgate"
+        "激活 (img:craft)",
+        "(img:waypoint) areaid1_4_town (img:town) ;; highgate"
       ]
     },
     {
@@ -1094,26 +1094,26 @@
         "no"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_4_town (img:town) ;; highgate"
+        "(img:waypoint) areaid1_4_town (img:town) ;; highgate"
       ]
     },
     [
       "tasuni: <an_indomitable_spirit>",
       "oyun: <breaking_the_seal>",
-      "(img:waypoint) to areaid1_3_town (img:town) ;; the sarn encampment"
+      "(img:waypoint) areaid1_3_town (img:town) ;; 薩恩營地"
     ],
     [
-      "enter areaidlabyrinth_airlock ;; aspirants' plaza"
+      "進入 areaidlabyrinth_airlock ;; aspirants' plaza"
     ],
     [
       "complete the (img:lab) normal_lab",
-      "(img:waypoint) to areaid1_4_3_3 ;; the crystal veins"
+      "(img:waypoint) areaid1_4_3_3 ;; the crystal veins"
     ],
     [
-      "enter areaid1_4_5_1 ;; daresso's dream"
+      "進入 areaid1_4_5_1 ;; daresso's dream"
     ],
     [
-      "enter areaid1_4_5_2 ;; the grand arena"
+      "進入 areaid1_4_5_2 ;; the grand arena"
     ],
     {
       "condition": [
@@ -1121,8 +1121,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "(img:waypoint) to areaid1_4_3_3 ;; the crystal veins"
+        "激活 (img:craft)",
+        "(img:waypoint) areaid1_4_3_3 ;; the crystal veins"
       ]
     },
     {
@@ -1131,15 +1131,15 @@
         "no"
       ],
       "lines": [
-        "(img:waypoint) to areaid1_4_3_3 ;; the crystal veins"
+        "(img:waypoint) areaid1_4_3_3 ;; the crystal veins"
       ]
     },
     [
-      "enter areaid1_4_4_1 ;; kaom's dream"
+      "進入 areaid1_4_4_1 ;; kaom's dream"
     ],
     [
-      "enter areaid1_4_4_3 ;; kaom's stronghold",
-      "(hint)____ go (img:1), then follow the bridges in the area"
+      "進入 areaid1_4_4_3 ;; kaom's stronghold",
+      "(hint)____ 往 (img:1), then follow the bridges in the area"
     ],
     {
       "condition": [
@@ -1147,8 +1147,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft), enter (img:arena) caldera_of_the_king",
-        "kill king_kaom for (quest:the_eye_of_fury)",
+        "激活 (img:craft), 進入 (img:arena) caldera_of_the_king",
+        "殺死 king_kaom 拿 (quest:the_eye_of_fury)",
         "(img:portal) to areaid1_4_town ;; highgate"
       ]
     },
@@ -1158,28 +1158,28 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) caldera_of_the_king",
-        "kill king_kaom for (quest:the_eye_of_fury)",
+        "進入 (img:arena) caldera_of_the_king",
+        "殺死 king_kaom 拿 (quest:the_eye_of_fury)",
         "(img:portal) to areaid1_4_town ;; highgate"
       ]
     },
     [
-      "(img:waypoint) to areaid1_4_5_2 ;; the grand arena"
+      "(img:waypoint) areaid1_4_5_2 ;; the grand arena"
     ],
     [
-      "find and enter (img:arena) the_ring_of_blades",
-      "(hint)____ follow the path and go (img:7) as much as possible",
-      "kill daresso for (quest:eye_of_desire), relog to areaid1_4_town (img:town) ;; highgate"
+      "找到並進入 (img:arena) the_ring_of_blades",
+      "(hint)____ follow the path and 往 (img:7) as much as possible",
+      "殺死 daresso 拿 (quest:eye_of_desire), 重新登入 areaid1_4_town (img:town) ;; highgate"
     ],
     [
-      "(img:waypoint) to areaid1_4_3_3 ;; the crystal veins"
+      "(img:waypoint) areaid1_4_3_3 ;; the crystal veins"
     ],
     [
-      "talk to (img:quest) lady dialla",
-      "enter areaid1_4_6_1 ;; the belly of the beast level 1"
+      "talk to (img:quest) lady 達拉",
+      "進入 areaid1_4_6_1 ;; the belly of the beast level 1"
     ],
     [
-      "enter areaid1_4_6_2 ;; the belly of the beast level 2"
+      "進入 areaid1_4_6_2 ;; the belly of the beast level 2"
     ],
     {
       "condition": [
@@ -1187,9 +1187,9 @@
         "yes"
       ],
       "lines": [
-        "enter (img:arena) the_bowels_of_the_beast, kill piety",
-        "talk to (img:quest) piety",
-        "activate the (img:craft), enter areaid1_4_6_3 ;; the harvest"
+        "進入 (img:arena) the_bowels_of_the_beast, 殺死 派蒂",
+        "talk to (img:quest) 派蒂",
+        "激活 (img:craft), 進入 areaid1_4_6_3 ;; the harvest"
       ]
     },
     {
@@ -1198,19 +1198,19 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) the_bowels_of_the_beast, kill piety",
-        "talk to (img:quest) piety, enter areaid1_4_6_3 ;; the harvest"
+        "進入 (img:arena) the_bowels_of_the_beast, 殺死 派蒂",
+        "talk to (img:quest) 派蒂, enter areaid1_4_6_3 ;; the harvest"
       ]
     },
     [
-      "find and kill doedre, (color:ff8111)maligaro, (color:ff8111)shavronne",
-      "talk to (img:quest) piety, enter (img:arena) the_black_core, kill malachai",
-      "(hint)____ recommended level: 34-35",
-      "relog to areaid1_4_town (img:town) ;; highgate"
+      "找到並殺死 doedre, (color:ff8111)maligaro, (color:ff8111)shavronne",
+      "talk to (img:quest) 派蒂, enter (img:arena) the_black_core, 殺死 malachai",
+      "(hint)____ 建議等級: 34-35",
+      "重新登入 areaid1_4_town (img:town) ;; highgate"
     ],
     [
-      "dialla: <the_eternal_nightmare>",
-      "enter areaid1_4_7 ;; the ascent"
+      "達拉: <the_eternal_nightmare>",
+      "進入 areaid1_4_7 ;; the ascent"
     ],
     {
       "condition": [
@@ -1218,9 +1218,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
+        "激活 (img:craft)",
         "activate (quest:the_resonator), use (quest:oriath_portal)",
-        "enter areaid1_5_1 ;; the slave pens"
+        "進入 areaid1_5_1 ;; the slave pens"
       ]
     },
     {
@@ -1230,33 +1230,33 @@
       ],
       "lines": [
         "activate (quest:the_resonator), use (quest:oriath_portal)",
-        "enter areaid1_5_1 ;; the slave pens"
+        "進入 areaid1_5_1 ;; the slave pens"
       ]
     }
   ],
   [
     [
-      "find and kill overseer_krow",
+      "找到並殺死 overseer_krow",
       "(hint)____ follow (img:5) edge to the corridor with hanged karui",
       "(hint)____ exit is always (img:5) of the corridor, loop clockwise to reach it",
-      "enter areaid1_5_town (img:town) ;; overseer's tower"
+      "進入 areaid1_5_town (img:town) ;; overseer's tower"
     ],
     [
       "lani: <return_to_oriath>",
-      "enter areaid1_5_2 ;; the control blocks"
+      "進入 areaid1_5_2 ;; the control blocks"
     ],
     [
-      "go (img:7) until you find the (quest:miasmeter)",
-      "go (img:1) and kill justicar_casticus for (quest:eyes_of_zeal)",
-      "enter areaid1_5_3 ;; oriath square"
+      "往 (img:7) until you 找到 the (quest:miasmeter)",
+      "往 (img:1) and 殺死 justicar_casticus 拿 (quest:eyes_of_zeal)",
+      "進入 areaid1_5_3 ;; oriath square"
     ],
     [
-      "go (img:1), enter areaid1_5_4 ;; the templar courts"
+      "往 (img:1), 進入 areaid1_5_4 ;; the templar courts"
     ],
     [
       "loop around clockwise, enter areaid1_5_5 ;; the chamber of innocence",
-      "(hint)____ recommended level: 37+",
-      "(hint)____ farm level: 40-42"
+      "(hint)____ 建議等級: 37+",
+      "(hint)____ 練等: 40-42"
     ],
     {
       "condition": [
@@ -1264,9 +1264,9 @@
         "yes"
       ],
       "lines": [
-        "loop around counter-clockwise, activate the (img:craft)",
-        "enter (img:arena) sanctum_of_innocence, kill high_templar_avarius",
-        "relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "loop around counter-clockwise, 激活 (img:craft)",
+        "進入 (img:arena) sanctum_of_innocence, 殺死 high_templar_avarius",
+        "重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     {
@@ -1276,24 +1276,24 @@
       ],
       "lines": [
         "loop around counter-clockwise",
-        "enter (img:arena) sanctum_of_innocence, kill high_templar_avarius",
-        "relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "進入 (img:arena) sanctum_of_innocence, 殺死 high_templar_avarius",
+        "重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     [
       "lani: <the_key_to_freedom> & <death_to_purity>",
       "vilenta: <in_service_to_science>",
-      "(img:waypoint) to areaid1_5_5 ;; the chamber of innocence"
+      "(img:waypoint) areaid1_5_5 ;; the chamber of innocence"
     ],
     [
-      "enter areaid1_5_4b ;; the torched courts"
+      "進入 areaid1_5_4b ;; the torched courts"
     ],
     [
       "loop around counter-clockwise, enter areaid1_5_3b ;; the ruined square"
     ],
     [
-      "go (img:7), activate the (img:waypoint)",
-      "enter areaid1_5_6 ;; the ossuary"
+      "往 (img:7), 找到 (img:waypoint)",
+      "進入 areaid1_5_6 ;; the ossuary"
     ],
     {
       "condition": [
@@ -1301,9 +1301,9 @@
         "yes"
       ],
       "lines": [
-        "find and take (quest:sign_of_purity)",
-        "activate the (img:craft)",
-        "relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "找到 and 拿 (quest:sign_of_purity)",
+        "激活 (img:craft)",
+        "重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     {
@@ -1312,16 +1312,16 @@
         "no"
       ],
       "lines": [
-        "find and take (quest:sign_of_purity)",
-        "relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "找到 and 拿 (quest:sign_of_purity)",
+        "重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     [
-      "(img:waypoint) to areaid1_5_3b ;; the ruined square"
+      "(img:waypoint) areaid1_5_3b ;; the ruined square"
     ],
     [
-      "enter areaid1_5_7 ;; the reliquary",
-      "(hint)____ go (img:5) to the plaza, then (img:4)"
+      "進入 areaid1_5_7 ;; the reliquary",
+      "(hint)____ 往 (img:5) to the plaza, then (img:4)"
     ],
     {
       "condition": [
@@ -1329,8 +1329,8 @@
         "yes"
       ],
       "lines": [
-        "find 3x (quest:kitava's_torment) near the corners",
-        "activate the (img:craft), relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "找到 3x (quest:kitava's_torment) near the corners",
+        "激活 (img:craft), 重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     {
@@ -1339,41 +1339,41 @@
         "no"
       ],
       "lines": [
-        "find 3x (quest:kitava's_torment) near the corners",
-        "relog to areaid1_5_town (img:town) ;; overseer's tower"
+        "找到 3x (quest:kitava's_torment) near the corners",
+        "重新登入 areaid1_5_town (img:town) ;; overseer's tower"
       ]
     },
     [
       "lani: <kitava's_torments>",
-      "(img:waypoint) to areaid1_5_3b ;; the ruined square"
+      "(img:waypoint) areaid1_5_3b ;; the ruined square"
     ],
     [
-      "go (img:5), enter areaid1_5_8 ;; the cathedral rooftop"
+      "往 (img:5), 進入 areaid1_5_8 ;; the cathedral rooftop"
     ],
     [
-      "enter (img:arena) cathedral_apex, kill kitava",
-      "talk to (img:quest) lilly, sail to areaid2_6_town (img:town) ;; lioneye's watch"
+      "進入 (img:arena) cathedral_apex, 殺死 kitava",
+      "talk to (img:quest) lilly, sail to areaid2_6_town (img:town) ;; 獅眼守望"
     ]
   ],
   [
     [
-      "enter areaid2_6_1 ;; the twilight strand"
+      "進入 areaid2_6_1 ;; the twilight strand"
     ],
     [
-      "kill everything",
-      "relog to areaid2_6_town (img:town) ;; lioneye's watch"
+      "殺死 everything",
+      "重新登入 areaid2_6_town (img:town) ;; 獅眼守望"
     ],
     [
       "lilly: <fallen_from_grace>",
-      "enter areaid2_6_2 ;; the coast"
+      "進入 areaid2_6_2 ;; 暮光海灘"
     ],
     [
-      "enter areaid2_6_4 ;; the mud flats"
+      "進入 areaid2_6_4 ;; 炙熱鹽沼"
     ],
     [
-      "kill dishonoured_queen for (quest:eye_of_conquest)",
-      "(hint)____ usually (img:1) in the zone, near a house",
-      "enter areaid2_6_5 ;; the karui fortress"
+      "殺死 dishonoured_queen 拿 (quest:eye_of_conquest)",
+      "(hint)____ 通常 (img:1) 在區域內, near a house",
+      "進入 areaid2_6_5 ;; the karui fortress"
     ],
     {
       "condition": [
@@ -1381,9 +1381,9 @@
         "yes"
       ],
       "lines": [
-        "enter (img:arena) tukohama's_keep, kill tukohama",
-        "activate the (img:craft)",
-        "go (img:0), enter areaid2_6_6 ;; the ridge"
+        "進入 (img:arena) tukohama's_keep, 殺死 tukohama",
+        "激活 (img:craft)",
+        "往 (img:0), 進入 areaid2_6_6 ;; the ridge"
       ]
     },
     {
@@ -1392,12 +1392,12 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) tukohama's_keep, kill tukohama",
-        "go (img:0), enter areaid2_6_6 ;; the ridge"
+        "進入 (img:arena) tukohama's_keep, 殺死 tukohama",
+        "往 (img:0), 進入 areaid2_6_6 ;; the ridge"
       ]
     },
     [
-      "enter areaid2_6_7_1 ;; the lower prison"
+      "進入 areaid2_6_7_1 ;; 禁靈之獄下層"
     ],
     {
       "condition": [
@@ -1405,8 +1405,8 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial, activate the (img:craft)",
-        "enter areaid2_6_7_2 ;; shavronne's tower"
+        "完成 (img:lab) 試煉, 激活 (img:craft)",
+        "進入 areaid2_6_7_2 ;; shavronne's tower"
       ]
     },
     {
@@ -1415,7 +1415,7 @@
         "no"
       ],
       "lines": [
-        "enter areaid2_6_7_2 ;; shavronne's tower"
+        "進入 areaid2_6_7_2 ;; shavronne's tower"
       ]
     },
     {
@@ -1424,9 +1424,9 @@
         "yes"
       ],
       "lines": [
-        "enter (img:arena) prison_rooftop, kill shavronne_&_brutus",
-        "enter (img:arena) the_warden's_chambers",
-        "activate the (img:craft), enter areaid2_6_8 ;; prisoner's gate"
+        "進入 (img:arena) prison_rooftop, 殺死 shavronne_&_典獄長",
+        "進入 (img:arena) the_warden's_chambers",
+        "激活 (img:craft), 進入 areaid2_6_8 ;; 監獄大門"
       ]
     },
     {
@@ -1435,13 +1435,13 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) prison_rooftop, kill shavronne_&_brutus",
-        "enter (img:arena) the_warden's_chambers",
-        "enter areaid2_6_8 ;; prisoner's gate"
+        "進入 (img:arena) prison_rooftop, 殺死 shavronne_&_典獄長",
+        "進入 (img:arena) the_warden's_chambers",
+        "進入 areaid2_6_8 ;; 監獄大門"
       ]
     },
     [
-      "follow the road, enter areaid2_6_9 ;; the western forest"
+      "沿著路走, enter areaid2_6_9 ;; 西部密林"
     ],
     {
       "condition": [
@@ -1449,9 +1449,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "(hint)____ find a torch on the road, follow the path that forks off",
-        "follow the main road, enter areaid2_6_10 ;; the riverways"
+        "激活 (img:craft)",
+        "(hint)____ 找到 a torch on the road, follow the path that forks off",
+        "follow the main road, enter areaid2_6_10 ;; 河道"
       ]
     },
     {
@@ -1460,32 +1460,32 @@
         "no"
       ],
       "lines": [
-        "follow the road, enter areaid2_6_10 ;; the riverways"
+        "沿著路走, enter areaid2_6_10 ;; 河道"
       ]
     },
     [
-      "follow the road, activate the (img:waypoint)",
-      "enter areaid2_6_11 ;; the wetlands",
+      "沿著路走, 找到 (img:waypoint)",
+      "進入 areaid2_6_11 ;; 濕地",
       "(hint)____ a side trail forks off between 2 pillars nearby"
     ],
     [
-      "go (img:7) to find (img:arena) the_spawning_ground, kill ryslatha",
-      "relog to areaid2_6_town (img:town) ;; lioneye's watch"
+      "往 (img:7) to 找到 (img:arena) the_spawning_ground, 殺死 ryslatha",
+      "重新登入 areaid2_6_town (img:town) ;; 獅眼守望"
     ],
     [
-      "tarkleigh: <the_father_of_war>, <essence_of_umbra>, <the_puppet_mistress>",
-      "(img:waypoint) to areaid2_6_10 ;; the riverways"
+      "塔格拉: <the_father_of_war>, <essence_of_umbra>, <the_puppet_mistress>",
+      "(img:waypoint) areaid2_6_10 ;; 河道"
     ],
     [
-      "follow the road until it ends, then go (img:3)",
-      "enter areaid2_6_12 ;; the southern forest"
+      "沿著路走 until it ends, then 往 (img:3)",
+      "進入 areaid2_6_12 ;; the southern forest"
     ],
     [
-      "enter areaid2_6_13 ;; the cavern of anger"
+      "進入 areaid2_6_13 ;; 怨忿之窟深處"
     ],
     [
-      "take (quest:the_black_flag)",
-      "enter areaid2_6_14 ;; the beacon"
+      "拿 (quest:the_black_flag)",
+      "進入 areaid2_6_14 ;; the beacon"
     ],
     {
       "condition": [
@@ -1493,7 +1493,7 @@
         "yes"
       ],
       "lines": [
-        "follow the shore, activate the (img:craft)",
+        "follow the shore, 激活 (img:craft)",
         "complete (quest:pillar_push), light the (quest:beacon), burn (quest:the_black_flag)",
         "talk to (img:quest) weylam, sail to areaid2_6_15 ;; the brine king's reef"
       ]
@@ -1510,14 +1510,14 @@
       ]
     },
     [
-      "enter (img:arena) the_bring_king's_throne, kill tsoagoth",
+      "進入 (img:arena) the_bring_king's_throne, 殺死 tsoagoth",
       "talk to (img:quest) sin, select pantheons",
       "talk to (img:quest) weylam, sail to areaid2_7_town (img:town) ;; the bridge encampment"
     ]
   ],
   [
     [
-      "enter areaid2_7_1 ;; the broken bridge"
+      "進入 areaid2_7_1 ;; 河畔斷橋"
     ],
     {
       "condition": [
@@ -1525,9 +1525,9 @@
         "yes"
       ],
       "lines": [
-        "follow the road up to the broken (img:waypoint)",
-        "enter the nearby ruins, take (quest:silver_locket)",
-        "follow the road, enter areaid2_7_2 ;; the crossroads"
+        "沿著路走 up to the broken (img:waypoint)",
+        "進入 the nearby ruins, 拿 (quest:silver_locket)",
+        "沿著路走, enter areaid2_7_2 ;; 危機叉路"
       ]
     },
     {
@@ -1536,15 +1536,15 @@
         "no"
       ],
       "lines": [
-        "follow the road, enter areaid2_7_2 ;; the crossroads"
+        "沿著路走, enter areaid2_7_2 ;; 危機叉路"
       ]
     },
     [
-      "follow the road, activate the (img:waypoint)",
-      "follow the (img:3) road, enter areaid2_7_3 ;; the fellshrine ruins"
+      "沿著路走, 找到 (img:waypoint)",
+      "follow the (img:3) road, enter areaid2_7_3 ;; 墮道遺跡"
     ],
     [
-      "follow the road, enter areaid2_7_4 ;; the crypt"
+      "沿著路走, enter areaid2_7_4 ;; the crypt"
     ],
     {
       "condition": [
@@ -1552,9 +1552,9 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial, activate the (img:craft)",
-        "find sarcophagus to next floor, find (quest:maligaro's_map)",
-        "relog to areaid2_7_town (img:town) ;; the bridge encampment"
+        "完成 (img:lab) 試煉, 激活 (img:craft)",
+        "找到 sarcophagus to next floor, 找到 (quest:maligaro's_map)",
+        "重新登入 areaid2_7_town (img:town) ;; the bridge encampment"
       ]
     },
     {
@@ -1563,15 +1563,15 @@
         "no"
       ],
       "lines": [
-        "find sarcophagus to next floor, find (quest:maligaro's_map)",
-        "relog to areaid2_7_town (img:town) ;; the bridge encampment"
+        "找到 sarcophagus to next floor, 找到 (quest:maligaro's_map)",
+        "重新登入 areaid2_7_town (img:town) ;; the bridge encampment"
       ]
     },
     [
-      "(img:waypoint) to areaid2_7_2 ;; the crossroads"
+      "(img:waypoint) areaid2_7_2 ;; 危機叉路"
     ],
     [
-      "follow the (img:7) road, enter areaid2_7_5_1 ;; the chamber of sins level 1"
+      "follow the (img:7) road, enter areaid2_7_5_1 ;; 罪孽之殿：第 1 層"
     ],
     {
       "condition": [
@@ -1579,9 +1579,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft) and (img:waypoint)",
+        "激活 (img:craft) and (img:waypoint)",
         "activate the (quest:map_device) with (quest:maligaro's_map)",
-        "enter areaid2_7_5_map ;; maligaro's sanctum"
+        "進入 areaid2_7_5_map ;; maligaro's sanctum"
       ]
     },
     {
@@ -1590,15 +1590,15 @@
         "no"
       ],
       "lines": [
-        "activate the (img:waypoint)",
+        "找到 (img:waypoint)",
         "activate the (quest:map_device) with (quest:maligaro's_map)",
-        "enter areaid2_7_5_map ;; maligaro's sanctum"
+        "進入 areaid2_7_5_map ;; maligaro's sanctum"
       ]
     },
     [
-      "find (img:arena) maligaro's_workshop, kill maligaro for (quest:black_venom)",
+      "找到 (img:arena) maligaro's_workshop, 殺死 maligaro 拿 (quest:black_venom)",
       "(hint)____ follow the edges and bridges (often diagonal to each other)",
-      "relog to areaid2_7_town (img:town) ;; the bridge encampment"
+      "重新登入 areaid2_7_town (img:town) ;; the bridge encampment"
     ],
     {
       "condition": [
@@ -1608,7 +1608,7 @@
       "lines": [
         "helena: <essence_of_the_artist>",
         "weylam: <the_silver_locket>",
-        "(img:waypoint) to areaid2_7_5_1 ;; the chamber of sins level 1"
+        "(img:waypoint) areaid2_7_5_1 ;; 罪孽之殿：第 1 層"
       ]
     },
     {
@@ -1618,12 +1618,12 @@
       ],
       "lines": [
         "helena: <essence_of_the_artist>",
-        "(img:waypoint) to areaid2_7_5_1 ;; the chamber of sins level 1"
+        "(img:waypoint) areaid2_7_5_1 ;; 罪孽之殿：第 1 層"
       ]
     },
     [
-      "silk: <web_of_secrets>, take (quest:obsidian_key)",
-      "enter areaid2_7_5_2 ;; the chamber of sins level 2",
+      "斯克: <web_of_secrets>, 拿 (quest:obsidian_key)",
+      "進入 areaid2_7_5_2 ;; 罪孽之殿：第 2 層",
       "(hint)____ the (img:waypoint) points to the exit"
     ],
     {
@@ -1632,8 +1632,8 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial, activate the (img:craft)",
-        "open the secret passage, enter areaid2_7_6 ;; the den"
+        "完成 (img:lab) 試煉, 激活 (img:craft)",
+        "open the secret passage, enter areaid2_7_6 ;; 獸穴"
       ]
     },
     {
@@ -1642,34 +1642,34 @@
         "no"
       ],
       "lines": [
-        "open the secret passage, enter areaid2_7_6 ;; the den"
+        "open the secret passage, enter areaid2_7_6 ;; 獸穴"
       ]
     },
     [
-      "enter areaid2_7_7 ;; the ashen fields"
+      "進入 areaid2_7_7 ;; the ashen fields"
     ],
     [
-      "go (img:5), enter (img:arena) the_forest_encampment, kill greust",
-      "enter areaid2_7_8 ;; the northern forest"
+      "往 (img:5), 進入 (img:arena) the_forest_encampment, 殺死 古斯特",
+      "進入 areaid2_7_8 ;; 北部密林"
     ],
     [
-      "(img:waypoint) to areaid2_7_town (img:town) ;; the bridge encampment"
+      "(img:waypoint) areaid2_7_town (img:town) ;; the bridge encampment"
     ],
     [
-      "eramir: <the_master_of_a_million_faces>",
-      "(img:waypoint) to areaid2_6_8 ;; prisoner's gate"
+      "艾米爾: <the_master_of_a_million_faces>",
+      "(img:waypoint) areaid2_6_8 ;; 監獄大門"
     ],
     [
-      "enter (img:arena) valley_of_the_fire_drinker, kill abberath",
-      "(hint)____ go down the ledge next to the road",
-      "(img:portal) to areaid2_6_town ;; lioneye's watch"
+      "進入 (img:arena) valley_of_the_fire_drinker, 殺死 abberath",
+      "(hint)____ 沿著路邊的懸崖走",
+      "(img:portal) to areaid2_6_town ;; 獅眼守望"
     ],
     [
-      "bestel: <the_cloven_one>",
-      "(img:waypoint) to areaid2_7_8 ;; the northern forest"
+      "畢斯特: <the_cloven_one>",
+      "(img:waypoint) areaid2_7_8 ;; 北部密林"
     ],
     [
-      "enter areaid2_7_10 ;; the causeway"
+      "進入 areaid2_7_10 ;; the causeway"
     ],
     {
       "condition": [
@@ -1677,9 +1677,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "find and take (quest:kishara's_star)",
-        "enter areaid2_7_11 ;; the vaal city"
+        "激活 (img:craft)",
+        "找到 and 拿 (quest:kishara's_star)",
+        "進入 areaid2_7_11 ;; the vaal city"
       ]
     },
     {
@@ -1688,16 +1688,16 @@
         "no"
       ],
       "lines": [
-        "find and take (quest:kishara's_star)",
-        "enter areaid2_7_11 ;; the vaal city"
+        "找到 and 拿 (quest:kishara's_star)",
+        "進入 areaid2_7_11 ;; the vaal city"
       ]
     },
     [
-      "find the (img:waypoint)",
-      "(img:waypoint) to areaid2_7_8 ;; the northern forest"
+      "找到 the (img:waypoint)",
+      "(img:waypoint) areaid2_7_8 ;; 北部密林"
     ],
     [
-      "enter areaid2_7_9 ;; the dread thicket"
+      "進入 areaid2_7_9 ;; the dread thicket"
     ],
     {
       "condition": [
@@ -1705,8 +1705,8 @@
         "yes"
       ],
       "lines": [
-        "find and take 7x (quest:firefly), activate the (img:craft)",
-        "enter (img:arena) den_of_despair, kill gruthkul",
+        "找到 and take 7x (quest:firefly), 激活 (img:craft)",
+        "進入 (img:arena) den_of_despair, 殺死 gruthkul",
         "(img:portal) to areaid2_7_town ;; the bridge encampment"
       ]
     },
@@ -1716,26 +1716,26 @@
         "no"
       ],
       "lines": [
-        "find and take 7x (quest:firefly)",
-        "enter (img:arena) den_of_despair, kill gruthkul",
+        "找到 and take 7x (quest:firefly)",
+        "進入 (img:arena) den_of_despair, 殺死 gruthkul",
         "(img:portal) to areaid2_7_town ;; the bridge encampment"
       ]
     },
     [
       "weylam: <kishara's_star>",
-      "eramir: <queen_of_despair>",
-      "(img:waypoint) to areaidlabyrinth_airlock ;; aspirants' plaza"
+      "艾米爾: <queen_of_despair>",
+      "(img:waypoint) areaidlabyrinth_airlock ;; aspirants' plaza"
     ],
     [
       "complete the (img:lab) cruel_lab",
-      "(img:waypoint) to areaid2_7_11 ;; the vaal city"
+      "(img:waypoint) areaid2_7_11 ;; the vaal city"
     ],
     [
-      "yeena: <lighting_the_way>",
-      "enter areaid2_7_12_1 ;; the temple of decay level 1"
+      "伊娜: <lighting_the_way>",
+      "進入 areaid2_7_12_1 ;; the temple of decay level 1"
     ],
     [
-      "enter areaid2_7_12_2 ;; the temple of decay level 2"
+      "進入 areaid2_7_12_2 ;; the temple of decay level 2"
     ],
     {
       "condition": [
@@ -1743,9 +1743,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "enter (img:arena) arakaali's_web, kill arakaali",
-        "enter areaid2_8_1 ;; the sarn ramparts"
+        "激活 (img:craft)",
+        "進入 (img:arena) arakaali's_web, 殺死 arakaali",
+        "進入 areaid2_8_1 ;; the sarn ramparts"
       ]
     },
     {
@@ -1754,20 +1754,20 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) arakaali's_web, kill arakaali",
-        "enter areaid2_8_1 ;; the sarn ramparts"
+        "進入 (img:arena) arakaali's_web, 殺死 arakaali",
+        "進入 areaid2_8_1 ;; the sarn ramparts"
       ]
     }
   ],
   [
     [
-      "enter areaid2_8_town (img:town) ;; the sarn encampment"
+      "進入 areaid2_8_town (img:town) ;; 薩恩營地"
     ],
     [
-      "go (img:6), enter areaid2_8_2_1 ;; the toxic conduits"
+      "往 (img:6), 進入 areaid2_8_2_1 ;; the toxic conduits"
     ],
     [
-      "enter areaid2_8_2_2 ;; doedre's cesspool",
+      "進入 areaid2_8_2_2 ;; doedre's cesspool",
       "(hint)____ follow black splashes on the ground"
     ],
     {
@@ -1776,9 +1776,9 @@
         "yes"
       ],
       "lines": [
-        "enter (img:arena) the_cauldron, kill doedre_the_vile",
-        "enter (img:arena) sewer_outlet, activate the (img:craft)",
-        "go (img:1), enter areaid2_8_8 ;; the quay"
+        "進入 (img:arena) the_cauldron, 殺死 doedre_the_vile",
+        "進入 (img:arena) sewer_outlet, 激活 (img:craft)",
+        "往 (img:1), 進入 areaid2_8_8 ;; the quay"
       ]
     },
     {
@@ -1787,29 +1787,29 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) the_cauldron, kill doedre_the_vile",
-        "enter (img:arena) sewer_outlet",
-        "go (img:1), enter areaid2_8_8 ;; the quay"
+        "進入 (img:arena) the_cauldron, 殺死 doedre_the_vile",
+        "進入 (img:arena) sewer_outlet",
+        "往 (img:1), 進入 areaid2_8_8 ;; the quay"
       ]
     },
     [
-      "move along the (img:6) edge, find (quest:ankh_of_eternity)",
-      "go (img:3), enter (img:arena) resurrection_site to kill tolman",
-      "enter areaid2_8_9 ;; the grain gate"
+      "move along the (img:6) edge, 找到 (quest:ankh_of_eternity)",
+      "往 (img:3), 進入 (img:arena) resurrection_site to 殺死 tolman",
+      "進入 areaid2_8_9 ;; the grain gate"
     ],
     [
       "doors with dead guards mark the correct path",
-      "find and kill gemling_legionnaires",
+      "找到並殺死 gemling_legionnaires",
       "(hint)____ look for a (img:help) -icon on the map",
-      "enter areaid2_8_10 ;; the imperial fields"
+      "進入 areaid2_8_10 ;; the imperial fields"
     ],
     [
-      "follow the road up to the (img:waypoint), then go (img:7)",
-      "enter areaid2_8_12_1 ;; the solaris temple level 1"
+      "沿著路走 up to the (img:waypoint), then 往 (img:7)",
+      "進入 areaid2_8_12_1 ;; 日耀神殿：第 1 層"
     ],
     [
-      "activate the (img:waypoint)",
-      "enter areaid2_8_12_2 ;; the solaris temple level 2"
+      "找到 (img:waypoint)",
+      "進入 areaid2_8_12_2 ;; 日耀神殿：第 2 層"
     ],
     {
       "condition": [
@@ -1817,9 +1817,9 @@
         "yes"
       ],
       "lines": [
-        "find and kill dawn for (quest:sun_orb)",
-        "activate the (img:craft)",
-        "relog to areaid2_8_town (img:town) ;; the sarn encampment"
+        "找到並殺死 dawn 拿 (quest:sun_orb)",
+        "激活 (img:craft)",
+        "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -1828,31 +1828,31 @@
         "no"
       ],
       "lines": [
-        "find and kill dawn for (quest:sun_orb)",
-        "relog to areaid2_8_town (img:town) ;; the sarn encampment"
+        "找到並殺死 dawn 拿 (quest:sun_orb)",
+        "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
     [
-      "maramoa: <the_gemling_legion>",
-      "hargan: <essence_of_the_hag>",
-      "clarissa: <love_is_dead>",
-      "(img:waypoint) to areaid2_8_12_1 ;; the solaris temple level 1"
+      "馬拉莫: <the_gemling_legion>",
+      "賀根: <essence_of_the_hag>",
+      "卡爾麗莎: <love_is_dead>",
+      "(img:waypoint) areaid2_8_12_1 ;; 日耀神殿：第 1 層"
     ],
     [
-      "enter areaid2_8_11 ;; the solaris concourse"
+      "進入 areaid2_8_11 ;; the solaris concourse"
     ],
     [
-      "go (img:5), enter areaid2_8_13 ;; the harbour bridge"
+      "往 (img:5), 進入 areaid2_8_13 ;; 海港大橋"
     ],
     [
-      "enter areaid2_8_6 ;; the lunaris concourse"
+      "進入 areaid2_8_6 ;; 月影神廣場"
     ],
     [
-      "go (img:7), activate the (img:waypoint)",
-      "go (img:7), enter areaid2_8_7_1_ ;; the lunaris temple level 1"
+      "往 (img:7), 找到 (img:waypoint)",
+      "往 (img:7), 進入 areaid2_8_7_1_ ;; 月影神殿：第 1 層"
     ],
     [
-      "enter areaid2_8_7_2 ;; the lunaris temple level 2"
+      "進入 areaid2_8_7_2 ;; 月影神殿：第 2 層"
     ],
     {
       "condition": [
@@ -1860,9 +1860,9 @@
         "yes"
       ],
       "lines": [
-        "find and kill dusk for (quest:moon_orb)",
-        "activate the (img:craft)",
-        "relog to areaid2_8_town (img:town) ;; the sarn encampment"
+        "找到並殺死 dusk 拿 (quest:月影之石)",
+        "激活 (img:craft)",
+        "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -1871,30 +1871,30 @@
         "no"
       ],
       "lines": [
-        "find and kill dusk for (quest:moon_orb)",
-        "relog to areaid2_8_town (img:town) ;; the sarn encampment"
+        "找到並殺死 dusk 拿 (quest:月影之石)",
+        "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
     [
-      "(img:waypoint) to areaid2_8_6 ;; the lunaris concourse"
+      "(img:waypoint) areaid2_8_6 ;; 月影神廣場"
     ],
     [
-      "go (img:3), enter areaid2_8_13 ;; the harbour bridge"
+      "往 (img:3), 進入 areaid2_8_13 ;; 海港大橋"
     ],
     [
-      "enter (img:arena) the_sky_shrine, kill lunaris_&_solaris",
-      "(hint)____ recommended level: 54+",
-      "enter areaid2_9_1 ;; the blood aqueduct"
+      "進入 (img:arena) the_sky_shrine, 殺死 月影神&日耀神",
+      "(hint)____ 建議等級: 54+",
+      "進入 areaid2_9_1 ;; 滲血水道"
     ]
   ],
   [
     [
-      "farm level: 58-62",
-      "enter areaid2_9_town (img:town) ;; highgate",
-      "(img:waypoint) to areaid2_8_6 ;; the lunaris concourse"
+      "練等: 58-62",
+      "進入 areaid2_9_town (img:town) ;; highgate",
+      "(img:waypoint) areaid2_8_6 ;; 月影神廣場"
     ],
     [
-      "go (img:4), enter areaid2_8_5 ;; the bath house"
+      "往 (img:4), 進入 areaid2_8_5 ;; the bath house"
     ],
     {
       "condition": [
@@ -1902,7 +1902,7 @@
         "yes"
       ],
       "lines": [
-        "follow (img:0) edge, complete the (img:lab) trial, activate the (img:craft)",
+        "follow (img:0) edge, 完成 (img:lab) 試煉, 激活 (img:craft)",
         "(hint)____ look for a (img:help) -icon on the map",
         "keep following the (img:0) edge, enter areaid2_8_4 ;; the high gardens"
       ]
@@ -1917,18 +1917,18 @@
       ]
     },
     [
-      "enter (img:arena) the_pools_of_terror, kill yugul",
-      "(img:portal) to areaid2_8_town ;; the sarn encampment"
+      "進入 (img:arena) the_pools_of_terror, 殺死 yugul",
+      "(img:portal) to areaid2_8_town ;; 薩恩營地"
     ],
     [
-      "hargan: <reflection_of_terror>",
-      "(img:waypoint) to areaid2_9_town (img:town) ;; highgate"
+      "賀根: <reflection_of_terror>",
+      "(img:waypoint) areaid2_9_town (img:town) ;; highgate"
     ],
     [
-      "enter areaid2_9_2 ;; the descent"
+      "進入 areaid2_9_2 ;; the descent"
     ],
     [
-      "enter areaid2_9_3 ;; the vastiri desert"
+      "進入 areaid2_9_3 ;; the vastiri desert"
     ],
     {
       "condition": [
@@ -1936,9 +1936,9 @@
         "yes"
       ],
       "lines": [
-        "go (img:2), activate the (img:waypoint)",
-        "activate the (img:craft), find (quest:the_storm_blade)",
-        "go (img:7), enter areaid2_9_5 ;; the foothills"
+        "往 (img:2), 找到 (img:waypoint)",
+        "激活 (img:craft), 找到 (quest:the_storm_blade)",
+        "往 (img:7), 進入 areaid2_9_5 ;; the foothills"
       ]
     },
     {
@@ -1947,15 +1947,15 @@
         "no"
       ],
       "lines": [
-        "go (img:2), activate the (img:waypoint)",
-        "find (quest:the_storm_blade)",
-        "go (img:7), enter areaid2_9_5 ;; the foothills"
+        "往 (img:2), 找到 (img:waypoint)",
+        "找到 (quest:the_storm_blade)",
+        "往 (img:7), 進入 areaid2_9_5 ;; the foothills"
       ]
     },
     [
-      "activate the (img:waypoint)",
-      "(hint)____ go (img:1), then follow the edge",
-      "enter areaid2_9_6 ;; the boiling lake"
+      "找到 (img:waypoint)",
+      "(hint)____ 往 (img:1), then follow the edge",
+      "進入 areaid2_9_6 ;; the boiling lake"
     ],
     {
       "condition": [
@@ -1963,9 +1963,9 @@
         "yes"
       ],
       "lines": [
-        "go (img:1) to kill the_basilisk for (quest:basilisk_acid)",
-        "activate the (img:craft)",
-        "relog to areaid2_9_town (img:town) ;; highgate"
+        "往 (img:1) to 殺死 the_basilisk 拿 (quest:basilisk_acid)",
+        "激活 (img:craft)",
+        "重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     {
@@ -1974,29 +1974,29 @@
         "no"
       ],
       "lines": [
-        "go (img:1) to kill the_basilisk for (quest:basilisk_acid)",
-        "relog to areaid2_9_town (img:town) ;; highgate"
+        "往 (img:1) to 殺死 the_basilisk 拿 (quest:basilisk_acid)",
+        "重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     [
       "talk to (img:quest) sin",
       "petarus and vanja: <the_storm_blade>",
-      "petarus and vanja: <the_queen_of_sands>, take (quest:bottled_storm)",
-      "(img:waypoint) to areaid2_9_3 ;; the vastiri desert"
+      "petarus and vanja: <the_queen_of_sands>, 拿 (quest:bottled_storm)",
+      "(img:waypoint) areaid2_9_3 ;; the vastiri desert"
     ],
     [
-      "go (img:1), enter areaid2_9_4 ;; the oasis"
+      "往 (img:1), 進入 areaid2_9_4 ;; the oasis"
     ],
     [
-      "enter (img:arena) the_sand_pit, kill shakari",
-      "relog to areaid2_9_town (img:town) ;; highgate"
+      "進入 (img:arena) the_sand_pit, 殺死 shakari",
+      "重新登入 areaid2_9_town (img:town) ;; highgate"
     ],
     [
       "irasha: <queen_of_the_sands>",
-      "(img:waypoint) to areaid2_9_5 ;; the foothills"
+      "(img:waypoint) areaid2_9_5 ;; the foothills"
     ],
     [
-      "go (img:7), enter areaid2_9_7 ;; the tunnel"
+      "往 (img:7), 進入 areaid2_9_7 ;; the tunnel"
     ],
     {
       "condition": [
@@ -2004,9 +2004,9 @@
         "yes"
       ],
       "lines": [
-        "complete the (img:lab) trial, activate the (img:craft)",
+        "完成 (img:lab) 試煉, 激活 (img:craft)",
         "(hint)____ in a side corridor before the (img:waypoint)",
-        "enter areaid2_9_8 ;; the quarry"
+        "進入 areaid2_9_8 ;; the quarry"
       ]
     },
     {
@@ -2015,7 +2015,7 @@
         "no"
       ],
       "lines": [
-        "enter areaid2_9_8 ;; the quarry"
+        "進入 areaid2_9_8 ;; the quarry"
       ]
     },
     {
@@ -2024,10 +2024,10 @@
         "yes"
       ],
       "lines": [
-        "go (img:7), activate the (img:waypoint) and (img:craft)",
-        "enter (img:arena) shrine_of_the_winds, kill garukhan for (quest:sekhema_feather)",
-        "(hint)____ either (img:5) or (img:1) in the zone",
-        "relog to areaid2_9_town (img:town) ;; highgate"
+        "往 (img:7), 找到 (img:waypoint) and (img:craft)",
+        "進入 (img:arena) shrine_of_the_winds, 殺死 garukhan 拿 (quest:sekhema_feather)",
+        "(hint)____ either (img:5) or (img:1) 在區域內",
+        "重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     {
@@ -2036,19 +2036,19 @@
         "no"
       ],
       "lines": [
-        "go (img:7), activate the (img:waypoint)",
-        "enter (img:arena) shrine_of_the_winds, kill garukhan for (quest:sekhema_feather)",
-        "(hint)____ either (img:5) or (img:1) in the zone",
-        "relog to areaid2_9_town (img:town) ;; highgate"
+        "往 (img:7), 找到 (img:waypoint)",
+        "進入 (img:arena) shrine_of_the_winds, 殺死 garukhan 拿 (quest:sekhema_feather)",
+        "(hint)____ either (img:5) or (img:1) 在區域內",
+        "重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     [
       "irasha: <the_ruler_of_highgate>",
-      "(img:waypoint) to areaid2_9_8 ;; the quarry"
+      "(img:waypoint) areaid2_9_8 ;; the quarry"
     ],
     [
-      "enter areaid2_9_9 ;; the refinery",
-      "(hint)____ either (img:7) or (img:1) in the zone"
+      "進入 areaid2_9_9 ;; the refinery",
+      "(hint)____ either (img:7) or (img:1) 在區域內"
     ],
     {
       "condition": [
@@ -2057,9 +2057,9 @@
       ],
       "lines": [
         "follow the cart tracks through the zone",
-        "activate the (img:craft)",
+        "激活 (img:craft)",
         "(hint)____ at one point, the tracks will fork off and end in a grate",
-        "kill general_adus for (quest:trarthan_powder), relog to areaid2_9_town (img:town) ;; highgate"
+        "殺死 general_adus 拿 (quest:trarthan_powder), 重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     {
@@ -2069,39 +2069,39 @@
       ],
       "lines": [
         "follow the cart tracks through the zone",
-        "kill general_adus for (quest:trarthan_powder), relog to areaid2_9_town (img:town) ;; highgate"
+        "殺死 general_adus 拿 (quest:trarthan_powder), 重新登入 areaid2_9_town (img:town) ;; highgate"
       ]
     },
     [
-      "(img:waypoint) to areaid2_9_8 ;; the quarry"
+      "(img:waypoint) areaid2_9_8 ;; the quarry"
     ],
     [
       "talk to (img:quest) sin",
-      "enter areaid2_9_10_1 ;; the belly of the beast"
+      "進入 areaid2_9_10_1 ;; the belly of the beast"
     ],
     [
-      "enter areaid2_9_10_2 ;; the rotting core"
+      "進入 areaid2_9_10_2 ;; the rotting core"
     ],
     [
-      "enter (img:arena) the_black_core, talk to (img:quest) sin, clear the 3 sub-areas",
-      "enter (img:arena) the_black_heart, kill the_depraved_trinity",
+      "進入 (img:arena) the_black_core, talk to (img:quest) sin, clear the 3 sub-areas",
+      "進入 (img:arena) the_black_heart, 殺死 the_depraved_trinity",
       "talk to (img:quest) lilly to sail to areaid2_10_town (img:town) ;; oriath docks"
     ]
   ],
   [
     [
-      "enter areaid2_10_1 ;; the cathedral rooftop"
+      "進入 areaid2_10_1 ;; the cathedral rooftop"
     ],
     [
-      "go (img:0), enter (img:arena) cathedral_apex, kill plaguewing",
-      "go (img:3), enter areaid2_10_2 ;; the ravaged square"
+      "往 (img:0), 進入 (img:arena) cathedral_apex, 殺死 plaguewing",
+      "往 (img:3), 進入 areaid2_10_2 ;; the ravaged square"
     ],
     [
       "go down the stairs, place a (img:portal)",
       "follow the (img:5) edge, enter areaid2_10_7 ;; the control blocks"
     ],
     [
-      "(img:waypoint) to areaid2_10_town (img:town) ;; oriath docks"
+      "(img:waypoint) areaid2_10_town (img:town) ;; oriath docks"
     ],
     [
       "lani: <safe_passage>",
@@ -2113,8 +2113,8 @@
         "yes"
       ],
       "lines": [
-        "go (img:1), activate the (img:waypoint)",
-        "enter areaid2_10_9 ;; the ossuary"
+        "往 (img:1), 找到 (img:waypoint)",
+        "進入 areaid2_10_9 ;; the ossuary"
       ]
     },
     {
@@ -2123,9 +2123,9 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft)",
-        "complete the (img:lab) trial",
-        "relog to areaid2_10_town (img:town) ;; oriath docks"
+        "激活 (img:craft)",
+        "完成 (img:lab) 試煉",
+        "重新登入 areaid2_10_town (img:town) ;; oriath docks"
       ]
     },
     {
@@ -2134,7 +2134,7 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) to areaidlabyrinth_airlock ;; aspirants' plaza"
+        "(img:waypoint) areaidlabyrinth_airlock ;; aspirants' plaza"
       ]
     },
     {
@@ -2143,24 +2143,24 @@
         "no"
       ],
       "lines": [
-        "go (img:1), activate the (img:waypoint)",
-        "(img:waypoint) to areaidlabyrinth_airlock ;; aspirants' plaza"
+        "往 (img:1), 找到 (img:waypoint)",
+        "(img:waypoint) areaidlabyrinth_airlock ;; aspirants' plaza"
       ]
     },
     [
       "complete the (img:lab) merciless_lab",
-      "(img:waypoint) to areaid2_10_7 ;; the control blocks"
+      "(img:waypoint) areaid2_10_7 ;; the control blocks"
     ],
     [
-      "follow (img:7) edge, kill vilenta",
-      "relog to areaid2_10_town (img:town) ;; oriath docks"
+      "follow (img:7) edge, 殺死 vilenta",
+      "重新登入 areaid2_10_town (img:town) ;; oriath docks"
     ],
     [
       "lani: <vilenta's_vengeance>",
-      "(img:waypoint) to areaid2_10_2 ;; the ravaged square"
+      "(img:waypoint) areaid2_10_2 ;; the ravaged square"
     ],
     [
-      "go (img:3), enter areaid2_10_3 ;; the torched courts"
+      "往 (img:3), 進入 areaid2_10_3 ;; the torched courts"
     ],
     [
       "loop around clockwise, enter areaid2_10_4 ;; the desecrated chambers"
@@ -2171,9 +2171,9 @@
         "yes"
       ],
       "lines": [
-        "loop around counter-clockwise, activate the (img:craft)",
-        "enter (img:arena) sanctum_of_innocence, kill avarius for (quest:the_staff_of_purity)",
-        "relog to areaid2_10_town (img:town) ;; oriath docks"
+        "loop around counter-clockwise, 激活 (img:craft)",
+        "進入 (img:arena) sanctum_of_innocence, 殺死 avarius 拿 (quest:the_staff_of_purity)",
+        "重新登入 areaid2_10_town (img:town) ;; oriath docks"
       ]
     },
     {
@@ -2182,22 +2182,22 @@
         "no"
       ],
       "lines": [
-        "enter (img:arena) sanctum_of_innocence, kill avarius for (quest:the_staff_of_purity)",
+        "進入 (img:arena) sanctum_of_innocence, 殺死 avarius 拿 (quest:the_staff_of_purity)",
         "(hint)____ loop around counter-clockwise",
-        "relog to areaid2_10_town (img:town) ;; oriath docks"
+        "重新登入 areaid2_10_town (img:town) ;; oriath docks"
       ]
     },
     [
       "talk to (img:quest) bannon",
       "lani: <death_and_rebirth>",
-      "(img:waypoint) to areaid2_10_2 ;; the ravaged square"
+      "(img:waypoint) areaid2_10_2 ;; the ravaged square"
     ],
     [
-      "go (img:1), talk to (img:quest) innocence",
-      "enter areaid2_10_5 ;; the canals"
+      "往 (img:1), talk to (img:quest) innocence",
+      "進入 areaid2_10_5 ;; the canals"
     ],
     [
-      "enter areaid2_10_6 ;; the feeding trough"
+      "進入 areaid2_10_6 ;; the feeding trough"
     ],
     {
       "condition": [
@@ -2205,8 +2205,8 @@
         "yes"
       ],
       "lines": [
-        "activate the (img:craft), talk to (img:quest) sin",
-        "enter (img:arena) altar_of_hunger, kill kitava",
+        "激活 (img:craft), talk to (img:quest) sin",
+        "進入 (img:arena) altar_of_hunger, 殺死 kitava",
         "talk to (img:quest) sin, enter areaid2_10_town (img:town) ;; oriath docks"
       ]
     },
@@ -2217,7 +2217,7 @@
       ],
       "lines": [
         "talk to (img:quest) sin",
-        "enter (img:arena) altar_of_hunger, kill kitava",
+        "進入 (img:arena) altar_of_hunger, 殺死 kitava",
         "talk to (img:quest) sin, enter areaid2_10_town (img:town) ;; oriath docks"
       ]
     },
