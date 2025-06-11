@@ -13,7 +13,7 @@
 - [x] areas 2.json
 - [x] areas.json
 - [ ] default guide 2.json
-- [ ] default guide.json
+- [x] default guide.json
 - [ ] gems 2.json
 - [ ] gems.json
 - [ ] relics 2.json
