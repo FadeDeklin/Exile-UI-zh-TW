@@ -13,7 +13,7 @@
 - [x] areas 2.json
 - [x] areas.json
 - [ ] default guide 2.json
-- [x] default guide.json
+- [x] default guide.json - 章節指引(部分區域/王名稱未翻譯)
 - [ ] gems 2.json
 - [ ] gems.json
 - [ ] relics 2.json
@@ -25,7 +25,7 @@
 - [ ] essences.json
 - [x] help tooltips.json - 介面說明提示
 - [ ] map-info 2.txt
-- [ ] map-info.txt
+- [x] map-info.txt - 地圖資訊功能(詞墜數量錯誤, 無法正常使用)
 - [ ] maps 2.json
 - [ ] timeless jewels.json
 - [ ] TLDR-tooltips.json

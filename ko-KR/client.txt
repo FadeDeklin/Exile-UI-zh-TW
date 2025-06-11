@@ -56,7 +56,7 @@
 ;## these are some global system-settings that are dependant on the target language
 		system_font			=	"微軟正黑體"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 		system_fullstop			=	"."				;## the type of punctuation mark the language uses at the end of a sentence (e.g. Japanese uses a different fullstop)
-		system_parenthesis		=	"(#)"				;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
+		system_parenthesis		=	"（#）"				;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
 		system_poedb_lang		=	"tw"				;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)
 		system_poedb_lang		=	"詞綴"			;## it's the localized name of this section on poeDB: https://poedb.tw/us/Modifiers
 
@@ -141,7 +141,7 @@
 
 ;## these strings are shown in the map-info panel
 		maps_stats_full			=	"mods#quantity#rarity#pack size#maps#scarabs#currency"		;## PoE1 only, map rolls/multipliers
-		maps_stats			=	"x#q#r#p#m#s#c"							;## PoE1 only, x = multiplication-sign, see above for the rest
+		maps_stats			=	"詞#數#稀#怪#圖#甲#通"							;## PoE1 only, x = multiplication-sign, see above for the rest
 
 
 		maps_waystones			=	"waystones:"			;## PoE2 only, replaces <Waystone Drop Chance>
