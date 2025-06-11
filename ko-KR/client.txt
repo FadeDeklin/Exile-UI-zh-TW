@@ -320,7 +320,7 @@
 
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item and holding the hotkey for advanced item descriptions (usually ALT)
-		items_prefix			=	"前墜"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
+		items_prefix			=	"前綴"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
 		items_prefix_allowed		=	"允許前綴 #"		;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
 		items_suffix			=	"後綴"
 		items_suffix_allowed		=	"允許後綴 "
