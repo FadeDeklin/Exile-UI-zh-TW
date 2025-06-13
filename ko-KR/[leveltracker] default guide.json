@@ -74,7 +74,7 @@
       ],
       "lines": [
         "塔格拉: <打破鳥蛋1>, <打破鳥蛋2>",
-        "(img:waypoint) (color:FEC076)your_hideout, lilly: <醫者之心> ;; this line only shows with imported PoB",
+        "(img:waypoint) (color:fec076)your_hideout, lilly: <醫者之心> ;; this line only shows with imported pob",
         "(img:waypoint) areaid1_1_4_1 ;; 海潮地穴"
       ]
     },
@@ -83,7 +83,8 @@
       "穿過 橋, 找到並進入 areaid1_1_5 ;; 沉寂海崖"
     ],
     [
-      "進入 areaid1_1_6 ;; 碎岩山坡"
+      "沿著牆壁, 進入 areaid1_1_6 ;; 碎岩山坡",
+      "(hint)____ 更安全的路線: 沿著懸崖走"
     ],
     [
       "進入 areaid1_1_7_1 ;; 禁靈之獄下層"
@@ -96,7 +97,7 @@
     ],
     [
       "進入 areaid1_1_4_0 ;; 水聲之淵",
-      "(hint)____ 通常 (img:6) 或 (img:1) 在穿過橋之前"
+      "(hint)____ 通常 (img:6) 或 (img:1) 在穿過橋之前, 比較少在 (img:3) "
     ],
     [
       "找到並殺死 深淵巨蟹",
@@ -128,36 +129,21 @@
         "進入 areaid1_1_7_2 ;; 禁靈之獄上層"
       ]
     },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "可選: 找到 藥師的保險箱 (藥劑)",
-        "(hint)____ 獲得水銀藥劑的幾率很高”，",
-        "(hint)____ 商店配方: 水銀藥劑 + 增幅石 + 鞋子 // qsf + aug + ms boots",
-        "殺死 典獄長, 重新登入 areaid1_1_town (img:town) ;; 獅眼守望",
-        "(hint)____ 建議等級: 8-10"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "no"
-      ],
-      "lines": [
-        "殺死 典獄長, 重新登入 areaid1_1_town (img:town) ;; 獅眼守望",
-        "(hint)____ 建議等級: 8-10"
-      ]
-    },
+    [
+      "可選: 找到 藥師的保險箱 (藥劑)",
+      "(hint)____ 獲得水銀藥劑的幾率很高”，",
+      "(hint)____ 商店配方: 水銀藥劑 + 增幅石 + 鞋子 // qsf + aug + ms boots",
+      "殺死 典獄長, 重新登入 areaid1_1_town (img:town) ;; 獅眼守望",
+      "(hint)____ 建議等級: 8-10"
+    ],
     [
       "塔格拉: <衝出監牢2>",
       "(img:waypoint) areaid1_1_8 ;; 監獄大門"
     ],
     [
       "進入 areaid1_1_9 ;; 魅影船墓",
-      "(hint)____ 沿著路邊的懸崖走"
+      "(hint)____ 沿著道路旁的邊緣尋找通道。",
+      "(hint)____ 沿著牆壁尋找下一個通道和出口。"
     ],
     [
       "找到 (img:arena) areaid1_1_9a, 放置 (img:portal) ;; 魅影船墓洞穴",
@@ -174,7 +160,7 @@
     ],
     [
       "找到 (quest:奴隸女孩), 拿 (quest:不滅之火)",
-      "(hint)____ 搜尋入口對面",
+      "(hint)____ (img:arena) 入口 和 (quest:不滅之火) 位於區域對角線",
       "進入 areaid1_1_9, 殺死 費爾船長 ;; 魅影船墓",
       "重新登入 areaid1_1_town (img:town) ;; 獅眼守望"
     ],
@@ -196,7 +182,7 @@
   ],
   [
     [
-      "進入 areaid1_2_town (img:town) ;; 森林營地"
+      "沿著牆 (img:1) , 進入 areaid1_2_town (img:town) ;; 森林營地"
     ],
     [
       "往 (img:1), 進入 areaid1_2_2 ;; 前哨原野"
@@ -288,6 +274,7 @@
     },
     [
       "進入 areaid1_2_6_2 ;; 罪孽之殿：第 2 層",
+      "(hint)____ 試著往 (img:2), 反之 (img:6). 抵達中央房間",
       "(hint)____ 中央房間的 (img:waypoint) 指向出口"
     ],
     {
@@ -346,6 +333,7 @@
     },
     [
       "找到 (quest:黃金之手)",
+      "(hint)____ (img:arena) 入口 和 (quest:黃金之手) 位於區域對角線",
       "重新登入 areaid1_2_town (img:town) ;; 森林營地"
     ],
     [
@@ -404,6 +392,8 @@
         ]
       ],
       "lines": [
+        "可選: 箱子 + 3 個流亡者 位於 (img:waypoint) 附近的廢墟中",
+        "(hint)____ 沿著路走找到 (img:waypoint)",
         "沿著路走, 殺死 克雷頓 拿 (quest:克雷頓的古靈之記)",
         "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
@@ -469,7 +459,7 @@
       "lines": [
         "找到並殺死 歐克 拿 (quest:歐克的古靈之記)",
         "(img:waypoint) areaid1_2_9 ;; 西部密林",
-        "(hint)____ 通常 (img:7) 或 (img:1) 有歐克的營地, 較少 (img:5)"
+        "(hint)____ 通常 (img:1) 或 (img:7) 有歐克的營地, 較少 (img:5)"
       ]
     },
     {
@@ -569,6 +559,8 @@
         ]
       ],
       "lines": [
+        "可選: 箱子 + 3 個流亡者 位於 (img:waypoint) 附近的廢墟中",
+        "(hint)____ 沿著路走找到 (img:waypoint)",
         "沿著路走, 幫助 (color:ff8111)克雷頓, 拿 (quest:巨靈之印)",
         "重新登入 areaid1_2_town (img:town) ;; 森林營地"
       ]
@@ -607,7 +599,7 @@
       "lines": [
         "找到並幫助 (color:ff8111)歐克, 拿 (quest:巨靈之印)",
         "毒死 (quest:樹根), 進入 areaid1_2_11 ;; th瓦爾廢墟",
-        "(hint)____ 通常 (img:7) 或 (img:1) 有歐克的營地, 較少 (img:5)"
+        "(hint)____ 通常 (img:1) 或 (img:7) 有歐克的營地, 較少 (img:5)"
       ]
     },
     {
@@ -660,8 +652,9 @@
         "yes"
       ],
       "lines": [
-        "激活 (img:craft)",
-        "進入 areaid1_2_14_3 ;; 古金字塔"
+        "在 (img:waypoint) 之後, 找到並激活 (img:craft) (secret door)",
+        "進入 areaid1_2_14_3 ;; 古金字塔",
+        "(hint)____ 區域內的隨機角落 (img:waypoint)"
       ]
     },
     {
@@ -670,7 +663,8 @@
         "no"
       ],
       "lines": [
-        "進入 areaid1_2_14_3 ;; 古金字塔"
+        "進入 areaid1_2_14_3 ;; 古金字塔",
+        "(hint)____ 區域內的隨機角落 (img:waypoint)"
       ]
     },
     {
@@ -680,7 +674,7 @@
       ],
       "lines": [
         "找到並進入 (img:arena) 殺死 瓦爾超靈",
-        "(hint)____ 第一個出口位於任何一個角落，然後彼此對角線",
+        "(hint)____ 第一個出口位於任何一個角落，然後與入口相對角",
         "(hint)____ 建議等級: 20-22",
         "激活 (img:craft), 進入 areaid1_3_1 ;; 薩恩城廢墟"
       ]
@@ -692,7 +686,7 @@
       ],
       "lines": [
         "找到並進入 (img:arena) 殺死 瓦爾超靈",
-        "(hint)____ 第一個出口位於任何一個角落，然後彼此對角線",
+        "(hint)____ 第一個出口位於任何一個角落，然後與入口相對角",
         "(hint)____ 建議等級: 20-22",
         "激活 (img:craft), 進入 areaid1_3_1 ;; 薩恩城廢墟"
       ]
@@ -707,7 +701,7 @@
       "lines": [
         "激活 (img:craft)",
         "幫助和交談 (img:quest) 卡爾麗莎",
-        "進入 areaid1_3_town (img:town) ;; 薩恩營地"
+        "往 (img:5) 的牆, 進入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     {
@@ -717,14 +711,15 @@
       ],
       "lines": [
         "幫助和交談 (img:quest) 卡爾麗莎",
-        "進入 areaid1_3_town (img:town) ;; 薩恩營地"
+        "往 (img:5) 的牆, 進入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
     [
       "進入 areaid1_3_2 ;; 貧民窟"
     ],
     [
-      "找到並進入 areaid1_3_3_1 ;; 火葬場"
+      "找到並進入 areaid1_3_3_1 ;; 火葬場",
+      "(hint)____ (img:arena) 入口 和 (img:arena) 出口 位於區域對角線"
     ],
     {
       "condition": [
@@ -754,13 +749,13 @@
     ],
     [
       "找到並打開 (img:quest) (quest:下水道口)",
+      "(hint)____ 通常在起始區域內或附近",
       "進入 areaid1_3_10_1 ;; 下水道迷宮 ;; 下水道迷宮"
     ],
     [
-      "找到 1x (quest:半身像)",
-      "找到 (img:waypoint)",
-      "找到 2x (quest:半身像)",
-      "進入 areaid1_3_5 ;; 市集地帶"
+      "找到 1x (quest:半身像), 找到 (img:waypoint)",
+      "找到 2x (quest:半身像), 進入 areaid1_3_5 ;; 市集地帶",
+      "(hint)____ 如果第二個在一個大房間裡，第三個就是 (img:0) 否則 (img:2)"
     ],
     {
       "condition": [
@@ -779,6 +774,7 @@
       ],
       "lines": [
         "完成 (img:lab) 試煉, 激活 (img:craft)",
+        "(hint)____ (img:arena) 入口 和 試煉通常位於相鄰的區域角落",
         "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
       ]
     },
@@ -798,7 +794,8 @@
         "yes"
       ],
       "lines": [
-        "往 (img:0), 進入 areaid1_3_7 ;; 激戰廣場"
+        "進入 areaid1_3_7 ;; 激戰廣場",
+        "(hint)____ 通常在 (img:1) 或 (img:0), 比較少在 (img:5)"
       ]
     },
     {
@@ -808,11 +805,31 @@
       ],
       "lines": [
         "找到 (img:waypoint)",
-        "往 (img:0), 進入 areaid1_3_7 ;; 激戰廣場"
+        "(img:waypoint) areaid1_3_town ;; 薩恩營地"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "賀根: <維多里奧的秘寶>",
+        "(img:waypoint) areaid1_3_5 ;; 市集地帶"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "進入 areaid1_3_7 ;; 激戰廣場",
+        "(hint)____ 通常在 (img:1) 或 (img:0), 比較少在 (img:5)"
       ]
     },
     [
-      "往 (img:7), 找到 (img:waypoint)",
+      "往 (img:6), 找到 (img:waypoint)",
       "往 (img:5), 找到 (quest:絲帶線軸)",
       "往 (img:1), 進入 areaid1_3_8_1 ;; 日耀神殿：第 1 層"
     ],
@@ -835,7 +852,7 @@
         "no"
       ],
       "lines": [
-        "(img:waypoint) areaid1_3_7 ;; 激戰廣場"
+        "(img:waypoint), 進入 areaid1_3_7 ;; 激戰廣場"
       ]
     },
     [
@@ -843,28 +860,12 @@
       "(hint)____ 建議等級: 24"
     ],
     [
-      "找到 (quest:托麥迪克亞硫酸)",
+      "找到並取得 (quest:托麥迪克亞硫酸)",
       "重新登入 areaid1_3_town (img:town) ;; 薩恩營地"
     ],
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "(img:waypoint) areaid1_3_8_2 ;; 日耀神殿：第 2 層"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "no"
-      ],
-      "lines": [
-        "賀根: <維多里奧的秘寶>",
-        "(img:waypoint) areaid1_3_8_2 ;; 日耀神殿：第 2 層"
-      ]
-    },
+    [
+      "(img:waypoint) 到 areaid1_3_8_2 ;; 日耀神殿：第 2 層"
+    ],
     [
       "達拉: <絲帶線軸>",
       "達拉: <餘燼之塵>, 拿 (quest:煉獄之粉)",
@@ -998,7 +999,8 @@
         "yes"
       ],
       "lines": [
-        "找到並進入 areaid1_3_18_1 ;; 神之權杖"
+        "找到並進入 areaid1_3_18_1 ;; 神之權杖",
+        "(hint)____ 跟著一列貨車"
       ]
     },
     {
@@ -1008,8 +1010,9 @@
       ],
       "lines": [
         "沿著路走, 找到 (img:waypoint)",
-        "(img:waypoint) (color:FEC076)your_hideout, lilly: <命運之語>  ;; this line only shows with imported PoB",
-        "找到並進入 areaid1_3_18_1 ;; 神之權杖"
+        "(img:waypoint) (color:fec076)your_hideout, lilly: <命運之語>  ;; this line only shows with imported pob",
+        "找到並進入 areaid1_3_18_1 ;; 神之權杖",
+        "跟著一列貨車"
       ]
     },
     [
@@ -1017,7 +1020,7 @@
       "(hint)____ 樓層是圓形的，樓梯可以每隔90度生成"
     ],
     [
-      "進入 (img:arena) tower_rooftop, 殺死 神主",
+      "進入 (img:arena) 塔峰屋頂, 殺死 神主",
       "(hint)____ 相同的樓層和樓梯佈局, 往 (img:1) 聖宗牢籠之後",
       "(hint)____ 建議等級: 28",
       "進入 areaid1_4_1 ;; 水道遺跡"
@@ -1113,7 +1116,8 @@
       "進入 areaid1_4_5_1 ;; 德瑞索的幻境"
     ],
     [
-      "進入 areaid1_4_5_2 ;; 大競技場"
+      "進入 areaid1_4_5_2 ;; 大競技場",
+      "(hint)____ 出口通常 (img:1) 在區域內，有時在 (img:6)"
     ],
     {
       "condition": [
@@ -1147,7 +1151,7 @@
         "yes"
       ],
       "lines": [
-        "激活 (img:craft), 進入 (img:arena) caldera_of_the_king",
+        "激活 (img:craft), 進入 (img:arena) 熔岩之環",
         "殺死 國王岡姆 拿 (quest:憤怒之眼)",
         "(img:portal) 回 areaid1_4_town ;; 統治者之殿"
       ]
@@ -1158,7 +1162,7 @@
         "no"
       ],
       "lines": [
-        "進入 (img:arena) caldera_of_the_king",
+        "進入 (img:arena) 熔岩之環",
         "殺死 國王岡姆 拿 (quest:憤怒之眼)",
         "(img:portal) 回 areaid1_4_town ;; 統治者之殿"
       ]
@@ -1167,7 +1171,7 @@
       "(img:waypoint) areaid1_4_5_2 ;; 大競技場"
     ],
     [
-      "找到並進入 (img:arena) the_ring_of_blades",
+      "找到並進入 (img:arena) 劍刃之環",
       "(hint)____ 沿著道路 並盡可能的往 (img:7)",
       "殺死 德瑞索 拿 (quest:慾望之眼), 重新登入 areaid1_4_town (img:town) ;; 統治者之殿"
     ],
@@ -1187,7 +1191,7 @@
         "yes"
       ],
       "lines": [
-        "進入 (img:arena) the_bowels_of_the_beast, 殺死 派蒂",
+        "進入 (img:arena) 獸腹, 殺死 派蒂",
         "(img:quest) 跟派蒂交談",
         "激活 (img:craft), 進入 areaid1_4_6_3 ;; 育靈之室"
       ]
@@ -1198,13 +1202,13 @@
         "no"
       ],
       "lines": [
-        "進入 (img:arena) the_bowels_of_the_beast, 殺死 派蒂",
+        "進入 (img:arena) 獸腹, 殺死 派蒂",
         "(img:quest) 跟派蒂交談, 進入 areaid1_4_6_3 ;; 育靈之室"
       ]
     },
     [
       "找到並殺死 德瑞, (color:ff8111)馬雷葛蘿, (color:ff8111)薛朗",
-      "(img:quest) 跟派蒂交談, 進入 (img:arena) the_black_core, 殺死 瑪拉凱",
+      "(img:quest) 跟派蒂交談, 進入 (img:arena) 黑靈核心, 殺死 瑪拉凱",
       "(hint)____ 建議等級: 34-35",
       "重新登入 areaid1_4_town (img:town) ;; 統治者之殿"
     ],
@@ -1219,7 +1223,7 @@
       ],
       "lines": [
         "激活 (img:craft)",
-        "activate (quest:the_resonator), use (quest:oriath_portal)",
+        "啟動 (quest:共振傳送裝置), 進 (quest:奧瑞亞傳送門)",
         "進入 areaid1_5_1 ;; 奴役監牢"
       ]
     },
@@ -1229,7 +1233,7 @@
         "no"
       ],
       "lines": [
-        "activate (quest:the_resonator), use (quest:oriath_portal)",
+        "activate (quest:共振傳送裝置), use (quest:奧瑞亞傳送門)",
         "進入 areaid1_5_1 ;; 奴役監牢"
       ]
     }
@@ -1265,7 +1269,7 @@
       ],
       "lines": [
         "逆時針繞一圈, 激活 (img:craft)",
-        "進入 (img:arena) sanctum_of_善, 殺死 聖宗伊爾莉斯",
+        "進入 (img:arena) 潔白聖殿, 殺死 聖宗伊爾莉斯",
         "重新登入 areaid1_5_town (img:town) ;; 監守高塔"
       ]
     },
@@ -1276,7 +1280,7 @@
       ],
       "lines": [
         "逆時針繞一圈",
-        "進入 (img:arena) sanctum_of_善, 殺死 聖宗伊爾莉斯",
+        "進入 (img:arena) 潔白聖殿, 殺死 聖宗伊爾莉斯",
         "重新登入 areaid1_5_town (img:town) ;; 監守高塔"
       ]
     },
@@ -1320,8 +1324,9 @@
       "(img:waypoint) areaid1_5_3b ;; 大廣場廢墟"
     ],
     [
-      "進入 areaid1_5_7 ;; 聖物間",
-      "(hint)____ 往 (img:5) 到廣場, 然後 (img:4)"
+      "往 (img:5) 到廣場",
+      "可選: 往 (img:3), 殺死 烏圖拉 (reward: <武器>)",
+      "往 (img:4), 進入 areaid1_5_7 ;; 聖物間"
     ],
     {
       "condition": [
@@ -1345,13 +1350,14 @@
     },
     [
       "拉尼: <奇塔弗的折磨>",
+      "可選: 往 (img:3), 殺死 烏圖拉 (reward: <武器>)",
       "(img:waypoint) areaid1_5_3b ;; 大廣場廢墟"
     ],
     [
       "往 (img:5), 進入 areaid1_5_8 ;; 聖堂屋頂"
     ],
     [
-      "進入 (img:arena) cathedral_apex, 殺死 奇塔弗",
+      "進入 (img:arena) 聖堂屋頂, 殺死 奇塔弗",
       "與 (img:quest) 莉莉 交談, 航行至 areaid2_6_town (img:town) ;; 獅眼守望"
     ]
   ],
@@ -1485,7 +1491,8 @@
     ],
     [
       "拿 (quest:黑色旗幟)",
-      "進入 areaid2_6_14 ;; 絕望烽塔"
+      "進入 areaid2_6_14 ;; 絕望烽塔",
+      "(hint)____ 通常 (img:3) 或 (img:1) 在區域內，有時 (img:7)"
     ],
     {
       "condition": [
@@ -1735,7 +1742,8 @@
       "進入 areaid2_7_12_1 ;; 腐朽寺廟：第一層"
     ],
     [
-      "進入 areaid2_7_12_2 ;; 腐朽寺廟：第二層"
+      "進入 areaid2_7_12_2 ;; 腐朽寺廟：第二層",
+      "(hint)____ (img:arena) 樓梯位於區域的對角線，以 Z 形移動"
     ],
     {
       "condition": [
@@ -1743,8 +1751,8 @@
         "yes"
       ],
       "lines": [
-        "激活 (img:craft)",
-        "進入 (img:arena) arakaali's_web, 殺死 艾爾卡莉之女",
+        "激活 (img:craft), 進入 (img:arena) arakaali's_web, 殺死 艾爾卡莉之女",
+        "(hint)____ (img:arena) 樓梯位於區域的對角線，以 Z 形移動",
         "進入 areaid2_8_1 ;; 薩恩城牆"
       ]
     },
@@ -1755,6 +1763,7 @@
       ],
       "lines": [
         "進入 (img:arena) arakaali's_web, 殺死 艾爾卡莉之女",
+        "(hint)____ (img:arena) 樓梯位於區域的對角線，以 Z 形移動",
         "進入 areaid2_8_1 ;; 薩恩城牆"
       ]
     }
@@ -1860,8 +1869,8 @@
         "yes"
       ],
       "lines": [
-        "找到並殺死 月影神諭諸神黃昏 拿 (quest:月影之石)",
-        "激活 (img:craft)",
+        "找到並殺死 月影神諭諸神黃昏 拿 (quest:月影之石), 激活 (img:craft)",
+        "(hint)____ 跟隨：向上的樓梯，岔路口有一個花盆",
         "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
@@ -1872,6 +1881,7 @@
       ],
       "lines": [
         "找到並殺死 月影神諭諸神黃昏 拿 (quest:月影之石)",
+        "(hint)____ 跟隨：向上的樓梯，岔路口有一個花盆",
         "重新登入 areaid2_8_town (img:town) ;; 薩恩營地"
       ]
     },
@@ -1953,8 +1963,7 @@
       ]
     },
     [
-      "找到 (img:waypoint)",
-      "(hint)____ 往 (img:1), 然後沿著邊緣",
+      "往 (img:1), 然後沿著牆壁走到 (img:waypoint)",
       "進入 areaid2_9_6 ;; 沸騰湖泊"
     ],
     {
@@ -1989,6 +1998,7 @@
     ],
     [
       "進入 (img:arena) the_sand_pit, 殺死 沙瀑女王夏卡莉",
+      "(hint)____ 通常在 (img:2) 區域的邊緣",
       "重新登入 areaid2_9_town (img:town) ;; 統治者之殿"
     ],
     [
@@ -2056,8 +2066,7 @@
         "yes"
       ],
       "lines": [
-        "沿著手推車的軌跡穿過該區域",
-        "激活 (img:craft)",
+        "沿著車軌穿過區域，激活 (img:craft)",
         "(hint)____ 軌道在某處會分岔，並在一處格柵結束",
         "殺死 艾杜斯將軍 拿 (quest:查爾森之粉), 重新登入 areaid2_9_town (img:town) ;; 統治者之殿"
       ]
@@ -2083,7 +2092,7 @@
       "進入 areaid2_9_10_2 ;; 腐敗之核"
     ],
     [
-      "進入 (img:arena) the_black_core, (img:quest) 與罪交談, 清除 3 個子區域",
+      "進入 (img:arena) 黑靈核心, (img:quest) 與罪交談, 清除 3 個子區域",
       "進入 (img:arena) the_black_heart, 殺死 墮道三巨頭",
       "(img:quest) 與莉莉交談 航行至 areaid2_10_town (img:town) ;; 奧瑞亞港口"
     ]
@@ -2093,7 +2102,7 @@
       "進入 areaid2_10_1 ;; 聖堂屋頂"
     ],
     [
-      "往 (img:0), 進入 (img:arena) cathedral_apex, 殺死 病疫死翼",
+      "往 (img:0), 進入 (img:arena) 聖堂屋頂, 殺死 病疫死翼",
       "往 (img:3), 進入 areaid2_10_2 ;; 殘摧大廣場"
     ],
     [
@@ -2172,7 +2181,7 @@
       ],
       "lines": [
         "逆時針繞一圈, 激活 (img:craft)",
-        "進入 (img:arena) sanctum_of_善, 殺死 聖宗伊爾莉斯 拿 (quest:純淨之杖)",
+        "進入 (img:arena) 潔白聖殿, 殺死 聖宗伊爾莉斯 拿 (quest:純淨之杖)",
         "重新登入 areaid2_10_town (img:town) ;; 奧瑞亞港口"
       ]
     },
@@ -2182,7 +2191,7 @@
         "no"
       ],
       "lines": [
-        "進入 (img:arena) sanctum_of_善, 殺死 聖宗伊爾莉斯 拿 (quest:純淨之杖)",
+        "進入 (img:arena) 潔白聖殿, 殺死 聖宗伊爾莉斯 拿 (quest:純淨之杖)",
         "(hint)____ 逆時針繞一圈",
         "重新登入 areaid2_10_town (img:town) ;; 奧瑞亞港口"
       ]
