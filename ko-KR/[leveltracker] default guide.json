@@ -187,91 +187,16 @@
     [
       "往 (img:1), 進入 areaid1_2_2 ;; 前哨原野"
     ],
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "找到 (img:arena) areaid1_2_2a, 放置 (img:portal) ;; 獸穴",
-        "沿著路走, 進入 areaid1_2_3 ;; 危機叉路"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "沿著路走, (img:waypoint) areaid1_2_town (img:town) ;; 森林營地"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "從 (img:portal) 回到 areaid1_2_2 ;; 前哨原野"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "進入 areaid1_2_2a ;; 獸穴"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "找到並殺死 白色巨獸",
-        "重新登入 areaid1_2_town (img:town) ;; 森林營地"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "伊娜: <白色巨獸>",
-        "(img:waypoint) areaid1_2_3 ;; 危機叉路"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "yes"
-      ],
-      "lines": [
-        "往 (img:7), 進入 areaid1_2_6_1 ;; 罪孽之殿：第 1 層"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "no"
-      ],
-      "lines": [
-        "沿著路走, 進入 areaid1_2_3 ;; 危機叉路"
-      ]
-    },
-    {
-      "condition": [
-        "league-start",
-        "no"
-      ],
-      "lines": [
-        "沿著路走, 找到 (img:waypoint)",
-        "往 (img:7), 進入 areaid1_2_6_1 ;; 罪孽之殿：第 1 層"
-      ]
-    },
+    [
+      "可選: 找到 (img:arena) areaid1_2_2a, 放置 (img:portal) (q-reward: <腰帶> / 水銀藥劑) ;; 獸穴",
+      "沿著路走, 進入 areaid1_2_3 ;; 危機叉路"
+    ],
+    [
+      "沿著路走, 啟用 (img:waypoint)",
+      "可選: (img:waypoint) 到城鎮, 進入 (img:portal), 進入 (img:arena) 獸穴 ;; 森林營地",
+      "(hint)____ 殺死 白色巨獸, 重新登入, 伊娜: <白色巨獸>",
+      "前往 (img:7), 進入 areaid1_2_6_1 ;; 罪孽之殿：第 1 層"
+    ],
     [
       "進入 areaid1_2_6_2 ;; 罪孽之殿：第 2 層",
       "(hint)____ 試著往 (img:2), 反之 (img:6). 抵達中央房間",
@@ -948,7 +873,15 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) areaid1_3_15 ;; 皇家花園",
+        "(img:waypoint) 到 areaid1_3_15 ;; 皇家花園"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
         "往 (img:7), 進入 areaid1_3_17_1 ;; 圖書館"
       ]
     },
@@ -999,8 +932,7 @@
         "yes"
       ],
       "lines": [
-        "找到並進入 areaid1_3_18_1 ;; 神之權杖",
-        "(hint)____ 跟著一列貨車"
+        "跟著一列貨車, 進入 areaid1_3_18_1 ;; 神權之塔"
       ]
     },
     {
@@ -1011,8 +943,7 @@
       "lines": [
         "沿著路走, 找到 (img:waypoint)",
         "(img:waypoint) (color:fec076)your_hideout, lilly: <命運之語>  ;; this line only shows with imported pob",
-        "找到並進入 areaid1_3_18_1 ;; 神之權杖",
-        "跟著一列貨車"
+        "跟著一列貨車, 進入 areaid1_3_18_1 ;; 神權之塔"
       ]
     },
     [
