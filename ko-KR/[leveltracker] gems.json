@@ -3,15 +3,15 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar"
         ]
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar"
         ],
@@ -28,7 +28,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -37,10 +37,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "ranger",
           "shadow",
@@ -59,10 +59,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "templar",
           "marauder",
@@ -84,10 +84,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch",
           "templar",
@@ -101,7 +101,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar"
         ]
@@ -112,10 +112,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -131,7 +131,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -140,7 +140,7 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "ranger"
         ],
@@ -156,7 +156,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "shadow"
         ],
@@ -173,10 +173,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "templar",
           "marauder",
@@ -197,10 +197,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder",
           "duelist"
@@ -218,10 +218,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder",
           "scion"
@@ -240,10 +240,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": []
       }
     }
@@ -252,10 +252,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": [
           "scion",
           "shadow",
@@ -268,10 +268,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch"
         ],
@@ -287,10 +287,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "templar",
@@ -309,15 +309,15 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "witch"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "templar",
           "scion"
@@ -328,7 +328,7 @@
           "templar"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar",
           "witch"
@@ -340,7 +340,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar"
         ],
@@ -357,7 +357,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -371,10 +371,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "ranger",
@@ -396,10 +396,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -415,7 +415,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "templar",
           "marauder",
@@ -430,10 +430,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "ranger"
         ],
@@ -450,10 +450,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger"
         ],
@@ -471,10 +471,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "shadow"
         ],
@@ -491,10 +491,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "duelist",
           "marauder",
@@ -508,10 +508,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": []
       }
     }
@@ -520,10 +520,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "shadow"
@@ -540,10 +540,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "ranger",
@@ -557,10 +557,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "shadow",
@@ -579,10 +579,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "duelist",
           "ranger",
@@ -596,7 +596,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "duelist",
           "ranger",
@@ -611,10 +611,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "templar"
         ],
@@ -631,10 +631,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "ranger",
           "shadow",
@@ -653,7 +653,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "marauder",
           "duelist"
@@ -671,7 +671,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "marauder"
         ],
@@ -688,10 +688,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "shadow"
         ],
@@ -709,10 +709,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger",
           "shadow",
@@ -731,10 +731,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "ranger",
           "shadow",
@@ -747,10 +747,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow",
           "scion"
@@ -768,10 +768,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow",
           "scion"
@@ -789,10 +789,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "duelist"
         ],
@@ -808,7 +808,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar"
@@ -821,10 +821,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "duelist",
           "ranger"
@@ -841,10 +841,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "ranger",
           "scion",
@@ -859,10 +859,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "templar"
@@ -880,10 +880,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch",
           "shadow"
@@ -901,10 +901,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -919,10 +919,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "duelist",
           "ranger",
@@ -946,10 +946,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "duelist"
         ],
@@ -966,10 +966,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist",
           "ranger",
@@ -989,10 +989,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1008,7 +1008,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder",
           "duelist",
@@ -1022,10 +1022,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch"
         ],
@@ -1043,10 +1043,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "templar",
@@ -1059,7 +1059,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "shadow"
@@ -1077,10 +1077,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1094,10 +1094,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "templar"
         ],
@@ -1114,7 +1114,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "marauder"
         ],
@@ -1130,10 +1130,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "ranger",
@@ -1147,7 +1147,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar"
@@ -1160,7 +1160,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1169,7 +1169,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1178,7 +1178,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1187,7 +1187,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1196,7 +1196,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1205,7 +1205,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -1214,10 +1214,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "ranger"
         ],
@@ -1234,10 +1234,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder"
         ],
@@ -1253,7 +1253,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -1271,15 +1271,15 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "templar",
           "marauder",
@@ -1298,10 +1298,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1316,15 +1316,15 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "shadow"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "witch",
           "duelist",
@@ -1342,10 +1342,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "duelist",
           "ranger",
@@ -1367,7 +1367,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "shadow"
         ],
@@ -1379,7 +1379,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "shadow"
         ],
@@ -1391,10 +1391,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch",
           "templar",
@@ -1409,10 +1409,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "duelist"
         ],
@@ -1429,10 +1429,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "marauder",
           "duelist",
@@ -1453,7 +1453,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "shadow"
         ],
@@ -1470,10 +1470,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "shadow"
         ],
@@ -1489,7 +1489,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -1504,10 +1504,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "shadow"
@@ -1526,10 +1526,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "scion",
           "shadow",
@@ -1543,10 +1543,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch",
           "templar"
@@ -1564,10 +1564,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "templar",
@@ -1586,10 +1586,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
@@ -1609,10 +1609,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -1628,10 +1628,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch",
           "shadow"
@@ -1649,7 +1649,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder"
         ],
@@ -1661,10 +1661,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "templar"
@@ -1676,7 +1676,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "witch"
         ]
@@ -1687,10 +1687,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": [
           "ranger",
           "scion",
@@ -1704,7 +1704,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -1713,7 +1713,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder",
           "duelist"
@@ -1726,10 +1726,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder",
           "duelist",
@@ -1748,10 +1748,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -1768,10 +1768,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch"
         ],
@@ -1788,10 +1788,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "shadow"
@@ -1810,7 +1810,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "ranger",
           "shadow"
@@ -1823,10 +1823,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "templar",
@@ -1848,10 +1848,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "marauder",
           "duelist"
@@ -1869,10 +1869,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": []
       }
     }
@@ -1881,7 +1881,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -1890,10 +1890,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "marauder",
           "duelist",
@@ -1913,10 +1913,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -1930,10 +1930,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "scion",
           "shadow",
@@ -1946,10 +1946,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "打破鳥蛋2": {
         "quest": [
           "duelist",
           "ranger",
@@ -1964,10 +1964,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "shadow",
           "scion"
@@ -1987,7 +1987,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "scion"
@@ -2004,10 +2004,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "marauder",
           "duelist",
@@ -2027,10 +2027,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist"
         ],
@@ -2047,10 +2047,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch"
         ],
@@ -2068,10 +2068,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "ranger",
@@ -2090,7 +2090,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "vendor": [
           "scion",
           "shadow",
@@ -2103,10 +2103,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder"
         ],
@@ -2122,10 +2122,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch",
           "shadow"
@@ -2142,7 +2142,7 @@
     "attribute": 0,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -2151,10 +2151,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch"
         ],
@@ -2171,10 +2171,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2190,10 +2190,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": []
       }
     }
@@ -2202,10 +2202,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch"
         ],
@@ -2227,10 +2227,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar",
           "scion"
@@ -2248,10 +2248,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "templar"
         ],
@@ -2267,10 +2267,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -2287,10 +2287,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2305,10 +2305,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "duelist"
         ],
@@ -2326,10 +2326,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2344,10 +2344,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "marauder"
         ],
@@ -2364,10 +2364,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder",
           "duelist"
@@ -2385,10 +2385,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch"
         ],
@@ -2399,7 +2399,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "witch"
         ]
@@ -2410,7 +2410,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -2419,10 +2419,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "templar",
           "marauder",
@@ -2439,7 +2439,7 @@
           "templar"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar",
           "marauder"
@@ -2451,10 +2451,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "templar",
@@ -2473,10 +2473,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -2498,15 +2498,15 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "templar"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "witch",
           "shadow",
@@ -2524,10 +2524,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
@@ -2552,10 +2552,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2569,10 +2569,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "marauder",
           "duelist"
@@ -2590,10 +2590,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "scion",
           "shadow",
@@ -2607,7 +2607,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -2622,10 +2622,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
@@ -2654,10 +2654,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "ranger"
         ],
@@ -2674,10 +2674,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "shadow"
@@ -2695,7 +2695,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "marauder"
         ],
@@ -2712,10 +2712,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "shadow"
         ],
@@ -2731,10 +2731,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder",
           "duelist"
@@ -2752,7 +2752,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "duelist"
         ],
@@ -2764,10 +2764,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "duelist",
           "marauder",
@@ -2780,10 +2780,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger"
         ],
@@ -2800,10 +2800,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "shadow"
         ],
@@ -2820,10 +2820,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "scion"
         ],
@@ -2841,10 +2841,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -2861,10 +2861,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "marauder",
           "duelist",
@@ -2886,10 +2886,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "templar",
@@ -2909,7 +2909,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "shadow"
         ],
@@ -2921,7 +2921,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch"
         ],
@@ -2933,7 +2933,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -2947,10 +2947,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow"
         ],
@@ -2967,10 +2967,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "marauder",
           "scion",
@@ -2985,10 +2985,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "templar"
@@ -3006,7 +3006,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar",
           "marauder",
@@ -3025,10 +3025,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch",
           "templar",
@@ -3048,7 +3048,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "scion"
         ],
@@ -3065,10 +3065,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "shadow",
@@ -3082,10 +3082,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch",
           "templar"
@@ -3103,10 +3103,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "templar",
@@ -3126,10 +3126,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow"
         ],
@@ -3145,10 +3145,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "marauder"
         ],
@@ -3164,10 +3164,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
@@ -3188,10 +3188,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist"
         ],
@@ -3207,10 +3207,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch"
         ],
@@ -3226,10 +3226,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "vendor": [
           "duelist",
           "marauder",
@@ -3244,7 +3244,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "ranger"
         ],
@@ -3256,10 +3256,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "vendor": [
           "witch",
           "shadow",
@@ -3272,7 +3272,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "ranger"
         ],
@@ -3284,7 +3284,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "templar",
           "marauder",
@@ -3300,10 +3300,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch",
           "shadow"
@@ -3320,10 +3320,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist",
           "ranger",
@@ -3343,10 +3343,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch"
         ],
@@ -3362,7 +3362,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar",
           "scion"
@@ -3379,10 +3379,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "ranger"
         ],
@@ -3399,10 +3399,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch",
           "templar",
@@ -3421,7 +3421,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -3441,10 +3441,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": [
           "duelist",
           "templar",
@@ -3457,10 +3457,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
@@ -3481,10 +3481,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "打破鳥蛋2": {
         "quest": [
           "witch",
           "templar",
@@ -3499,10 +3499,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "templar"
         ],
@@ -3519,7 +3519,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "templar"
         ],
@@ -3536,10 +3536,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "duelist",
           "ranger"
@@ -3556,7 +3556,7 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch"
         ],
@@ -3572,10 +3572,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder"
         ],
@@ -3592,7 +3592,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -3601,10 +3601,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -3621,10 +3621,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "marauder",
@@ -3637,10 +3637,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist"
         ],
@@ -3657,10 +3657,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "duelist",
           "ranger"
@@ -3677,7 +3677,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -3695,7 +3695,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "duelist",
           "ranger",
@@ -3710,10 +3710,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "marauder"
         ],
@@ -3729,7 +3729,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "templar"
         ],
@@ -3741,10 +3741,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "duelist",
           "ranger",
@@ -3758,10 +3758,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "duelist",
           "ranger",
@@ -3783,10 +3783,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "marauder",
@@ -3800,10 +3800,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "ranger",
           "shadow"
@@ -3821,10 +3821,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "templar",
@@ -3842,10 +3842,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "templar",
@@ -3863,10 +3863,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "templar"
         ],
@@ -3884,10 +3884,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "witch",
           "templar",
@@ -3905,7 +3905,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch"
         ],
@@ -3921,10 +3921,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "shadow",
@@ -3943,7 +3943,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -3952,7 +3952,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "shadow"
         ],
@@ -3964,10 +3964,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "templar"
         ],
@@ -3983,7 +3983,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar"
@@ -4001,7 +4001,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "duelist",
           "ranger"
@@ -4014,7 +4014,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "ranger",
           "shadow",
@@ -4028,10 +4028,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar",
           "marauder",
@@ -4052,10 +4052,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "templar",
@@ -4074,10 +4074,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "ranger"
         ],
@@ -4093,10 +4093,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "shadow",
@@ -4110,10 +4110,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "scion",
           "shadow",
@@ -4126,10 +4126,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow"
         ],
@@ -4146,7 +4146,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar"
         ],
@@ -4162,7 +4162,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "scion"
@@ -4180,7 +4180,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4194,7 +4194,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder",
           "duelist",
@@ -4208,7 +4208,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "shadow",
@@ -4222,10 +4222,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "shadow",
@@ -4239,7 +4239,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -4257,10 +4257,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "ranger",
           "scion",
@@ -4274,10 +4274,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "ranger",
           "scion",
@@ -4291,10 +4291,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder"
         ],
@@ -4312,10 +4312,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder"
         ],
@@ -4332,10 +4332,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch"
         ],
@@ -4350,10 +4350,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "witch",
           "templar",
@@ -4372,7 +4372,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "shadow",
           "scion"
@@ -4385,7 +4385,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -4394,7 +4394,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -4408,10 +4408,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "marauder",
           "duelist"
@@ -4429,7 +4429,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "scion"
         ],
@@ -4446,10 +4446,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4464,10 +4464,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4481,7 +4481,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -4490,10 +4490,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -4510,10 +4510,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch"
         ],
@@ -4530,10 +4530,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4547,10 +4547,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "duelist"
         ],
@@ -4569,10 +4569,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "duelist"
         ],
@@ -4588,10 +4588,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "templar",
           "marauder",
@@ -4612,7 +4612,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -4621,10 +4621,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "duelist",
           "ranger",
@@ -4645,10 +4645,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -4662,7 +4662,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder",
           "duelist",
@@ -4677,10 +4677,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "templar",
           "marauder",
@@ -4694,7 +4694,7 @@
           "scion"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar",
           "marauder"
@@ -4706,10 +4706,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -4725,7 +4725,7 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -4741,7 +4741,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "templar",
@@ -4756,10 +4756,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow"
         ],
@@ -4775,10 +4775,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -4796,10 +4796,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch",
           "templar",
@@ -4818,10 +4818,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow"
         ],
@@ -4838,10 +4838,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch"
         ],
@@ -4858,10 +4858,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "ranger",
           "witch",
@@ -4875,10 +4875,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "duelist"
         ],
@@ -4895,10 +4895,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "shadow",
@@ -4917,7 +4917,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -4926,10 +4926,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "templar"
@@ -4947,10 +4947,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "ranger"
         ],
@@ -4966,7 +4966,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "vendor": []
       }
     }
@@ -4975,7 +4975,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch"
         ],
@@ -4987,10 +4987,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "templar",
           "marauder",
@@ -5000,7 +5000,7 @@
         ],
         "vendor": []
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar"
         ]
@@ -5011,10 +5011,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "templar",
           "marauder",
@@ -5030,7 +5030,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "shadow"
         ],
@@ -5046,10 +5046,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch"
         ],
@@ -5059,7 +5059,7 @@
           "witch"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar"
         ]
@@ -5070,10 +5070,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "scion",
           "templar",
@@ -5086,10 +5086,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch"
         ],
@@ -5105,10 +5105,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "duelist",
           "ranger"
@@ -5126,10 +5126,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "ranger"
         ]
@@ -5140,10 +5140,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder"
         ],
@@ -5160,10 +5160,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "templar",
           "marauder",
@@ -5183,16 +5183,16 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "scion",
           "ranger"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "marauder",
           "duelist",
@@ -5213,7 +5213,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder"
         ],
@@ -5225,7 +5225,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar",
           "marauder"
@@ -5238,10 +5238,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "shadow"
         ],
@@ -5258,7 +5258,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -5276,10 +5276,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "shadow"
         ],
@@ -5295,10 +5295,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch",
           "shadow"
@@ -5316,7 +5316,7 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch"
         ],
@@ -5333,7 +5333,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "marauder"
         ],
@@ -5350,10 +5350,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -5369,10 +5369,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "duelist"
         ],
@@ -5389,10 +5389,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow"
         ],
@@ -5408,10 +5408,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder",
           "duelist",
@@ -5430,7 +5430,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "vendor": [
           "duelist",
           "ranger",
@@ -5444,10 +5444,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "marauder",
@@ -5463,10 +5463,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "duelist",
           "ranger",
@@ -5486,7 +5486,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "shadow"
@@ -5499,10 +5499,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "shadow"
         ],
@@ -5518,10 +5518,10 @@
     "attribute": 2,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist",
           "ranger"
@@ -5539,10 +5539,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "duelist",
           "ranger",
@@ -5556,10 +5556,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -5581,10 +5581,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "vendor": [
           "ranger",
           "scion",
@@ -5598,10 +5598,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "shadow",
@@ -5614,10 +5614,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "duelist",
           "ranger",
@@ -5632,10 +5632,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch"
         ],
@@ -5651,10 +5651,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder",
           "duelist"
@@ -5667,15 +5667,15 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "scion"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "vendor": [
           "templar",
           "shadow",
@@ -5689,7 +5689,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "vendor": [
           "scion",
           "marauder",
@@ -5702,7 +5702,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "templar",
           "marauder",
@@ -5716,10 +5716,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "duelist",
           "ranger"
@@ -5736,10 +5736,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "templar",
           "marauder",
@@ -5758,10 +5758,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "templar"
         ],
@@ -5778,10 +5778,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch"
         ],
@@ -5793,10 +5793,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "duelist",
           "marauder",
@@ -5810,10 +5810,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "duelist",
           "ranger",
@@ -5827,10 +5827,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "vendor": [
           "scion",
           "shadow",
@@ -5844,10 +5844,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow"
         ],
@@ -5869,10 +5869,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "marauder",
           "duelist"
@@ -5892,10 +5892,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "marauder"
         ],
@@ -5912,10 +5912,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "duelist",
           "ranger",
@@ -5934,10 +5934,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -5953,10 +5953,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch"
         ],
@@ -5972,10 +5972,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "duelist"
         ],
@@ -5992,10 +5992,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "scion"
         ],
@@ -6013,10 +6013,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger",
           "shadow"
@@ -6033,10 +6033,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -6055,7 +6055,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "ranger",
           "shadow",
@@ -6069,10 +6069,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "vendor": [
           "marauder",
           "scion",
@@ -6086,10 +6086,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "witch",
           "templar"
@@ -6107,7 +6107,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "ranger"
         ],
@@ -6125,15 +6125,15 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "marauder"
         ]
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "templar",
           "duelist",
@@ -6151,10 +6151,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch"
         ],
@@ -6171,7 +6171,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch"
         ],
@@ -6183,10 +6183,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "duelist",
           "scion"
@@ -6199,10 +6199,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "templar",
@@ -6221,10 +6221,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger"
         ],
@@ -6241,10 +6241,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar"
         ],
@@ -6260,7 +6260,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "ranger",
           "shadow"
@@ -6273,10 +6273,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder",
           "duelist"
@@ -6294,10 +6294,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "shadow"
         ],
@@ -6313,10 +6313,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "duelist"
         ],
@@ -6332,13 +6332,13 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "vendor": []
       },
-      "breaking some eggs2": {
+      "打破鳥蛋2": {
         "quest": [
           "templar",
           "marauder",
@@ -6352,10 +6352,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "marauder"
         ],
@@ -6372,10 +6372,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -6392,10 +6392,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "templar",
           "marauder"
@@ -6413,10 +6413,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "templar"
         ],
@@ -6432,10 +6432,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "ranger"
         ],
@@ -6453,10 +6453,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -6473,7 +6473,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar"
@@ -6491,10 +6491,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "shadow"
         ],
@@ -6510,7 +6510,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       }
     }
@@ -6519,10 +6519,10 @@
     "attribute": 1,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "templar"
         ],
@@ -6538,10 +6538,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "ranger",
           "shadow"
@@ -6560,7 +6560,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "ranger"
         ],
@@ -6577,10 +6577,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "duelist",
           "ranger"
@@ -6598,7 +6598,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "scion"
         ],
@@ -6615,10 +6615,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "shadow",
@@ -6637,10 +6637,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "scion",
           "shadow",
@@ -6654,10 +6654,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "scion"
         ],
@@ -6676,10 +6676,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "duelist"
         ],
@@ -6697,10 +6697,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "marauder",
@@ -6716,10 +6716,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "witch",
           "templar",
@@ -6739,7 +6739,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -6757,10 +6757,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "marauder",
           "scion",
@@ -6774,7 +6774,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "templar"
         ],
@@ -6791,10 +6791,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch"
         ],
@@ -6811,10 +6811,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "vendor": [
           "scion",
           "templar",
@@ -6827,10 +6827,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "ranger",
           "scion"
@@ -6848,10 +6848,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "duelist",
           "scion"
@@ -6868,15 +6868,15 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "templar"
         ]
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar",
           "marauder",
@@ -6896,15 +6896,15 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "marauder"
         ]
       },
-      "breaking some eggs2": {
+      "打破鳥蛋2": {
         "vendor": [
           "templar",
           "marauder",
@@ -6918,10 +6918,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar"
         ],
@@ -6937,10 +6937,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar",
           "scion"
@@ -6958,10 +6958,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar"
         ],
@@ -6978,10 +6978,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger"
         ],
@@ -6998,10 +6998,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch",
           "templar"
@@ -7019,10 +7019,10 @@
     "attribute": 3,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "quest": [
           "shadow"
         ],
@@ -7039,10 +7039,10 @@
     "attribute": 1,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "marauder",
@@ -7056,7 +7056,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar"
@@ -7075,7 +7075,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7093,7 +7093,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7111,10 +7111,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "templar"
         ],
@@ -7129,7 +7129,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7147,7 +7147,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7165,10 +7165,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "witch",
           "scion"
@@ -7186,10 +7186,10 @@
     "attribute": 3,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "witch"
         ],
@@ -7205,10 +7205,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "witch"
         ],
@@ -7224,10 +7224,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch"
         ],
@@ -7243,10 +7243,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "shadow"
         ],
@@ -7263,7 +7263,7 @@
     "attribute": 1,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7281,10 +7281,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder"
         ],
@@ -7301,10 +7301,10 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder",
           "duelist"
@@ -7321,7 +7321,7 @@
     "attribute": 2,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "witch",
           "shadow"
@@ -7334,10 +7334,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "shadow"
         ],
@@ -7355,7 +7355,7 @@
     "attribute": 3,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "templar"
         ],
@@ -7367,10 +7367,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "duelist"
         ],
@@ -7386,10 +7386,10 @@
     "attribute": 1,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "marauder",
           "scion"
@@ -7407,10 +7407,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "vendor": [
           "duelist",
           "marauder",
@@ -7426,10 +7426,10 @@
     "attribute": 2,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "shadow",
@@ -7448,7 +7448,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "shadow"
         ],
@@ -7465,7 +7465,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "ranger",
           "shadow"
@@ -7482,10 +7482,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger",
           "scion"
@@ -7503,10 +7503,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "ranger"
         ],
@@ -7523,10 +7523,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "shadow"
         ],
@@ -7544,10 +7544,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "vendor": [
           "duelist",
           "ranger",
@@ -7562,7 +7562,7 @@
     "attribute": 1,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "marauder",
           "duelist"
@@ -7580,10 +7580,10 @@
     "attribute": 3,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "witch",
           "ranger",
@@ -7604,10 +7604,10 @@
     "attribute": 3,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch",
           "scion"
@@ -7625,10 +7625,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "shadow"
         ],
@@ -7646,7 +7646,7 @@
     "attribute": 3,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "witch",
           "templar",
@@ -7666,7 +7666,7 @@
     "attribute": 1,
     "level": 31,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "quest": [
           "marauder",
           "duelist"
@@ -7679,7 +7679,7 @@
     "attribute": 2,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "vendor": [
           "scion",
           "duelist",
@@ -7692,10 +7692,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "marauder"
         ],
@@ -7711,10 +7711,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow"
         ],
@@ -7730,10 +7730,10 @@
     "attribute": 2,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "duelist",
           "ranger",
@@ -7745,7 +7745,7 @@
           "scion"
         ]
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "marauder"
         ]
@@ -7756,10 +7756,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "templar",
           "marauder",
@@ -7780,7 +7780,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "shadow"
         ],
@@ -7796,10 +7796,10 @@
     "attribute": 2,
     "level": 1,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "enemy at the gate": {
+      "大門口的敵人": {
         "vendor": [
           "duelist",
           "ranger",
@@ -7813,10 +7813,10 @@
     "attribute": 1,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "templar",
           "marauder",
@@ -7831,10 +7831,10 @@
     "attribute": 2,
     "level": 8,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute1": {
+      "衝出監牢1": {
         "quest": [
           "witch",
           "ranger",
@@ -7854,7 +7854,7 @@
     "attribute": 3,
     "level": 34,
     "quests": {
-      "breaking the seal": {
+      "突破封印": {
         "quest": [
           "witch",
           "templar",
@@ -7874,10 +7874,10 @@
     "attribute": 2,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "witch",
           "shadow"
@@ -7896,10 +7896,10 @@
     "attribute": 1,
     "level": 18,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sharp and cruel": {
+      "清理蜘蛛": {
         "quest": [
           "marauder"
         ],
@@ -7916,12 +7916,12 @@
     "attribute": 1,
     "level": 12,
     "quests": {
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "marauder"
         ]
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "marauder"
         ]
@@ -7932,10 +7932,10 @@
     "attribute": 2,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "mercy mission": {
+      "醫者之心": {
         "quest": [
           "duelist",
           "ranger",
@@ -7957,10 +7957,10 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "shadow"
         ],
@@ -7976,10 +7976,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "scion",
           "shadow",
@@ -7993,10 +7993,10 @@
     "attribute": 1,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "templar",
           "marauder",
@@ -8015,10 +8015,10 @@
     "attribute": 1,
     "level": 4,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "breaking some eggs1": {
+      "打破鳥蛋1": {
         "quest": [
           "duelist"
         ],
@@ -8036,10 +8036,10 @@
     "attribute": 1,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "marauder",
           "duelist"
@@ -8057,10 +8057,10 @@
     "attribute": 3,
     "level": 16,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "intruders in black": {
+      "黑色入侵者": {
         "quest": [
           "templar"
         ],
@@ -8077,10 +8077,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "duelist",
           "ranger",
@@ -8098,10 +8098,10 @@
     "attribute": 2,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "quest": [
           "ranger"
         ],
@@ -8117,10 +8117,10 @@
     "attribute": 3,
     "level": 28,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "sever the right hand": {
+      "剷除左右手": {
         "vendor": [
           "scion",
           "shadow",
@@ -8134,15 +8134,15 @@
     "attribute": 3,
     "level": 12,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the root of the problem": {
+      "盤根錯節": {
         "quest": [
           "witch"
         ]
       },
-      "the siren's cadence": {
+      "海妖之歌": {
         "quest": [
           "templar"
         ],
@@ -8159,10 +8159,10 @@
     "attribute": 3,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "witch"
         ],
@@ -8179,10 +8179,10 @@
     "attribute": 2,
     "level": 10,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "the caged brute2": {
+      "衝出監牢2": {
         "quest": [
           "shadow",
           "scion"
@@ -8201,7 +8201,7 @@
     "attribute": 2,
     "level": 38,
     "quests": {
-      "the eternal nightmare": {
+      "永恆夢魘": {
         "quest": [
           "ranger",
           "shadow"
@@ -8219,10 +8219,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "shadow",
           "scion"
@@ -8241,10 +8241,10 @@
     "attribute": 3,
     "level": 24,
     "quests": {
-      "a fixture of fate": {
+      "命運之語": {
         "vendor": []
       },
-      "lost in love": {
+      "迷失的愛情": {
         "quest": [
           "witch",
           "templar",
