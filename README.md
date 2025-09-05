@@ -1,5 +1,5 @@
 ## 關於
-- 這個分支是來源於 Lailloken/Exile-UI-English 
+- 這個分支是來源於 Lailloken/Exile-UI-English 的 Drava008/Exile-UI-zh-TW
 - 用途為 Lailloken/Exile-UI 的繁體中文翻譯，大部分由AI翻譯，並經過人工校正。
 
 ## 如何使用
