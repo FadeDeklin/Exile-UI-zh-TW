@@ -43,7 +43,7 @@
 ;#####################################################
 
 ;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes 
-		translator			=	"Drava"	"FadeDeklin"		;## you can add additional <contributor> lines, and each value will have its own box 
+		translator			=	"Drava"			;## you can add additional <contributor> lines, and each value will have its own box 
 
 
 
@@ -57,10 +57,10 @@
 		ms_general			=	"一般" 
 		ms_actdecoder		=	"章節地圖" 
 		ms_anoints			=	"附魔搜尋器" 
-		ms_betrayal-info	=	"密教資訊" 
-		ms_cheat-sheets		=	"機制資訊" 
+		ms_betrayal-info	=	"反叛資訊" 
+		ms_cheat-sheets		=	"備忘錄" 
 		ms_clone-frames		=	"複製畫面" 
-		ms_donations		=	"贊助" 
+		ms_donations		=	"捐贈" 
 		ms_filterspoon		=	"篩選器助手"		;## sarcastically derived from FilterBlade 
 		ms_hotkeys			=	"快捷鍵" 
 		ms_item-info		=	"物品資訊" 
@@ -69,14 +69,14 @@
 		ms_map-info			=	"地圖資訊" 
 		ms_minor qol tools	=	"QoL工具" 
 		ms_sanctum			=	"聖所規劃器" 
-		ms_sanctum			=	"絲克瑪規劃器" 
+		ms_sanctum			=	"瑟克瑪規劃器" 
 		ms_screen-checks	=	"畫面檢查" 
 		ms_search-strings	=	"搜尋字串" 
 		ms_stash-ninja		=	"倉庫忍者" 
-		ms_statlas			=	"輿圖資訊"		;## blend of "stats" and "atlas" 
-		ms_stream-clients	=	"直播客戶端" 
-		ms_tldr-tooltips	=	"tldr詞條提示" 
-		ms_updater			=	"更新" 
+		ms_statlas			=	"輿圖統計"		;## blend of "stats" and "atlas" 
+		ms_stream-clients	=	"串流客戶端" 
+		ms_tldr-tooltips	=	"懶人提示" 
+		ms_updater			=	"更新器" 
 
 
 
@@ -106,7 +106,7 @@
 		global_color			=	"顏色" 
 		global_color			=	"顏色:" 
 		global_opacity			=	"不透明度:" 
-		global_tier			=	"階層" 
+		global_tier			=	"階級" 
 		global_ilvl			=	"物品等級" 
 		global_name			=	"名稱:" 
 		global_type			=	"類型:" 
@@ -123,13 +123,14 @@
 		global_snip			=	"截圖" 
 		global_show			=	"顯示" 
 		global_preview			=	"預覽" 
-		global_image			=	"圖片"
+		global_image			=	"圖片" 
 		global_save			=	"儲存" 
-		global_discard			=	"捨棄"
-		global_restart			=	"套用並重啟"
-		global_imgfolder		=	"開啟圖片資料夾"
-		global_newentry			=	"新增紀錄:"
-		global_savedentry		=	"已儲存紀錄:" 
+		global_discard			=	"捨棄" 
+		global_restart			=	"套用並重啟" 
+		global_imgfolder		=	"開啟圖片資料夾" 
+		global_newentry			=	"新增條目:" 
+		global_savedentry		=	"已儲存條目:" 
+		global_errorname		=	"輸入不能為空" 
 		global_errorname		=	"輸入無效" 
 		global_errorname		=	"只能輸入字母、空格和數字" 
 		global_errorname		=	"名稱已被使用" 
@@ -169,7 +170,7 @@
 		global_time			=	"時間:" 
 		global_refresh			=	"重新整理" 
 		global_settings			=	"設定" 
-		global_regex			=	"複製regex" 
+		global_regex			=	"複製正則表達式" 
 		global_clipboard		=	"已複製到剪貼簿" 
 		global_start			=	"開始" 
 		global_cancel			=	"取消" 
@@ -207,32 +208,20 @@
 		global_databaseinfo		=	"資料庫資訊" 
 		global_current			=	"目前" 
 		global_updatewait		=	"請稍後再試" 
-		global_duration			=	"持續時間 (秒)"
-		global_position			=	"位置"
-		global_exchange			=	"通貨交換"
-		global_day			=	"日"
-		global_day			=	"日數"
-		global_week			=	"周"
-		global_trade			=	"交易"
-		global_trade			=	"交易s"
-		global_last			=	"last"
-		global_gem			=	"寶石"
-		global_gem			=	"寶石s"
-		global_act			=	"章節"
 
 		mechanic_bestiary		=	"野獸" 
 		mechanic_betrayal		=	"反叛" 
 		mechanic_blight			=	"凋落" 
 		mechanic_delirium		=	"譫妄" 
-		mechanic_delve			=	"掘獄" 
+		mechanic_delve			=	"礦坑" 
 		mechanic_expedition		=	"探險" 
 		mechanic_harvest		=	"豐收" 
 		mechanic_incursion		=	"穿越" 
 		mechanic_legion			=	"戰亂" 
 		mechanic_ritual			=	"祭祀" 
-		mechanic_vaal area		=	"腐化地區" 
-		mechanic_abyssal depths		=	"深淵" 
-		mechanic_lab trial		=	"帝王試煉迷宮" 
+		mechanic_vaal area		=	"瓦爾區域" 
+		mechanic_abyssal depths		=	"絕望深淵" 
+		mechanic_lab trial		=	"迷宮試煉" 
 		mechanic_ultimatum		=	"最後通牒" 
 		mechanic_maven			=	"釋界" 
 		mechanic_baran			=	"聖戰軍王" 
@@ -255,8 +244,8 @@
 		anoints_reforging		=	"重鑄中" 
 		anoints_materials		=	"材料"		;## as in crafting materials 
 		anoints_statgroups		=	"和"			;## same as on the trade site 
-		anoints_statgroups		=	"符合數量" 
-		anoints_statgroups		=	"排除條件" 
+		anoints_statgroups		=	"數量" 
+		anoints_statgroups		=	"不" 
 		anoints_rings			=	"戒指" 
 
 
@@ -319,7 +308,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the cheat-sheet toolkit feature
-		cheat_header			=	"機制資訊設定" 
+		cheat_header			=	"備忘錄設定" 
 		cheat_check			=	"畫面檢查:" 
 		cheat_static			=	"靜態" 
 		cheat_dynamic			=	"動態" 
@@ -341,18 +330,8 @@
 		cheat_loaderror			=	"無法載入檔案:" 
 		cheat_duplicate			=	"已存在同名備忘錄，將會被覆蓋。是否繼續？" 
 		cheat_flip			=	"無法翻閱圖片"			;## this string + one of the following two form a sentence 
-		cheat_flip			=	"在分段機制資訊中" 
-		cheat_flip			=	"在使用字母鍵後" 
-
-
-
-;#####################################################
-;## vaal street
-;#####################################################
-
-;## these strings are displayed/required when using the vaal street feature
-		exchange_chaos_div		=	"需要兌換率!"
-		exchange_7days			=	"過往7天"
+		cheat_flip			=	"在分段備忘錄中" 
+		cheat_flip			=	"使用字母鍵後" 
 
 
 
@@ -362,7 +341,7 @@
 
 ;## these strings are displayed/required when using the item-info feature
 		iteminfo_unsupported		=	"物品不支援" 
-		iteminfo_dps			=	"每秒傷害"				;## damage per second 
+		iteminfo_dps			=	"dps"				;## damage per second 
 		iteminfo_base			=	"基底"				;## as in item-base / crafting-base 
 		iteminfo_qual_scaling		=	"縮放" 
 		iteminfo_ruleblock		=	"被全域規則阻擋" 
@@ -451,7 +430,7 @@
 ;## these strings are displayed/required when using the lootfilter / filterspoon feature 
 		lootfilter_basefilter		=	"篩選器:" 
 		lootfilter_modifications	=	"目前修改:" 
-		lootfilter_unsaved		=	"長按捨棄取消" 
+		lootfilter_unsaved		=	"長按以捨棄" 
 		lootfilter_update		=	"套用基本篩選器更新" 
 		lootfilter_addstack		=	"新增堆疊:" 
 		lootfilter_selection		=	"目前選擇:" 
@@ -464,7 +443,7 @@
 
 ;## these strings are displayed/required when using the map-info feature
 		mapinfo_mod			=	"詞綴:"		;## as in map mod 
-		mapinfo_rip			=	"可用的復活數:"		;## as in "rest in peace", used here as a replacement for revives on waystones 
+		mapinfo_rip			=	"死亡次數:"		;## as in "rest in peace", used here as a replacement for revives on waystones 
 
 
 
@@ -487,7 +466,7 @@
 		maptracker_page			=	"頁數:" 
 		maptracker_page			=	"每頁條目:"		;## i.e. how many entries to show on each page 
 		maptracker_header		=	"地圖日誌檢視器" 
-		maptracker_dialogue		=	"在遊戲中的<介面>設定中;必須啟用<在聊天室顯示對話>" 
+		maptracker_dialogue		=	"遊戲的<UI>設定中必須;啟用<輸出對話到聊天>" 
 
 ;## these strings are displayed/required at the top of the map-log viewer, using the shortest length possible in order to be more compact
 		maptracker_time			=	"時間"			;## time of day (e.g. 14:20) 
@@ -578,10 +557,10 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the recombination feature
-		recomb_prefixes			=	"目標前綴:" 
-		recomb_suffixes			=	"目標後綴:" 
+		recomb_prefixes			=	"期望前綴:" 
+		recomb_suffixes			=	"期望後綴:" 
 		recomb_simulation		=	"模擬:" 
-		recomb_desired			=	"太多目標詞綴" 
+		recomb_desired			=	"太多期望詞綴" 
 		recomb_rerun			=	"重新運行" 
 		recomb_refresh			=	"點擊刷新" 
 
@@ -600,7 +579,7 @@
 		sanctum_floors			=	"聖域教堂" 
 		sanctum_floors			=	"聖域陵墓" 
 
-		sanctum_rooms_1			=	"小頭目" 
+		sanctum_rooms_1			=	"小Boss" 
 		sanctum_rooms_2			=	"尋找出口" 
 		sanctum_rooms_3			=	"清除房間" 
 		sanctum_rooms_4			=	"逃離陷阱" 
@@ -671,7 +650,7 @@
 		seed_keystones			=	"關鍵天賦:" 
 		seed_notables			=	"結果顯著天賦:"		;## "resulting" as in after being modified by the jewel 
 		seed_notables			=	"插槽周圍的顯著天賦:"	;## in range around a jewel socket on the passive tree 
-		seed_notables			=	"軍團天賦:" 
+		seed_notables			=	"軍團顯著天賦:" 
 		seed_download			=	"下載資料庫" 
 		seed_update			=	"更新資料庫" 
 		seed_uptodate			=	"資料庫已是最新" 
@@ -766,9 +745,9 @@
 ;## these strings are displayed/required in the "test results" window after running the test
 		m_permission_header		=	"測試結果" 
 		m_permission_yes		=	"是" 
-		m_permission_no			=	"不是" 
+		m_permission_no			=	"否" 
 		m_permission_unknown	=	"未知" 
-		m_permission_admin		=	"以管理員權限啟動腳本:" 
+		m_permission_admin		=	"腳本以管理員權限啟動:" 
 		m_permission_folder		=	"可以建立資料夾:" 
 		m_permission_folder		=	"可以刪除資料夾:" 
 		m_permission_ini		=	"可以建立ini檔案:" 
@@ -780,8 +759,8 @@
 		m_permission_error		=	"請在關閉此訊息後開啟的資料夾中刪除「write-test」資料夾。" 
 ;## NOTE: don't translate the name of folders (as they're hard-coded and not localized)
 ;## these strings are displayed/required in an error-message related to write-permissions
-		m_permission_error1		=	"腳本無法建立檔案/資料夾:" 
-		m_permission_error1		=	"腳本無法刪除檔案/資料夾:" 
+		m_permission_error1		=	"腳本無法建立file/folder:" 
+		m_permission_error1		=	"腳本無法刪除file/folder:" 
 		m_permission_error1		=	"目前資料夾位置似乎存在寫入權限問題。" 
 		m_permission_error1		=	"嘗試將腳本移動到其他位置或以管理員身分運行它。" 
 		m_permission_error1		=	"設定選單中存在一個寫入權限測試，您可以使用它來解決此問題。" 
@@ -792,8 +771,8 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "act-decoder" section of the settings menu
-		m_actdecoder_enable		=	"啟用章節地圖功能" 
-		m_actdecoder_opacity	=	"鎖定時透明度:" 
+		m_actdecoder_enable		=	"啟用章節地圖疊加" 
+		m_actdecoder_opacity	=	"鎖定時不透明度:" 
 		m_actdecoder_zoom		=	"鎖定時縮放:" 
 		m_actdecoder_simple		=	"只顯示通用佈局" 
 
@@ -809,7 +788,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "betrayal-info" section of the settings menu
-		m_betrayal_enable		=	"啟用密教資訊功能" 
+		m_betrayal_enable		=	"啟用反叛資訊疊加" 
 		m_betrayal_ruthless		=	"殘酷獎勵和高亮顯示"		;## it's a toggle to switch between regular and ruthless rewards 
 		m_betrayal_recognition	=	"圖片識別:" 
 		m_betrayal_colors		=	"獎勵顏色:" 
@@ -820,18 +799,18 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "cheat-sheets" section of the settings menu
-		m_cheat_enable			=	"啟用機制資訊工具" 
+		m_cheat_enable			=	"啟用備忘錄工具包" 
 		m_cheat_hotkeys			=	"快捷鍵設定:" 
 		m_cheat_modifier		=	"萬用鍵修飾符:"		;## as in modifier-key (ALT, CTRL, etc.) 
 		m_cheat_modifier		=	"Alt" 
 		m_cheat_modifier		=	"Ctrl" 
 		m_cheat_modifier		=	"Shift" 
-		m_cheat_advance			=	"進階機制資訊" 
-		m_cheat_create			=	"建立新機制資訊:" 
+		m_cheat_advance			=	"進階備忘錄" 
+		m_cheat_create			=	"建立新備忘錄:" 
 		m_cheat_images			=	"圖片" 
 		m_cheat_app				=	"應用程式" 
 		m_cheat_advanced		=	"進階" 
-		m_cheat_list			=	"可用機制資訊列表:" 
+		m_cheat_list			=	"可用備忘錄列表:" 
 
 ;#####################################################
 ;## settings menu: clone-frames
@@ -985,7 +964,7 @@
 		m_mapinfo_pinned		=	"釘選詞綴:"
 		m_mapinfo_modsearch		=	"詞綴搜尋:"
 		m_mapinfo_roll_highlight	=	"高亮地圖詞綴"
-		m_mapinfo_reset			=	"重設階層"
+		m_mapinfo_reset			=	"重設階級"
 
 
 
@@ -996,7 +975,7 @@
 ;## these strings are displayed/required in the "minor qol tools" section of the settings menu
 		m_qol_alarm			=	"鬧鐘/計時器小工具:"
 		m_qol_notepad			=	"記事本:"
-		m_qol_widget			=	"小工具透明度:"
+		m_qol_widget			=	"小工具不透明度:"
 		m_qol_widgetcolor		=	"預設小工具顏色:"
 		m_qol_lab			=	"迷宮疊加:"
 
@@ -1007,8 +986,8 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "sanctum planner" section of the settings menu
-		m_sanctum_enable		=	"啟用聖殿規劃器功能"
-		m_sanctum_enable		=	"啟用絲克瑪規劃器功能"
+		m_sanctum_enable		=	"啟用聖殿規劃器疊加"
+		m_sanctum_enable		=	"啟用瑟克瑪規劃器疊加"
 		m_sanctum_cheatsheets		=	"顯示備忘錄"
 
 
@@ -1046,15 +1025,15 @@
 		m_stash_currency1		=	"通貨"
 		m_stash_currency2		=	"通貨二"
 		m_stash_delirium		=	"譫妄"
-		m_stash_delve			=	"掘獄"
+		m_stash_delve			=	"礦坑"
 		m_stash_essences		=	"精髓"
 		m_stash_fragments		=	"碎片"
 		m_stash_scarabs			=	"聖甲蟲"
 		m_stash_ultimatum		=	"通牒"
 		m_stash_leagues			=	"聯盟:"
 		m_stash_tabs			=	"倉庫頁設定:"
-		m_stash_limits			=	"價格範圍配置檔:"
-		m_stash_profiles		=	"將交易價值套用到配置檔 1-4"
+		m_stash_limits			=	"價格範圍個人檔案:"
+		m_stash_profiles		=	"將交易價值套用到個人檔案 1-4"
 		m_stash_history			=	"顯示價格歷史"
 		m_stash_exalt			=	"顯示崇高石匯率"
 		m_stash_mintrade		=	"最低交易價值 (混沌石):"
@@ -1071,9 +1050,9 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "statlas" section of the settings menu
-		m_statlas_enable		=	"啟用輿圖資訊功能"
+		m_statlas_enable		=	"啟用輿圖統計功能"
 		m_statlas_maptracker		=	"顯示地圖追蹤器資料"
-		m_statlas_localknowledge	=	"顯示<當地知識>輿圖天賦效果"
+		m_statlas_localknowledge	=	"顯示<當地知識>顯著天賦效果"
 
 
 
@@ -1082,7 +1061,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "tldr-tooltips" section of the settings menu
-		m_ocr_enable			=	"啟用tldr詞條提示 (實驗性)"
+		m_ocr_enable			=	"啟用懶人提示 (實驗性)"
 		m_ocr_compatibility		=	"測試相容性"
 		m_ocr_compatibility		=	"從上方圖片中轉錄至少8個獨特的詞 (按ESC鍵退出):"
 		m_ocr_error			=	"測試需要至少8個獨特的詞"
