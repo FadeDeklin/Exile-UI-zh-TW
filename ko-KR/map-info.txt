@@ -20,14 +20,13 @@
 ;## replace the keys with the corresponding in-game strings of the target language, then create a trimmed value
 
 [Map Names]
-Maven's Invitation: The Feared		=	The Feared
-Maven's Invitation: The Forgotten	=	The Forgotten
-Maven's Invitation: The Formed		=	The Formed
-Maven's Invitation: The Hidden		=	The Hidden
-Maven's Invitation: The Twisted		=	The Twisted
-Maven's Invitation: The Elderslayers	=	The Elderslayers
-Maven's Invitation: The Atlas		=	Atlas Invitation
-Expedition Logbook			=	Logbook
+釋界之邀：恐懼		=	The Feared
+釋界之邀：遺忘		=	The Forgotten
+釋界之邀：塑型		=	The Formed
+釋界之邀：隱匿		=	The Hidden
+釋界之邀：扭曲		=	The Twisted
+釋界之邀：尊師殺手	=	The Elderslayers
+釋界之邀：輿圖		=	Atlas Invitation
 探險日誌							=	Logbook
 
 ;## map-mods will be grouped into these 5 categories
@@ -45,15 +44,10 @@ heist
 ;## replace only the key (left of the equal-sign) with the corresponding strings of the target language
 
 [expedition groups]
-black scythe mercenaries	=	tujen
-order of the chalice		=	rog
-druids of the broken circle	=	gwennen
-knights of the sun		=	dannig
-
-黑鐮傭兵	=	tujen
-聖杯之序		=	rog
-破碎環之德魯伊	=	gwennen
-豔陽騎士		=	dannig
+黑鐮傭兵			=	tujen
+聖杯之序			=	rog
+破碎環之德魯伊		=	gwennen
+豔陽騎士			=	dannig
 
 ;## these are the different areas that can roll on logbooks
 ;## replace the keys with the corresponding strings of the target language
@@ -212,9 +206,9 @@ type	=	monsters
 text	=	怪物速度: +%
 ID	=	021
 
-[monsters have a # chance to cause elemental ailments on hit]
+[擊中時，怪物有 # 機率造成元素異常]
 type	=	monsters
-text	=	e-ailment chance: %
+text	=	元素異常機率: %
 ID	=	022
 
 [被怪物擊中時中毒]
@@ -224,7 +218,7 @@ ID	=	023
 
 [怪物不能被嘲諷]
 type	=	monsters
-text	=	taunt immune
+text	=	免嘲諷
 ID	=	024
 
 [怪物的攻擊擊中時有 # 機率造成穿刺]
@@ -319,7 +313,7 @@ ID	=	042
 
 [玩家身上的增益效果加速 # 失效]
 type	=	player
-text	=	BUFF失效: +%
+text	=	增益失效: +%
 ID	=	043
 
 [玩家獲得的藥劑充能減少 #]
@@ -469,7 +463,7 @@ ID	=	071
 
 [區域含有許多羊男]
 type	=	monsters
-text	=	goatmen
+text	=	羊男
 ID	=	072
 
 [區域內有許多鬼魂]
@@ -537,9 +531,9 @@ type	=	bosses
 text	=	釋放全部頭目
 ID	=	085
 
-[monsters have a # chance ignite, freeze and shock on hit]
+[擊中時，怪物有 # 機率點燃、冰凍和感電]
 type	=	monsters
-text	=	triple conflux: %
+text	=	三相異常機率: %
 ID	=	086
 
 [擊中時，怪物有 # 機率點燃、冰凍和感電]
