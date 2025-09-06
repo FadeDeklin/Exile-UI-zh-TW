@@ -11,6 +11,7 @@ POE 2
   - 例如：`Exile-UI-x.xx.x/data/zh-TW`
 
 - 由於大部分繁體中文玩家使用的聊天室語言設定為韓文，所以 `Exile-UI` 的 語系資料夾命名為 `ko-KR`。
+- 由於POE2 內建繁中語言，所以 `Exile-UI` 的 語系資料夾命名為`zh-TW`
   - 如果你想要自訂為其他語系在 `Exile-UI` 中使用，請將 `ko-KR` 資料夾重新命名為你想要的語系名稱。
 
 - 如果你想要POE1 和 POE2都要使用`Exile-UI`，請把`ko-KR`複製成兩份。
