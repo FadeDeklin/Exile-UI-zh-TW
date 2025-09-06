@@ -20,7 +20,7 @@
 
 
 ;## some notation remarks
-	;## in order to add line-breaks to a string, include ";"in the value, e.g. "line 1;line2"
+	;## in order to add line-breaks to a string, include ";" in the value, e.g. "line 1;line2"
 	;## I often use <> as a replacement for quotation marks because they look better when using Fontin Smallcaps
 
 
@@ -33,7 +33,7 @@
 ;## system-settings
 ;#####################################################
 
-;## these are some global system-settings that are dependant on the target language
+;## these are some global system-settings that are dependent on the target language
 		system_font			=	"微軟正黑體"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system 
 											;## this key is also present in the client.txt file, where it takes precedence (i.e. the value there will override this one) 
 
@@ -43,8 +43,8 @@
 ;#####################################################
 
 ;## these names will be shown in a tooltip when hovering over the "credits"label	;## the tooltip is segmented into smaller boxes 
-		translator			=	"Drava"	"FadeDeklin"		;## you can add additional <contributor> lines, and each value will have its own box 
-
+		translator			=	"Drava"			;## you can add additional <contributor> lines, and each value will have its own box 
+		translator			=	"FadeDeklin"
 
 
 ;#####################################################
@@ -73,7 +73,7 @@
 		ms_screen-checks	=	"畫面檢查"
 		ms_search-strings	=	"搜尋字串"
 		ms_stash-ninja		=	"倉庫忍者"
-		ms_statlas			=	"輿圖資訊"		;## blend of "stats"and "atlas"
+		ms_statlas			=	"二代輿圖"		;## blend of "stats"and "atlas"
 		ms_stream-clients	=	"直播客戶端"
 		ms_tldr-tooltips	=	"tldr詞條提示"
 		ms_updater			=	"更新"
@@ -98,33 +98,33 @@
 		global_match			=	"不夠明確"
 		global_window			=	"設定選單"
 		global_general			=	"一般設定:"
-		global_ui			=	"使用者介面設定:"
-		global_font			=	"文字大小:"
+		global_ui				=	"使用者介面設定:"
+		global_font				=	"文字:"
 		global_button			=	"按鈕大小:"
 		global_enable			=	"啟用"
 		global_reset			=	"重設"
 		global_color			=	"顏色"
 		global_color			=	"顏色:"
 		global_opacity			=	"不透明度:"
-		global_tier			=	"階層"
-		global_ilvl			=	"物品等級"
-		global_name			=	"名稱:"
-		global_type			=	"類型:"
-		global_add			=	"新增"
+		global_tier				=	"階層"
+		global_ilvl				=	"物品等級"
+		global_name				=	"名稱:"
+		global_type				=	"類型:"
+		global_add				=	"新增"
 		global_calibrate		=	"校準"
 		global_calibrate		=	"需要校準"
 		global_import			=	"匯入"
-		global_test			=	"測試"
-		global_edit			=	"編輯"
-		global_info			=	"資訊"
+		global_test				=	"測試"
+		global_edit				=	"編輯"
+		global_info				=	"資訊"
 		global_negative			=	"負面"
 		global_positive			=	"正面"
 		global_paste			=	"貼上"
-		global_snip			=	"截圖"
-		global_show			=	"顯示"
+		global_snip				=	"截圖"
+		global_show				=	"顯示"
 		global_preview			=	"預覽"
 		global_image			=	"圖片"
-		global_save			=	"儲存"
+		global_save				=	"儲存"
 		global_discard			=	"捨棄"
 		global_restart			=	"套用並重啟"
 		global_imgfolder		=	"開啟圖片資料夾"
@@ -147,12 +147,12 @@
 		global_ultrawide		=	"除非您使用模組，否則客戶端會顯示黑邊。"
 		global_ultrawide		=	"客戶端側面有黑邊嗎？"
 		global_credits			=	"鳴謝"
-		global_none			=	"無"
-		global_axis			=	"X軸"
-		global_axis			=	"Y軸"
+		global_none				=	"無"
+		global_axis				=	"X軸"
+		global_axis				=	"Y軸"
 		global_width			=	"寬度"
 		global_height			=	"高度"
-		global_gap			=	"間距"
+		global_gap				=	"間距"
 		global_pattern			=	"圖案"		;## as in color pattern 
 		global_regular			=	"常規"		;## as in default 
 		global_setup			=	"設定"
@@ -160,13 +160,13 @@
 		global_hotkey			=	"快捷鍵:"
 		global_panelsize		=	"面板大小:"
 		global_uisize			=	"使用者介面大小:"
-		global_auto			=	"自動"
+		global_auto				=	"自動"
 		global_price			=	"價格"
-		global_all			=	"所有"
+		global_all				=	"所有"
 		global_confirm			=	"確認"
 		global_mouse			=	"左#中#右"			;## left, middle, right mouse-button 
 		global_coordinates		=	"座標"
-		global_time			=	"時間:"
+		global_time				=	"時間:"
 		global_refresh			=	"重新整理"
 		global_settings			=	"設定"
 		global_regex			=	"複製regex"
@@ -176,31 +176,31 @@
 		global_downloading		=	"下載中..."
 		global_search			=	"搜尋:"
 		global_toggle			=	"切換"
-		global_hide			=	"隱藏"
+		global_hide				=	"隱藏"
 		global_unhide			=	"取消隱藏"
 		global_revert			=	"恢復"
 		global_apply			=	"套用"
 		global_apply			=	"套用變更"
 		global_global			=	"全域"
 		global_controller		=	"控制器"		;## gamepad 
-		global_multithreading		=	"多執行緒"	;## i.e. using multiple CPU cores/threads 
-		global_multithreading		=	"單執行緒"
+		global_multithreading	=	"多執行緒"	;## i.e. using multiple CPU cores/threads 
+		global_multithreading	=	"單執行緒"
 		global_ignore			=	"忽略"
 		global_custom			=	"自訂"		;## as in "user-defined"
 		global_condition		=	"條件:"		;## as in "if x condition is met"
-		global_yes			=	"是"
-		global_no			=	"否"
+		global_yes				=	"是"
+		global_no				=	"否"
 		global_activation		=	"啟用:"
-		global_maps			=	"地圖"
+		global_maps				=	"地圖"
 		global_league			=	"聯盟"
-		global_copy			=	"複製"
-		global_icon			=	"圖示"
-		global_off			=	"關閉"
+		global_copy				=	"複製"
+		global_icon				=	"圖示"
+		global_off				=	"關閉"
 		global_keywords			=	"關鍵字"		;## related to search-results: words that come up often 
 		global_matches			=	"符合項目"		;## matches of a search-result 
 		global_colon			=	":"
-		global_ok			=	"確定"
-		global_cost			=	"費用"
+		global_ok				=	"確定"
+		global_cost				=	"費用"
 		global_ascending		=	"升序"
 		global_descending		=	"降序"
 		global_calculate		=	"計算"
@@ -210,15 +210,15 @@
 		global_duration			=	"持續時間 (秒)"
 		global_position			=	"位置"
 		global_exchange			=	"通貨交換"
-		global_day			=	"日"
-		global_day			=	"日數"
-		global_week			=	"周"
+		global_day				=	"日"
+		global_day				=	"日數"
+		global_week				=	"周"
 		global_trade			=	"交易"
 		global_trade			=	"交易s"
-		global_last			=	"last"
-		global_gem			=	"寶石"
-		global_gem			=	"寶石s"
-		global_act			=	"章節"
+		global_last				=	"last"
+		global_gem				=	"寶石"
+		global_gem				=	"寶石s"
+		global_act				=	"章節"
 
 		mechanic_bestiary		=	"野獸"
 		mechanic_betrayal		=	"反叛"
@@ -231,8 +231,9 @@
 		mechanic_legion			=	"戰亂"
 		mechanic_ritual			=	"祭祀"
 		mechanic_vaal area		=	"腐化地區"
-		mechanic_abyssal depths		=	"深淵"
+		mechanic_abyssal depths	=	"深淵"
 		mechanic_lab trial		=	"帝王試煉迷宮"
+		mechanic_starfall crater =	"星殞坑洞"
 		mechanic_ultimatum		=	"最後通牒"
 		mechanic_maven			=	"釋界"
 		mechanic_baran			=	"聖戰軍王"
@@ -243,6 +244,9 @@
 		mechanic_enslaver		=	"異界．奴役"
 		mechanic_eradicator		=	"異界．根除"
 		mechanic_purifier		=	"異界．淨化"
+		mechanic_seer			=	"無名先知"
+		mechanic_mist			=	"映像迷霧"
+		mechanic_infamous		=	"萬惡傭兵"
 
 
 
@@ -285,7 +289,7 @@
 		betrayal_guff			=	"哥夫"
 		betrayal_haku			=	"哈庫"
 		betrayal_hillock		=	"西拉克"
-		betrayal_it			=	"竄逃之彼"
+		betrayal_it				=	"竄逃之彼"
 		betrayal_janus			=	"傑納斯"
 		betrayal_jorgin			=	"喬恩"
 		betrayal_korell			=	"庫歐"
@@ -300,17 +304,17 @@
 ;## these division strings are displayed at the top of the overlay, using abbreviations (where applicable) in order to make it more compact 
 		betrayal_transportation		=	"傳送"
 		betrayal_fortification		=	"禦防"
-		betrayal_unassigned		=	"未分配"	;## refers to a member not being assigned to any division 
-		betrayal_research		=	"修研"
+		betrayal_unassigned			=	"未分配"	;## refers to a member not being assigned to any division 
+		betrayal_research			=	"修研"
 		betrayal_intervention		=	"調停"
 
 
 ;## these division strings are displayed in the calibration setup-window (not abbreviated)
 		betrayal_transportation		=	"傳送使"
 		betrayal_fortification		=	"禦防使"
-		betrayal_research		=	"修研使"
+		betrayal_research			=	"修研使"
 		betrayal_intervention		=	"調停使"
-		betrayal_abort			=	"返回遊戲以中止"
+		betrayal_abort				=	"返回遊戲以中止"
 
 
 
@@ -320,29 +324,29 @@
 
 ;## these strings are displayed/required when using the cheat-sheet toolkit feature
 		cheat_header			=	"機制資訊設定"
-		cheat_check			=	"畫面檢查:"
+		cheat_check				=	"畫面檢查:"
 		cheat_static			=	"靜態"
 		cheat_dynamic			=	"動態"
-		cheat_hold			=	"按住"
+		cheat_hold				=	"按住"
 		cheat_manage			=	"管理圖片檔案:"
-		cheat_title			=	"視窗標題:"
+		cheat_title				=	"視窗標題:"
 		cheat_launch			=	"如果找不到視窗,;請改為啟動此應用程式:"
-		cheat_exe			=	"選擇 .exe/捷徑"
-		cheat_notes			=	"輸入所選條目的備註:"
+		cheat_exe				=	"選擇 .exe/捷徑"
+		cheat_notes				=	"輸入所選條目的備註:"
 		cheat_calibrate			=	"指定此畫面檢查連結到哪個條目"
 		cheat_entrynotext		=	"條目 <#>;沒有文字"
-		cheat_nowindowtitle		=	"備忘錄沒有;視窗標題"
+		cheat_nowindowtitle		=	"機制資訊沒有;視窗標題"
 		cheat_nowindow			=	"找不到視窗:;"#""
-		cheat_nofiles			=	"備忘錄沒有;任何匯入的檔案"
+		cheat_nofiles			=	"機制資訊沒有;任何匯入的檔案"
 		cheat_shorttitle		=	"標題太短"
-		cheat_noexe			=	"請先選擇檔案"
+		cheat_noexe				=	"請先選擇檔案"
 		cheat_multifiles		=	"無法將多個檔案;貼到索引 00"
 		cheat_filemissing		=	"檔案不存在"
 		cheat_loaderror			=	"無法載入檔案:"
-		cheat_duplicate			=	"已存在同名備忘錄，將會被覆蓋。是否繼續？"
-		cheat_flip			=	"無法翻閱圖片"			;## this string + one of the following two form a sentence 
-		cheat_flip			=	"在分段機制資訊中"
-		cheat_flip			=	"在使用字母鍵後"
+		cheat_duplicate			=	"已存在同名機制資訊，將會被覆蓋。是否繼續？"
+		cheat_flip				=	"無法翻閱圖片"			;## this string + one of the following two form a sentence 
+		cheat_flip				=	"在分段機制資訊中"
+		cheat_flip				=	"在使用字母鍵後"
 
 
 
@@ -386,18 +390,19 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the leveling tracker / act-tracker
-		lvltracker_header		=	"天賦樹設定"
+		lvltracker_header			=	"天賦樹設定"
 		lvltracker_deleteall		=	"刪除全部"
 
-		lvltracker_gemnotes		=	"未包含在PoB中"
-		lvltracker_gemregex		=	"正則表達式已複製"
-		lvltracker_gemregex		=	"正則表達式失敗"
+		lvltracker_gemnotes			=	"未包含在PoB中"
+		lvltracker_gemfail			=	"在PoB沒有寶石"
+		lvltracker_gemregex			=	"正則表達式已複製"
+		lvltracker_gemregex			=	"正則表達式失敗"
 
-		lvltracker_gearlist		=	"角色 (等級):"					;## PoE1 only (whole block), displayed at the top of the geartracker: "char (lvl): Lailloken (69)"
-		lvltracker_gearadd		=	"已新增物品"
-		lvltracker_gearadd		=	"物品已存在"
-		lvltracker_gearadd		=	"物品已;可裝備"
-		lvltracker_gearadd		=	"物品沒有;任何需求"
+		lvltracker_gearlist			=	"角色 (等級):"					;## PoE1 only (whole block), displayed at the top of the geartracker: "char (lvl): Lailloken (69)"
+		lvltracker_gearadd			=	"已新增物品"
+		lvltracker_gearadd			=	"物品已存在"
+		lvltracker_gearadd			=	"物品已;可裝備"
+		lvltracker_gearadd			=	"物品沒有;任何需求"
 		lvltracker_gear5levels		=	"只顯示接下來5個等級"
 
 		lvltracker_endreached		=	"無法再前進"
@@ -408,7 +413,7 @@
 		lvltracker_multipaste		=	"部分檔案;不支援"
 		lvltracker_multipaste		=	"昇華天賦樹不支援;多重貼上"
 		lvltracker_multipaste		=	"從 # 開始的 # 個條目可能會被覆蓋。;繼續？"	;## the placeholders will be replaced by numbers 
-		lvltracker_noimages		=	"找不到;圖片檔案"
+		lvltracker_noimages			=	"找不到;圖片檔案"
 		lvltracker_timererror		=	"無法恢復: 運行完成"			;## campaign timer can't be resumed because the run has finished 
 		lvltracker_timererror		=	"進入第一個區域以重設"			;## timer can only be reset with a fresh character 
 		lvltracker_timererror		=	"請先暫停計時器"
@@ -417,18 +422,19 @@
 		lvltracker_timermessage		=	"計時器已恢復"
 		lvltracker_timermessage		=	"計時器已暫停"
 		lvltracker_treeerror		=	"天賦樹版本;不相容"
-		lvltracker_treenone		=	"匯入的PoB中沒有;可用的天賦樹"
+		lvltracker_treenone			=	"匯入的PoB中沒有;可用的天賦樹"
 		lvltracker_treeascendancy	=	"插槽為空"
-		lvltracker_exp			=	"等級差異:"					;## stands for level-difference, i.e. character-level - area-level = X 
+		lvltracker_exp				=	"等級差異:"					;## stands for level-difference, i.e. character-level - area-level = X 
 		lvltracker_recommended		=	"推薦等級:"				;## PoE1 only, used to filter out lvl-recommendations in the guide 
 		lvltracker_recommended		=	"農怪等級:"					;## PoE1 only, used to filter out lvl-recommendations in the guide 
 
 		lvltracker_format_kill		=	"擊殺"						;## the string that follows this word will automatically be highlighted as a unique boss 
-		lvltracker_format_act		=	"A#C"						;## abbreviation, e.g. "act 1 cruel": used when the guide leads to a location in a different act (e.g. "enter a1c | clearfell encampment") 
+		lvltracker_format_act		=	"A"						;## abbreviation, e.g. "act 1 cruel": used when the guide leads to a location in a different act (e.g. "enter a1c | clearfell encampment") 
+		lvltracker_format_interlude	=	"int "						;## abbreviation: used when the guide leads to a location in a different act (e.g. "enter i1 | the refuge")
 		lvltracker_format_epilogue	=	"終章"
 		lvltracker_format_optional	=	"選填:"					;## in guides, lines with optional tasks/steps should start with this string because there is a setting to hide these lines 
 
-		lvltracker_editor		=	"指南編輯器"					;## PoE2 only (whole block) 
+		lvltracker_editor			=	"指南編輯器"					;## PoE2 only (whole block) 
 		lvltracker_editor_slot		=	"插槽"						;## the act-tracker has 3 slots to save guides into 
 		lvltracker_editor_acts		=	"任務章節:"
 		lvltracker_editor_save		=	"未儲存的變更:"
@@ -441,8 +447,13 @@
 		lvltracker_editor_hint		=	"提示 / 更多資訊"
 		lvltracker_editor_quest-name	=	"任務名稱"
 		lvltracker_editor_quest-item	=	"任務物品"
+		lvltracker_editor_color		=	"apply custom color"
 		lvltracker_editor_remove	=	"移除頁面"
-		lvltracker_editor_add		=	"新增頁面"
+		lvltracker_editor_condition	=	"no condition"
+		
+		
+		lvltracker_gempickups		=	"gem pickups"					;## a manager to adjust when gems should be picked up
+
 
 ;#####################################################
 ;## lootfilter / filterspoon
@@ -463,7 +474,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the map-info feature
-		mapinfo_mod			=	"詞綴:"		;## as in map mod 
+		
 		mapinfo_rip			=	"可用的復活數:"		;## as in "rest in peace", used here as a replacement for revives on waystones 
 
 
@@ -493,18 +504,18 @@
 		maptracker_time			=	"時間"			;## time of day (e.g. 14:20) 
 		maptracker_time			=	"日期, 時間"
 		maptracker_map			=	"地圖"
-		maptracker_tier			=	"階級/等級"			;## (map) tier / (area) level 
-		maptracker_tier			=	"階級/等級"		;## as in map-tier / area-level 
-		maptracker_run			=	"運行"			;## refers to run-time (how long it took to finish the map) 
-		maptracker_e-exp		=	"實際經驗"			;## effective exp (after penalties) 
+		maptracker_tier			=	"地圖階級"			;## (map) tier / (area) level 
+		maptracker_tier			=	"地圖階級"		;## as in map-tier / area-level 
+		maptracker_run			=	"時長"			;## refers to run-time (how long it took to finish the map) 
+		maptracker_e-exp		=	"經驗率"			;## effective exp (after penalties) 
 		maptracker_deaths		=	"死亡"
 		maptracker_portals		=	"傳送門"
 		maptracker_kills1		=	"擊殺"
 		maptracker_loot1		=	"掉落物"
 		maptracker_mapinfo		=	"詞綴"			;## as in map mods 
 		maptracker_notes		=	"備註"
-		maptracker_character		=	"角色"
-		maptracker_content		=	"內容"		;## refers to map-content (league-mechanics, side-areas, etc.) 
+		maptracker_character	=	"角色"
+		maptracker_content		=	"機制內容"		;## refers to map-content (league-mechanics, side-areas, etc.) 
 
 ;## these strings are displayed in the sum/average tooltips (while long-clicking colored cells in the Σ row) 
 		maptracker_sum			=	"總和"
@@ -540,7 +551,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using OCR features
-		ocr_notext			=	"找不到任何文字"
+		ocr_notext				=	"找不到任何文字"
 		ocr_nousecase			=	"使用案例不清楚"		;## scanned text doesn't fit any use-case 
 		ocr_nocoords			=	"無法獲取座標"
 		ocr_erroraltar			=	"無法可靠讀取詞綴，請重試"
@@ -569,6 +580,7 @@
 		omnikey_labimport		=	"點擊<複製圖片>;可選:"				;## "copy image"when right-clicking a picture in your browser 
 		omnikey_labimport		=	"右鍵點擊<迷宮羅盤檔案>"			;## there's a link underneath each lab-layout image on poelab.com 
 		omnikey_labimport		=	"點擊<複製連結位址>"				;## when right-clicking a link in your browser 
+		omnikey_labimport		=	"按 ctrl + a, ctrl + c"
 		omnikey_poedb			=	"詞綴"						;## it's the name of this section on poeDB, displayed at the top: https://poedb.tw/us/Modifiers 
 
 
@@ -686,17 +698,17 @@
 		stash_update			=	"正在更新poe.ninja;價格..."
 		stash_updateerror		=	"更新失敗，且沒有之前成功嘗試的備用資料。;這可能是連線問題，會自行修復，請稍後再試。"
 		stash_updateerror		=	"更新失敗"
-		stash_value			=	"市場價值"
+		stash_value				=	"市場價值"
 		stash_reminder			=	"請先切換到<備註>"
 		stash_limits			=	"頻率限制:"			;## GGG's APIs have tiered rate limits that control how often you can access them 
-		stash_open			=	"開啟"				;## in the context of "X open trade listings"
+		stash_open				=	"開啟"				;## in the context of "X open trade listings"
 		stash_nolistings		=	"沒有上架;物品"		;## i.e. no-one is selling that item right now 
-		stash_bulk			=	"大量:"
-		stash_stock			=	"庫存"				;## as in available stock 
+		stash_bulk				=	"大量:"
+		stash_stock				=	"庫存"				;## as in available stock 
 		stash_pricetags			=	"價格標籤:"
-		stash_solo			=	"獨自"				;## as in a single person/thing/reason 
-		stash_sell			=	"出售"
-		stash_sell			=	"換取"				;## these two belong together, i.e. "sell X for Y"
+		stash_solo				=	"獨自"				;## as in a single person/thing/reason 
+		stash_sell				=	"出售"
+		stash_sell				=	"換取"				;## these two belong together, i.e. "sell X for Y"
 		stash_bookmark			=	"書籤檔案"
 
 
@@ -716,7 +728,7 @@
 ;#####################################################
 
 ;## these strings are displayed/required when using the minor QoL features
-		notepad_add			=	"新增分頁:"
+		notepad_add				=	"新增分頁:"
 		notepad_howto			=	"如何使用小工具"
 
 
@@ -756,7 +768,7 @@
 		m_general_permissions	=	"腳本寫入權限測試:"
 		m_general_start			=	"開始測試"
 		m_general_admin			=	"以管理員身分重啟腳本"
-		m_general_toolbar		=	"工具列大小:"
+		m_general_toolbar		=	"插件:"
 		m_general_hidetoolbar	=	"不使用時隱藏工具列"
 
 ;#####################################################
@@ -839,8 +851,8 @@
 
 ;## these strings are displayed/required in the "clone-frames"section of the settings menu
 		m_clone_toggle			=	"自動切換:"
-		m_clone_performance		=	"效能 (幀率) 設定:"		;## frames per second
-		m_clone_performance		=	"測量幀率:"
+		m_clone_performance		=	"效能 (fps) 設定:"		;## frames per second
+		m_clone_performance		=	"測量fps:"
 		m_clone_performance		=	"低"
 		m_clone_performance		=	"中"
 		m_clone_performance		=	"高"
@@ -854,6 +866,16 @@
 		m_clone_scale			=	"縮放:"
 		m_clone_exitedit		=	"請先退出編輯模式"
 		m_clone_errorborders	=	"無效的畫面邊界"
+
+;#####################################################
+;## settings menu: vaal street
+;#####################################################
+
+;## these strings are displayed/required in the "vaal street" section of the settings menu
+		m_exchange_enable		=	"啟用瓦爾街功能"
+		m_exchange_graphs		=	"顯示餘額圖表"
+
+
 
 ;#####################################################
 ;## settings menu: hotkeys
@@ -931,7 +953,7 @@
 		m_lvltracker_gear		=	"裝備追蹤器"
 		m_lvltracker_recommend		=	"等級推薦"
 		m_lvltracker_hotkeys		=	"啟用頁面快捷鍵"
-		m_lvltracker_poboverlays	=	"PoB疊加設定:"
+		m_lvltracker_poboverlays	=	"PoB插件設定:"
 		m_lvltracker_pobgems		=	"寶石: 使用切換而非按住"
 		m_lvltracker_pobmanual		=	"天賦樹: 使用螢幕截圖而非示意圖"
 		m_lvltracker_pob		=	"PoB: 中鍵點擊開啟螢幕截圖選單"
@@ -986,6 +1008,15 @@
 		m_mapinfo_modsearch		=	"詞綴搜尋:"
 		m_mapinfo_roll_highlight	=	"高亮地圖詞綴"
 		m_mapinfo_reset			=	"重設階層"
+		
+		
+;#####################################################
+;## settings menu: news / announcements
+;#####################################################
+
+
+;## these strings are displayed/required in the "announcements" section of the settings menu
+		m_news_recent			=	"最新公告:"
 
 
 
@@ -994,11 +1025,12 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "minor qol tools"section of the settings menu
-		m_qol_alarm			=	"鬧鐘/計時器小工具:"
+		m_qol_alarm				=	"鬧鐘/計時器小工具:"
+		m_qol_map_events		=	"地圖事件通知:"
 		m_qol_notepad			=	"記事本:"
 		m_qol_widget			=	"小工具透明度:"
 		m_qol_widgetcolor		=	"預設小工具顏色:"
-		m_qol_lab			=	"迷宮疊加:"
+		m_qol_lab				=	"迷宮插件:"
 
 
 
@@ -1009,7 +1041,7 @@
 ;## these strings are displayed/required in the "sanctum planner"section of the settings menu
 		m_sanctum_enable		=	"啟用聖殿規劃器功能"
 		m_sanctum_enable		=	"啟用絲克瑪規劃器功能"
-		m_sanctum_cheatsheets		=	"顯示備忘錄"
+		m_sanctum_cheatsheets		=	"顯示機制資訊"
 
 
 
@@ -1085,11 +1117,11 @@
 		m_ocr_enable			=	"啟用tldr詞條提示 (實驗性)"
 		m_ocr_compatibility		=	"測試相容性"
 		m_ocr_compatibility		=	"從上方圖片中轉錄至少8個獨特的詞 (按ESC鍵退出):"
-		m_ocr_error			=	"測試需要至少8個獨特的詞"
-		m_ocr_error			=	"螢幕截圖太大"
+		m_ocr_error				=	"測試需要至少8個獨特的詞"
+		m_ocr_error				=	"螢幕截圖太大"
 		m_ocr_finish			=	"按ESC鍵完成設定"
 		m_ocr_hotkey			=	"<切換高亮顯示> (遊戲中):"
-		m_ocr_debug			=	"啟用偵錯功能"
+		m_ocr_debug				=	"啟用偵錯功能"
 		m_ocr_unsupported		=	"不支援720p及更低解析度，因為螢幕讀取在低解析度下失敗率很高，導致此功能幾乎無法使用"
 
 

@@ -54,7 +54,7 @@
 ;#####################################################
 
 ;## these are some global system-settings that are dependant on the target language
-		system_font			=	"微軟正黑體"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
+		system_font				=	"微軟正黑體"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 		system_fullstop			=	"."			;## the type of punctuation mark the language uses at the end of a sentence (e.g. Japanese uses a different fullstop)
 		system_parenthesis		=	"（#）"			;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
 		system_poedb_lang		=	"tw"			;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)
@@ -76,76 +76,61 @@
 
 ;## these strings will be used in the mapping-tracker to add more information to log-entries
 ;## these strings will be added, so instead of only displaying "bunker", the entry will read "heist: bunker"
-		maps_heist			=	"劫盜"				;## PoE1 only
+		maps_heist				=	"劫盜"				;## PoE1 only
 		maps_logbook			=	"探險日誌"			;## PoE1 and PoE2
 		maps_delirium			=	"幻像異界"			;## PoE1 and PoE2
-		maps_boss			=	"頭目"				;## PoE1 and PoE2
-		maps_tower			=	"高塔"				;## PoE2 only, used to tag tower-maps, e.g. <sinking spire (tower)> instead of just <sinking spire>
+		maps_boss				=	"頭目"				;## PoE1 and PoE2
+		maps_tower				=	"高塔"				;## PoE2 only, used to tag tower-maps, e.g. <sinking spire (tower)> instead of just <sinking spire>
 
 ;## these strings will replace certain map names entirely, e.g. <boss: elder> instead of <absence of value and meaning>
-		maps_maven_invitation		=	"釋界之邀"			;## PoE1 only (whole block)
-		maps_maven			=	"釋界"
-		maps_hunger			=	"無盡渴望"
+		maps_maven_invitation	=	"釋界之邀"			;## PoE1 only (whole block)
+		maps_maven				=	"釋界"
+		maps_hunger				=	"無盡渴望"
 		maps_blackstar			=	"黯星"
-		maps_exarch			=	"灼烙總督"
-		maps_eater			=	"吞噬天地"
-		maps_shaper			=	"塑界者"
-		maps_elder			=	"尊師"
-		maps_elder			=	"uber 尊師"
-		maps_oshabi			=	"奧莎比"
-		maps_atziri			=	"瓦爾女王"
-		maps_atziri			=	"uber 瓦爾女王"
-		maps_sirus			=	"賽勒斯"
-		maps_cortex			=	"深沉記憶"
+		maps_exarch				=	"灼烙總督"
+		maps_eater				=	"吞噬天地"
+		maps_shaper				=	"塑界者"
+		maps_elder				=	"尊師"
+		maps_elder				=	"uber 尊師"
+		maps_oshabi				=	"奧莎比"
+		maps_atziri				=	"瓦爾女王"
+		maps_atziri				=	"uber 瓦爾女王"
+		maps_sirus				=	"賽勒斯"
+		maps_cortex				=	"深沉記憶"
 
 
 		maps_ritualboss			=	"迷霧之王"			;## PoE1 and PoE2
 		maps_ritualboss			=	"無量困境"			;## PoE1 and PoE2, the map-name of the king fight
 
 
-		maps_xesht			=	"烈許"				;## PoE2 only (whole block)
-		maps_xesht			=	"扭曲領域"			;## the map-name of the xesht fight
+		maps_xesht				=	"烈許"				;## PoE2 only (whole block)
+		maps_xesht				=	"扭曲領域"			;## the map-name of the xesht fight
 		maps_arbiter			=	"灰燼仲裁者"
 		maps_arbiter			=	"燃燒豐碑"			;## the map-name of the arbiter fight
 
 
-		maps_hideout				=	"藏身處"		;## PoE2 only (whole block), claimable hideout on the atlas (separate key/value pair in case more hideouts are added in the future)
-		maps_limestone_hideout		=	"藏身處：石灰岩"
-		maps_felled_hideout			=	"藏身處：殞落"
-		maps_canal_hideout			=	"藏身處：運河"
-		maps_shrine_hideout			=	"藏身處：神殿"
+		maps_hideout			=	"藏身處"		;## PoE2 only (whole block), claimable hideout on the atlas (separate key/value pair in case more hideouts are added in the future)
+		maps_limestone_hideout	=	"藏身處：石灰岩"
+		maps_felled_hideout		=	"藏身處：殞落"
+		maps_canal_hideout		=	"藏身處：運河"
+		maps_shrine_hideout		=	"藏身處：神殿"
 		maps_shoreline_hideout		=	"藏身處：海岸線"
 
 ;## PoE2 only (whole block): atlas-related strings
-		maps_seer			=	"無名先知"			;## unique maps on the atlas
-		maps_vaults			=	"卡瑪薩秘寶庫"
-		maps_wildwood			=	"翠綠荒林"
-		maps_selenite			=	"沉默洞穴"
-		maps_castaway			=	"漂流者之所"
-		maps_paradise			=	"純淨樂園"
-		maps_megalith			=	"法瑞爾巨石"
-		maps_lake			=	"破裂迷湖"
+		maps_seer				=	"無名先知"			;## unique maps on the atlas
+		maps_vaults				=	"卡瑪薩秘寶庫"
+		
 
-		maps_voidreliquary		=	"聖物寶庫"			;## accessible via reliquary keys
-
-		maps_losttowers			=	"失落之塔"			;## the five tower-maps
-		maps_alpineridge		=	"高山山脊"
-		maps_bluff			=	"絕壁"
-		maps_sinkingspire		=	"沉溺尖塔"
-		maps_mesa			=	"平頂荒漠"
-		maps_copper_citadel		=	"青銅城塞"			;## the tree citadel-maps
-		maps_stone_citadel		=	"岩石城塞"
-		maps_iron_citadel		=	"鋼鐵城塞"
-
-		maps_biome			=	"生物群系:"			;## each map on the atlas belongs to a biome
+		maps_voidreliquary		=	"寶庫"		;## accessible via reliquary keys
+		maps_biome				=	"生物群系:"			;## each map on the atlas belongs to a biome
 
 
 ;## these strings are shown in the map-info panel
 		maps_stats_full			=	"詞綴#物品數量#物品稀有度#怪群大小#地圖#聖甲蟲#通課"			;## PoE1 only, map rolls/multipliers
-		maps_stats			=	"詞#數#稀#怪#圖#甲#通"							;## PoE1 only, x = multiplication-sign, see above for the rest
+		maps_stats				=	"詞#數#稀#怪#圖#甲#通"							;## PoE1 only, x = multiplication-sign, see above for the rest
 
 
-		maps_waystones			=	"換界石:"			;## PoE2 only, replaces <Waystone Drop Chance>
+
 
 
 
@@ -157,44 +142,44 @@
 ;## replace the English text-strings with the corresponding ones from the target language
 ;## REMINDERS: case-sensitivity, match text in chat-window
 		log_location			=	"0"				;## PoE1 only (missing from PoE2?), certain languages may highlight location-names with characters that need to be removed (e.g. German: 'Hohenpforte', which would require log_location = "'")
-		log_enter			=	"你已進入"			;## PoE1 only (missing from PoE2?), as mentioned earlier, this key may need placeholders depending on the target language
-;##		log_enter			=	"Set Source [#]"		;## PoE2 only, please help check if there is function for different string to check PoE2 log_enter before enable it
+		log_enter				=	"你已進入"			;## PoE1 only (missing from PoE2?), as mentioned earlier, this key may need placeholders depending on the target language
+;##		log_enter				=	"Set Source [#]"		;## PoE2 only, please help check if there is function for different string to check PoE2 log_enter before enable it
 
 ;## -----------------------------------------------------------------------------------
-		log_level			=	"目前等級："			;## PoE1 and PoE2 (whole block), when your character levels up
-		log_whois			=	"、等級： # 、聯盟："		;## using the /whois in-game command, e.g. "Lailloken is a level 69 Champion in the Standard League..."
-		log_slain			=	"被殺死了"			;## when your character dies
-		log_suicide			=	"has committed suicide"		;## when your character dies from self-damage
-		log_killed			=	"你一共殺死了 # 隻怪物"		;## when activating the "/kills" command
+		log_level				=	"目前等級："			;## PoE1 and PoE2 (whole block), when your character levels up
+		log_whois				=	"、等級： # 、聯盟："		;## using the /whois in-game command, e.g. "Lailloken is a level 69 Champion in the Standard League..."
+		log_slain				=	"被殺死了"			;## when your character dies
+		log_suicide				=	"has committed suicide"		;## when your character dies from self-damage
+		log_killed				=	"你一共殺死了 # 隻怪物"		;## when activating the "/kills" command
 
 
 ;## these strings are required to make tracking in the lab-overlay possible on non-English clients
 ;## these are not case-sensitive but still need to match the in-game names 1:1
-		lab_aspirant's trial		=	"昇華試煉"			;## PoE1 only (whole block)
+		lab_aspirant's trial	=	"昇華試煉"			;## PoE1 only (whole block)
 		lab_basilica annex		=	"教堂附館"
 		lab_basilica atrium		=	"教堂庭院"
 		lab_basilica halls		=	"教堂聖殿"
-		lab_basilica passage		=	"教堂通道"
+		lab_basilica passage	=	"教堂通道"
 		lab_domain crossing		=	"領地岔點"
-		lab_domain enclosure		=	"領地勢力"
+		lab_domain enclosure	=	"領地勢力"
 		lab_domain path			=	"領地通路"
 		lab_domain walkways		=	"領地走道"
 		lab_estate crossing		=	"莊園岔點"
-		lab_estate enclosure		=	"莊園勢力"
+		lab_estate enclosure	=	"莊園勢力"
 		lab_estate path			=	"莊園通路"
 		lab_estate walkways		=	"莊園走道"
 		lab_mansion annex		=	"宅邸附館"
 		lab_mansion atrium		=	"宅邸庭院"
 		lab_mansion halls		=	"宅邸殿堂"
 		lab_mansion passage		=	"宅邸通道"
-		lab_sanitorium annex		=	"安養附館"
-		lab_sanitorium atrium		=	"安養庭院"
-		lab_sanitorium halls		=	"安養殿堂"
-		lab_sanitorium passage		=	"安養通道"
+		lab_sanitorium annex	=	"安養附館"
+		lab_sanitorium atrium	=	"安養庭院"
+		lab_sanitorium halls	=	"安養殿堂"
+		lab_sanitorium passage	=	"安養通道"
 		lab_sepulchre annex		=	"陰墓附館"
-		lab_sepulchre atrium		=	"陰墓庭院"
+		lab_sepulchre atrium	=	"陰墓庭院"
 		lab_sepulchre halls		=	"陰墓殿堂"
-		lab_sepulchre passage		=	"陰墓通道"
+		lab_sepulchre passage	=	"陰墓通道"
 
 
 
@@ -207,11 +192,11 @@
 ;## REMINDER: case-sensitivity, match text in chat-window
 		log_delirium			=	"奇怪的聲音:"			;## PoE1 and PoE2
 
-		log_blight			=	"修女卡西亞:"			;## PoE1 only (whole block)
-		log_harvest			=	"奧莎比:"
+		log_blight				=	"修女卡西亞:"			;## PoE1 only (whole block)
+		log_harvest				=	"奧莎比:"
 		log_incursion			=	"探險大師艾瓦:"
 		log_bestiary			=	"野獸大師埃哈:"
-		log_delve			=	"挖掘大師尼科:"
+		log_delve				=	"挖掘大師尼科:"
 		log_betrayal			=	"幻隱大師瓊恩:"
 		log_betrayal			=	"寂靜屠夫愛斯林．勞佛瑞:"
 		log_betrayal			=	"冷血卡麥歷亞:"
@@ -231,7 +216,13 @@
 		log_betrayal			=	"勝利之捷瓦甘:"
 		log_betrayal			=	"靜默者瓦里西:"
 		log_ultimatum			=	"試煉大師:"
-		log_maven			=	"釋界:"
+		log_maven				=	"釋界:"
+		log_seer				=	"The Nameless Seer has appeared nearby"
+		log_mist				=	"A Reflecting Mist has manifested nearby"
+		log_infamous			=	", the Cyaxan"
+		log_infamous			=	", the Keitan"
+		log_infamous			=	", the Azadin"
+		log_infamous			=	", the Bardiyan"
 
 
 ;## expedition note: in PoE1, there is a difference in displayed names depending on whether the NPCs greet you when they first see you in a map (Gwennen, the Gambler) or whether the encounter has finished (Gwennen)
@@ -277,11 +268,11 @@
 		items_armour			=	"護甲值:"						;## PoE1 and PoE2 (whole block)
 		items_evasion			=	"閃避值:"
 		items_energy			=	"能量護盾:"
-		items_ward			=	"保護:"
-		items_aps			=	"每秒攻擊次數:"
+		items_ward				=	"保護:"
+		items_aps				=	"每秒攻擊次數:"
 		items_quality			=	"品質:"
 		items_phys_dmg			=	"物理傷害:"
-		items_dmg			=	"#傷害:"
+		items_dmg				=	"#傷害:"
 		items_chaos_dmg			=	"混沌傷害:"
 
 		items_ele_dmg			=	"元素傷害:"						;## PoE1 only, ele-dmg is displayed differently
@@ -293,6 +284,8 @@
 		items_maptier			=	"地圖階級:"						;## PoE1 only (whole block)
 		items_mapreward			=	"獎勵:"							;## T17 valdo maps have specific rewards
 		items_mapreward_foil		=	"貼模 "							;## also valdo rewards
+		
+		
 		items_mapquantity		=	"物品數量:"
 		items_maprarity			=	"物品稀有度:"
 		items_mappacksize		=	"怪物群大小:"
@@ -303,7 +296,7 @@
 		items_mapcurrency		=	"更多通貨:"
 
 
-		items_stack			=	"堆疊數量:"						;## PoE1 and PoE2, for stackable items
+		items_stack				=	"堆疊數量:"						;## PoE1 and PoE2, for stackable items
 
 
 		items_mapname			=	"#"							;## PoE1 only (whole block), the format of names on map-items, e.g. Frozen River Map (German, for example, uses 'Frozen River'-Map)
@@ -315,58 +308,58 @@
 
 
 		items_conqueror			=	"地圖含有#的壁壘"					;## PoE1 only (whole block), the implicits on conqueror maps
-		items_baran			=	"巴倫"
-		items_drox			=	"圖拉克斯"
+		items_baran				=	"巴倫"
+		items_drox				=	"圖拉克斯"
 		items_al-hezmin			=	"奧赫茲明"
 		items_veritania			=	"維羅提尼亞"
 
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item and holding the hotkey for advanced item descriptions (usually ALT)
 		items_prefix			=	"前綴"					;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
-		items_prefix_allowed		=	"允許前綴 #"				;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
+		items_prefix_allowed	=	"允許前綴 #"				;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
 		items_suffix			=	"後綴"
-		items_suffix_allowed		=	"允許後綴 "
-		items_affix			=	""#""					;## in my limited testing, I only found Japanese to use something other than quotation marks (「#」)
+		items_suffix_allowed	=	"允許後綴 "
+		items_affix				=	""#""					;## in my limited testing, I only found Japanese to use something other than quotation marks (「#」)
 		items_uniquemod			=	"傳奇詞綴"
 		items_implicit			=	"固定詞綴"
-		items_implicit_exarch		=	"灼烙總督固定詞綴"
-		items_implicit_eater		=	"吞噬天地固定詞綴"
+		items_implicit_exarch	=	"灼烙總督固定詞綴"
+		items_implicit_eater	=	"吞噬天地固定詞綴"
 		items_implicit_vaal		=	"已汙染固定詞綴"
-		items_implicit_tiers		=	"低階"					;## the six types of eldritch-implicit tiers, in ascending order
-		items_implicit_tiers		=	"高階"
-		items_implicit_tiers		=	"宏偉"
-		items_implicit_tiers		=	"卓越"
-		items_implicit_tiers		=	"精緻"
-		items_implicit_tiers		=	"完美"
-		items_tier			=	"階層"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
+		items_implicit_tiers	=	"低階"					;## the six types of eldritch-implicit tiers, in ascending order
+		items_implicit_tiers	=	"高階"
+		items_implicit_tiers	=	"宏偉"
+		items_implicit_tiers	=	"卓越"
+		items_implicit_tiers	=	"精緻"
+		items_implicit_tiers	=	"完美"
+		items_tier				=	"階層"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
 		items_unscalable		=	"無法使用的值"				;## this is displayed next to certain modifiers, e.g. "Hits cannot be evaded", "Socketed gems are supported by XYZ"
 
 
 ;## these strings are displayed in the item-text when copying advanced item descriptions into clipboard (usually ALT + CTRL + C)
 		items_ilevel			=	"物品等級:"				;## PoE1 and PoE2 (whole block)
 		items_requirements		=	"需求:"
-		items_level			=	"等級:"
-		items_str			=	"力量:"					;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
-		items_str			=	"力量:"
-		items_dex			=	"敏捷:"
-		items_dex			=	"敏捷:"
-		items_int			=	"智慧:"
-		items_int			=	"智慧:"
+		items_level				=	"等級:"
+		items_str				=	"力量:"					;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
+		items_str				=	"力量:"
+		items_dex				=	"敏捷:"
+		items_dex				=	"敏捷:"
+		items_int				=	"智慧:"
+		items_int				=	"智慧:"
 
 
 		items_rarity			=	"稀有度:"				;## PoE1 and PoE2 (whole block), important: every string in the following block has to match the one in the "Rarity: XYZ" line in the clipboard-info
-		items_rare			=	"稀有"					;## do not mix these strings with those from the "Item Class: XYZ" line (class and rarity are sometimes similar but not 100% the same)
+		items_rare				=	"稀有"					;## do not mix these strings with those from the "Item Class: XYZ" line (class and rarity are sometimes similar but not 100% the same)
 		items_unique			=	"傳奇"
 		items_normal			=	"普通"
-		items_magic			=	"魔法"
+		items_magic				=	"魔法"
 		items_currency			=	"通貨"
-		items_gem			=	"寶石"
+		items_gem				=	"寶石"
 
 
-		items_class			=	"物品種類:"				;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
-		items_gem			=	"輔助寶石"				;## PoE2 only
+		items_class				=	"物品種類:"				;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
+		items_gem				=	"輔助寶石"				;## PoE2 only
 		items_map fragments		=	"地圖碎片"				;## PoE1 only (rest of block)
-		items_heist brooches		=	"劫盜胸針"
+		items_heist brooches	=	"劫盜胸針"
 		items_heist cloaks		=	"劫盜披風"
 		items_heist gear		=	"劫盜裝備"
 		items_heist tools		=	"劫盜工具"
@@ -376,25 +369,25 @@
 		items_shaper_prefix		=	"塑者的"				;## the second string is found in every prefix
 		items_shaper_suffix		=	"塑者之"				;## the third string is found in every suffix
 
-		items_elder			=	"尊師之物"
+		items_elder				=	"尊師之物"
 		items_elder_prefix		=	"尊師的"
 		items_elder_suffix		=	"尊師之"
 
 		items_crusader			=	"聖戰軍王"
-		items_crusader_prefix		=	"聖戰士的"
-		items_crusader_suffix		=	"聖戰士之"
+		items_crusader_prefix	=	"聖戰士的"
+		items_crusader_suffix	=	"聖戰士之"
 
 		items_redeemer			=	"救贖者物品"
-		items_redeemer_prefix		=	"救贖者的"
-		items_redeemer_suffix		=	"救贖者之"
+		items_redeemer_prefix	=	"救贖者的"
+		items_redeemer_suffix	=	"救贖者之"
 
 		items_hunter			=	"狩獵者物品"
 		items_hunter_prefix		=	"狩獵者的"
 		items_hunter_suffix		=	"狩獵者之"
 
 		items_warlord			=	"總督軍物品"
-		items_warlord_prefix		=	"總督軍的"
-		items_warlord_suffix		=	"征服之"
+		items_warlord_prefix	=	"總督軍的"
+		items_warlord_suffix	=	"征服之"
 
 		items_synthesis			=	"追憶之物"
 
