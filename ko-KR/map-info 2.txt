@@ -85,9 +85,9 @@ type	=	monsters
 text	=	稀有怪物多: +%
 ID	=	009
 
-[# increased amount of Magic Chests]
+[增加 # 魔法寶箱]
 type	=	area
-text	=	magic chests: +%
+text	=	魔法寶箱: +%
 ID	=	010
 
 [area contains # additional magic chests]

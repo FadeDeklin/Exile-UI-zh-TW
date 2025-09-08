@@ -1,0 +1,256 @@
+{
+  "biomes": {
+    "desert": "+40% trial keys",
+    "forest": "+40% jewels",
+    "grass": "+40% socket currency",
+    "mountain": "+40% gold",
+    "swamp": "+40% basic currency",
+    "water": "+40% basic currency"
+  },
+  "maps": {
+    "abyss": {
+      "name": "abyss",
+      "boss": "tor gul"
+    },
+    "alpineridge": {
+      "name": "高山山脊",
+      "boss": "蓋利達 + 伊娜提亞"
+    },
+    "augury": {
+      "name": "預兆",
+      "boss": "葛雷索庫"
+    },
+    "azmerianranges": {
+      "name": "阿茲莫里山脈",
+      "boss": "king in the mists + brambleghast"
+    },
+    "backwash": {
+      "name": "餘波",
+      "boss": "亞歐塔"
+    },
+    "bloodwood": {
+      "name": "血林",
+      "boss": "戈里安"
+    },
+    "bloomingfield": {
+      "name": "盛放田野",
+      "boss": "黑鴉"
+    },
+    "bluff": {
+      "name": "絕壁",
+      "boss": "葛雷索庫"
+    },
+    "burialbog": {
+      "name": "埋葬沼澤",
+      "boss": "葛局拉許"
+    },
+    "castaway": {
+      "name": "漂流者之所",
+      "boss": "托雷克"
+    },
+    "cenotes": {
+      "name": "天然井",
+	  "boss": "巴拉克"
+    },
+    "channel": {
+      "name": "通道",
+      "boss": "哈斯克"
+    },
+    "coppercitadel": {
+      "name": "青銅城塞",
+      "boss": "賈嫚拉"
+    },
+    "creek": {
+      "name": "小溪",
+      "boss": "提爾尼"
+    },
+    "crimsonshores": {
+      "name": "緋紅海岸",
+      "boss": "沃克哈爾"
+    },
+    "crypt": {
+      "name": "靜謐陵墓",
+      "boss": "融蠟"
+    },
+    "decay": {
+      "name": "腐蝕",
+      "boss": "真菌巨靈"
+    },
+    "deserted": {
+      "name": "棄置之地",
+      "boss": "深坑之王"
+    },
+    "forge": {
+      "name": "鍛造",
+      "boss": "瓦斯威德"
+    },
+    "fortress": {
+      "name": "堡壘",
+      "boss": "帕拉薩"
+    },
+    "frozenfalls": {
+      "name": "冰凍瀑布",
+      "boss": "瑟雷文"
+    },
+    "grimhaven": {
+      "name": "肅穆之地",
+      "boss": "賽菲菈"
+    },
+    "headland": {
+      "name": "海角",
+      "boss": "哈斯克"
+    },
+    "hiddengrotto": {
+      "name": "隱密石窟",
+      "boss": "札瓦里"
+    },
+    "hive": {
+      "name": "巢穴",
+	  "boss": "真菌巨靈"
+    },
+    "ironcitadel": {
+      "name": "鋼鐵城塞",
+      "boss": "吉恩諾"
+    },
+    "lake": {
+      "name": "破裂迷湖",
+	  "boss": "沒有頭目"
+    },
+    "loftysummit": {
+      "name": "崇高之巔",
+      "boss": "歐羅頓"
+    },
+    "losttowers": {
+      "name": "失落之塔",
+      "boss": "切札"
+    },
+    "megalith": {
+      "name": "法瑞爾巨石",
+      "boss": "megalith bosses"
+    },
+    "mesa": {
+      "name": "平頂荒漠",
+      "boss": "卡拉許"
+    },
+    "mineshaft": {
+      "name": "礦井",
+      "boss": "魯賈"
+    },
+    "mire": {
+      "name": "泥沼",
+      "boss": "梨歐娜"
+    },
+    "necropolis": {
+      "name": "魔影墓場",
+      "boss": "泰科"
+    },
+    "oasis": {
+      "name": "幻景綠洲",
+      "boss": "伊許塔洛"
+    },
+    "paradise": {
+      "name": "純淨樂園",
+	  "boss": "沒有頭目"
+    },
+    "penitentiary": {
+      "name": "監獄",
+      "boss": "死亡化身"
+    },
+    "ravine": {
+      "name": "溪谷",
+      "boss": "茲科亞特"
+    },
+    "riverside": {
+      "name": "河畔",
+      "boss": "澤寇亞"
+    },
+    "rustbowl": {
+      "name": "銹碗",
+      "boss": "葛森"
+    },
+    "sandspit": {
+      "name": "沙吐",
+	  "boss": "沙行者"
+    },
+    "savanna": {
+      "name": "大草原",
+      "boss": "凱爾壯"
+    },
+    "seepage": {
+      "name": "滲漏",
+      "boss": "真菌巨靈"
+    },
+    "selenite": {
+      "name": "沉默洞穴",
+	  "boss": "沒有頭目"
+    },
+    "slick": {
+      "name": "浮油",
+	  "boss": "沃黎克"
+    },
+    "spiderwoods": {
+      "name": "蜘蛛之林",
+      "boss": "根爪"
+    },
+    "steamingsprings": {
+      "name": "蒸氣之泉",
+      "boss": "瑪娜莎"
+    },
+    "steppe": {
+      "name": "乾草原",
+	  "boss": "葛森"
+    },
+    "stonecitadel": {
+      "name": "岩石城塞",
+      "boss": "多里亞尼"
+    },
+    "sulphuriccaverns": {
+      "name": "硫化洞窟",
+      "boss": "深坑之王 + 骨之巨像"
+    },
+    "sump": {
+      "name": "污水坑",
+      "boss": "布拉卡"
+    },
+    "suntemple": {
+      "name": "太陽神殿",
+      "boss": "桐桂"
+    },
+    "swamptower": {
+      "name": "沉溺尖塔",
+      "boss": "風暴血獸"
+    },
+    "trenches": {
+      "name": "壕溝",
+	  "boss": "戈里安"
+    },
+    "vaalcity": {
+      "name": "瓦爾古城",
+      "boss": "邪魔毒蛇納普阿茲"
+    },
+    "vaalfactory": {
+      "name": "瓦爾工廠",
+      "boss": "zicoatl"
+    },
+    "vaalfoundry": {
+      "name": "瓦爾鑄造廠",
+      "boss": "mektul"
+    },
+    "wetlands": {
+      "name": "濕地",
+      "boss": "凱爾壯"
+    },
+    "wildwood": {
+      "name": "翠綠荒林",
+	  "boss": "沒有頭目"
+    },
+    "willow": {
+      "name": "垂柳",
+      "boss": "康納爾"
+    },
+    "woodland": {
+      "name": "木林",
+      "boss": "Tierney"
+    }
+  }
+}
